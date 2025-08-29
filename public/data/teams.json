@@ -1,0 +1,91 @@
+[
+  {
+    "admin_count": 5,
+    "billing_method": "INVOICE",
+    "billing_status": "NONE",
+    "created_on": "2025-04-24T13:35:10.962292",
+    "creator_hard_limit": 200,
+    "creator_soft_limit": 200,
+    "default_workspace_role": {
+      "name": "BETA",
+      "role_identifier": "PresetBeta",
+      "role_name": "Secondary Contributor"
+    },
+    "downgraded_at": null,
+    "feature_flags": {
+      "ai_assist_enabled": true,
+      "alert_reports": true,
+      "audit_log_enabled": true,
+      "audit_log_released": true,
+      "color_builder_enabled": true,
+      "embedded_metrics_link": null,
+      "embedded_metrics_resource_id": null,
+      "embedded_metrics_rls_rules": null,
+      "embedded_superset": false,
+      "global_async_queries": false,
+      "incident_metrics_dash_enabled": false,
+      "incident_metrics_link": null,
+      "incident_metrics_resource_id": null,
+      "incident_metrics_rls_rules": null,
+      "status_metrics_dash_enabled": false,
+      "status_metrics_link": null,
+      "status_metrics_resource_id": null,
+      "status_metrics_rls_rules": null,
+      "team_roles_enabled": true,
+      "usage_metrics_dash_enabled": true,
+      "usage_metrics_link": "https://2fa999cf.us1a.app.preset.io",
+      "usage_metrics_resource_id": "93d85214-3761-43be-90ef-bb0851b3fb2f",
+      "usage_metrics_rls_rules": "",
+      "workspace_region_select_enabled": true,
+      "workspace_roles_enabled": true
+    },
+    "id": 287514,
+    "is_hipaa_restricted": false,
+    "name": "37ebf0b7",
+    "pending_purchase_type": "unpaid",
+    "plan_code": null,
+    "recurly_account_id": "team-production-37ebf0b7",
+    "subscription_status": "PAID",
+    "tier": "ENTERPRISE",
+    "title": "The Knot Worldwide",
+    "trial_expiry": "2025-06-30T03:00:00",
+    "user_count": 39,
+    "user_creator_count": 29,
+    "user_viewer_count": 10,
+    "viewer_hard_limit": 500,
+    "viewer_soft_limit": 500,
+    "whitelisted_email_domains": [],
+    "workspace_count": 3,
+    "workspace_limit": 3,
+    "workspace_roles": [
+      {
+        "name": "No Access",
+        "role_identifier": "PresetNoAccess"
+      },
+      {
+        "name": "Dashboard Viewer",
+        "role_identifier": "PresetDashboardsOnly"
+      },
+      {
+        "name": "Viewer",
+        "role_identifier": "PresetReportsOnly"
+      },
+      {
+        "name": "Limited Contributor",
+        "role_identifier": "PresetGamma"
+      },
+      {
+        "name": "Secondary Contributor",
+        "role_identifier": "PresetBeta"
+      },
+      {
+        "name": "Primary Contributor",
+        "role_identifier": "PresetAlpha"
+      },
+      {
+        "name": "Workspace Admin",
+        "role_identifier": "Admin"
+      }
+    ]
+  }
+]

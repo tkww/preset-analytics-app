@@ -1,0 +1,28 @@
+{
+  "users": {
+    "generated_at": "2025-08-29T20:34:13.010Z",
+    "count": 0,
+    "data": []
+  },
+  "roles": {
+    "generated_at": "2025-08-29T20:34:13.010Z",
+    "count": 0,
+    "data": []
+  },
+  "teams": {
+    "generated_at": "2025-08-29T20:34:13.010Z",
+    "count": 1,
+    "data": [
+      287514
+    ]
+  },
+  "team_members": {
+    "generated_at": "2025-08-29T20:34:13.010Z",
+    "count": 39,
+    "data": [
+      "sample",
+      "sample",
+      "sample"
+    ]
+  }
+}

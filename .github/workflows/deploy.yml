@@ -1,0 +1,54 @@
+name: Fetch Data & Deploy
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 3 * * *' # nightly UTC
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: us-east-1
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }} # set in repo secrets
+          role-session-name: presetDataFetch
+
+      - name: Get Preset credentials from SSM
+        id: preset_creds
+        run: |
+          PRESET_CREDS=$(aws ssm get-parameter --name "/dataops/preset/data-ops-team-api-token" --with-decryption --query "Parameter.Value" --output text)
+          echo "PRESET_API_TOKEN=$(echo $PRESET_CREDS | jq -r '.api_token')" >> $GITHUB_ENV
+          echo "PRESET_API_SECRET=$(echo $PRESET_CREDS | jq -r '.api_secret')" >> $GITHUB_ENV
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch Preset data
+        run: npm run fetch:data
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: true
