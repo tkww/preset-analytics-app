@@ -44,10 +44,14 @@ jobs:
 
       - name: Build
         run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Prepare Pages artifacts
+        run: |
+          touch dist/.nojekyll
+          echo "Deployment commit: $(date -u)" > dist/DEPLOY_INFO.txt
+      - name: Push to gh-pages
+        uses: ad-m/github-push-action@d91a481090679876dfc4178fef17f286781251df
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          force_orphan: true
+          branch: gh-pages
+          force: true
+          directory: dist
