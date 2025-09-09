@@ -1,5 +1,7 @@
 # Preset Analytics App
 
+<!-- Forced redeployment -->
+
 Static React (Vite) dashboard that displays snapshot data about Preset teams (and optionally users & roles). Data is fetched during the GitHub Actions build using secure AWS SSM stored credentials and emitted as static JSON (`public/data/*.json`). No secrets or API calls occur client-side at runtime.
 
 ## Features Overview
