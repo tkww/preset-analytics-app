@@ -292,7 +292,7 @@ async function main() {
     for (const candidate of uniqueIds) {
       if (auditTried.has(candidate)) continue;
       auditTried.add(candidate);
-      const auditEndpoint = `/v2/audit/teams/${encodeURIComponent(candidate)}/logs`;
+      const auditEndpoint = `/v2/audit/teams/${encodeURIComponent(candidate)}/logs?days=30`;
       try {
         const res = await api(auditEndpoint);
         if (!res) continue;
