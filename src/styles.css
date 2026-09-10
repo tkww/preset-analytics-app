@@ -38,6 +38,7 @@ main { flex:1; padding:2rem clamp(.8rem,1.5vw,2rem); width:100%; box-sizing:bord
 
 /* Allow specific cards to span full width when desired */
 .card.full-span { grid-column: 1 / -1; }
+.card.compact { min-height:auto; }
 
 .card { background:linear-gradient(145deg,#232a35,#1b212a); border:1px solid #2c3440; border-radius:var(--radius); box-shadow: var(--shadow); display:flex; flex-direction:column; min-height:200px; position:relative; overflow:hidden; }
 .card:before { content:""; position:absolute; inset:0; background:radial-gradient(circle at 85% -10%,#4f8cff22,transparent 60%); pointer-events:none; }

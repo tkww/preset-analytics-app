@@ -26,7 +26,7 @@ export const DataAge: React.FC<{ refreshKey: number }> = ({ refreshKey }) => {
   return (
     <span
       className="data-age"
-      title={`Snapshot built ${new Date(generatedAt).toLocaleString()} by the nightly GitHub Actions job`}
+      title={`Snapshot built ${new Date(generatedAt).toLocaleString()} by the scheduled GitHub Actions job`}
       style={stale ? { color: '#e0a341' } : undefined}
     >
       Data as of {relative(generatedAt)}{stale ? ' ⚠' : ''}

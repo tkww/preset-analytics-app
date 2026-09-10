@@ -26,9 +26,9 @@ export const AboutPage: React.FC<{ refreshKey: number }> = ({ refreshKey }) => {
 
   return (
     <div className="grid auto-fill">
-      <Card className="full-span" title="About this dashboard">
+      <Card className="full-span compact" title="About this dashboard">
         <p style={{ fontSize: '.85rem', lineHeight: 1.6 }}>
-          A static snapshot of Preset activity for the Data Ops team. There is no live connection to
+          A static snapshot of Preset activity for the Data team. There is no live connection to
           Preset from your browser — a scheduled GitHub Actions job calls the Preset API, writes the
           results to JSON, and publishes them with the site.
         </p>
