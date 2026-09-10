@@ -1,23 +1,27 @@
 [
   {
-    "admin_count": 5,
+    "admin_count": 7,
+    "audit_log_retention_days": 30,
     "billing_method": "INVOICE",
     "billing_status": "NONE",
+    "chatbot_paid": false,
     "created_on": "2025-04-24T13:35:10.962292",
     "creator_hard_limit": 200,
     "creator_soft_limit": 200,
     "default_workspace_role": {
       "name": "BETA",
       "role_identifier": "PresetBeta",
-      "role_name": "Secondary Contributor"
+      "role_name": "Secondary Creator"
     },
     "downgraded_at": null,
     "feature_flags": {
-      "ai_assist_enabled": true,
+      "ai_assist_enabled": false,
       "alert_reports": true,
       "audit_log_enabled": true,
       "audit_log_released": true,
       "color_builder_enabled": true,
+      "copilot_block_byok_unpaid": true,
+      "copilot_feature_enabled": true,
       "embedded_metrics_link": null,
       "embedded_metrics_resource_id": null,
       "embedded_metrics_rls_rules": null,
@@ -27,6 +31,12 @@
       "incident_metrics_link": null,
       "incident_metrics_resource_id": null,
       "incident_metrics_rls_rules": null,
+      "mcp_audit_log_enabled": true,
+      "mcp_client_allowlist_enabled": false,
+      "mcp_oauth_client_registration_enabled": true,
+      "mcp_service_controls": false,
+      "mpc_enabled": false,
+      "new_ai_mcp_tab_enabled": true,
       "status_metrics_dash_enabled": false,
       "status_metrics_link": null,
       "status_metrics_resource_id": null,
@@ -49,9 +59,9 @@
     "tier": "ENTERPRISE",
     "title": "The Knot Worldwide",
     "trial_expiry": "2025-06-30T03:00:00",
-    "user_count": 39,
-    "user_creator_count": 29,
-    "user_viewer_count": 10,
+    "user_count": 224,
+    "user_creator_count": 76,
+    "user_viewer_count": 148,
     "viewer_hard_limit": 500,
     "viewer_soft_limit": 500,
     "whitelisted_email_domains": [],
@@ -67,19 +77,27 @@
         "role_identifier": "PresetDashboardsOnly"
       },
       {
+        "name": "Dashboard Interactor",
+        "role_identifier": "PresetEpsilon"
+      },
+      {
         "name": "Viewer",
         "role_identifier": "PresetReportsOnly"
       },
       {
-        "name": "Limited Contributor",
+        "name": "Visualization Creator",
+        "role_identifier": "PresetDelta"
+      },
+      {
+        "name": "Limited Creator",
         "role_identifier": "PresetGamma"
       },
       {
-        "name": "Secondary Contributor",
+        "name": "Secondary Creator",
         "role_identifier": "PresetBeta"
       },
       {
-        "name": "Primary Contributor",
+        "name": "Primary Creator",
         "role_identifier": "PresetAlpha"
       },
       {

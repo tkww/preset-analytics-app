@@ -1,5 +1,187 @@
 [
   {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ashrawan@theknotww.com",
+      "first_name": "Aadya",
+      "id": 740375,
+      "last_name": "Shrawan",
+      "onboarded": false,
+      "username": "samlp|theknotww|ashrawan@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ashrawan@theknotww.com",
+    "first_name": "Aadya",
+    "last_name": "Shrawan",
+    "username": "samlp|theknotww|ashrawan@theknotww.com",
+    "user_id": 740375,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "amoore@theknotww.com",
+      "first_name": "Abbigail",
+      "id": 865617,
+      "last_name": "Moore",
+      "onboarded": true,
+      "username": "samlp|theknotww|amoore@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "amoore@theknotww.com",
+    "first_name": "Abbigail",
+    "last_name": "Moore",
+    "username": "samlp|theknotww|amoore@theknotww.com",
+    "user_id": 865617,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "arevetta@theknotww.com",
+      "first_name": "Adam",
+      "id": 928085,
+      "last_name": "Revetta",
+      "onboarded": true,
+      "username": "samlp|theknotww|arevetta@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "arevetta@theknotww.com",
+    "first_name": "Adam",
+    "last_name": "Revetta",
+    "username": "samlp|theknotww|arevetta@theknotww.com",
+    "user_id": 928085,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "acook@theknotww.com",
+      "first_name": "Adrianna",
+      "id": 797924,
+      "last_name": "Cook",
+      "onboarded": true,
+      "username": "samlp|theknotww|acook@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "acook@theknotww.com",
+    "first_name": "Adrianna",
+    "last_name": "Cook",
+    "username": "samlp|theknotww|acook@theknotww.com",
+    "user_id": 797924,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ahorkan@theknotww.com",
+      "first_name": "Alex",
+      "id": 1003612,
+      "last_name": "Horkan",
+      "onboarded": true,
+      "username": "samlp|theknotww|ahorkan@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ahorkan@theknotww.com",
+    "first_name": "Alex",
+    "last_name": "Horkan",
+    "username": "samlp|theknotww|ahorkan@theknotww.com",
+    "user_id": 1003612,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "aleo@theknotww.com",
+      "first_name": "Alex",
+      "id": 737926,
+      "last_name": "Leo",
+      "onboarded": true,
+      "username": "samlp|theknotww|aleo@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "aleo@theknotww.com",
+    "first_name": "Alex",
+    "last_name": "Leo",
+    "username": "samlp|theknotww|aleo@theknotww.com",
+    "user_id": 737926,
+    "team_role_name": "User"
+  },
+  {
     "creator_on_workspaces": [
       "Pre-Production",
       "Sandbox"
@@ -10,49 +192,234 @@
       "name": "User"
     },
     "user": {
-      "email": "acarreras@theknotww.com",
-      "first_name": "Alberto",
-      "id": 505228,
-      "last_name": "Carreras",
-      "onboarded": false,
-      "username": "samlp|theknotww|acarreras@theknotww.com"
+      "email": "athomas@bodas.net",
+      "first_name": "Alex",
+      "id": 624977,
+      "last_name": "Thomas",
+      "onboarded": true,
+      "username": "samlp|theknotww|athomas@bodas.net"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "acarreras@theknotww.com",
-    "first_name": "Alberto",
-    "last_name": "Carreras",
-    "username": "samlp|theknotww|acarreras@theknotww.com",
-    "user_id": 505228,
+    "email": "athomas@bodas.net",
+    "first_name": "Alex",
+    "last_name": "Thomas",
+    "username": "samlp|theknotww|athomas@bodas.net",
+    "user_id": 624977,
     "team_role_name": "User"
   },
   {
-    "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
-    ],
+    "creator_on_workspaces": [],
     "is_role_from_group": false,
     "team_role": {
       "id": 2,
       "name": "User"
     },
     "user": {
-      "email": "amarinserrano@theknotww.com",
-      "first_name": "Alejandro",
-      "id": 505233,
-      "last_name": "Marín Serrano",
+      "email": "afeinman@theknotww.com",
+      "first_name": "Alexandra",
+      "id": 1004598,
+      "last_name": "Feinman",
       "onboarded": true,
-      "username": "samlp|theknotww|amarinserrano@theknotww.com"
+      "username": "samlp|theknotww|afeinman@theknotww.com"
     },
-    "user_type": "CREATOR",
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "amarinserrano@theknotww.com",
-    "first_name": "Alejandro",
-    "last_name": "Marín Serrano",
-    "username": "samlp|theknotww|amarinserrano@theknotww.com",
-    "user_id": 505233,
+    "email": "afeinman@theknotww.com",
+    "first_name": "Alexandra",
+    "last_name": "Feinman",
+    "username": "samlp|theknotww|afeinman@theknotww.com",
+    "user_id": 1004598,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "awolf@theknotww.com",
+      "first_name": "Alexis",
+      "id": 839638,
+      "last_name": "Wolf",
+      "onboarded": true,
+      "username": "samlp|theknotww|awolf@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "awolf@theknotww.com",
+    "first_name": "Alexis",
+    "last_name": "Wolf",
+    "username": "samlp|theknotww|awolf@theknotww.com",
+    "user_id": 839638,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "adykes@theknotww.com",
+      "first_name": "Alicia",
+      "id": 745031,
+      "last_name": "Dykes",
+      "onboarded": true,
+      "username": "samlp|theknotww|adykes@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "adykes@theknotww.com",
+    "first_name": "Alicia",
+    "last_name": "Dykes",
+    "username": "samlp|theknotww|adykes@theknotww.com",
+    "user_id": 745031,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ashields@theknotww.com",
+      "first_name": "Amber",
+      "id": 740377,
+      "last_name": "Treinen",
+      "onboarded": true,
+      "username": "samlp|theknotww|ashields@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ashields@theknotww.com",
+    "first_name": "Amber",
+    "last_name": "Treinen",
+    "username": "samlp|theknotww|ashields@theknotww.com",
+    "user_id": 740377,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "amelia@theknotww.com",
+      "first_name": "Amelia",
+      "id": 740376,
+      "last_name": "Wang",
+      "onboarded": false,
+      "username": "samlp|theknotww|amelia@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "amelia@theknotww.com",
+    "first_name": "Amelia",
+    "last_name": "Wang",
+    "username": "samlp|theknotww|amelia@theknotww.com",
+    "user_id": 740376,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "amurillo@theknotww.com",
+      "first_name": "Ana",
+      "id": 1003230,
+      "last_name": "Murillo",
+      "onboarded": true,
+      "username": "samlp|theknotww|amurillo@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "amurillo@theknotww.com",
+    "first_name": "Ana",
+    "last_name": "Murillo",
+    "username": "samlp|theknotww|amurillo@theknotww.com",
+    "user_id": 1003230,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "alohmann@theknotww.com",
+      "first_name": "Anastasia",
+      "id": 749698,
+      "last_name": "Lohmann",
+      "onboarded": true,
+      "username": "samlp|theknotww|alohmann@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "alohmann@theknotww.com",
+    "first_name": "Anastasia",
+    "last_name": "Lohmann",
+    "username": "samlp|theknotww|alohmann@theknotww.com",
+    "user_id": 749698,
     "team_role_name": "User"
   },
   {
@@ -71,6 +438,11 @@
       "username": "google-oauth2|107912731159739104772"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "acarvajal@theknotww.com",
@@ -78,6 +450,36 @@
     "last_name": "Carvajal Vargas",
     "username": "google-oauth2|107912731159739104772",
     "user_id": 314826,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ajacob@theknotww.com",
+      "first_name": "Andrew",
+      "id": 1003486,
+      "last_name": "Jacob",
+      "onboarded": true,
+      "username": "samlp|theknotww|ajacob@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ajacob@theknotww.com",
+    "first_name": "Andrew",
+    "last_name": "Jacob",
+    "username": "samlp|theknotww|ajacob@theknotww.com",
+    "user_id": 1003486,
     "team_role_name": "User"
   },
   {
@@ -100,6 +502,7 @@
       "username": "auth0|688a26e2ca023e7fba37fba5"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "andyp@weddingwire.com",
@@ -120,14 +523,48 @@
       "name": "User"
     },
     "user": {
+      "email": "aesquembre@theknotww.com",
+      "first_name": "Angel",
+      "id": 699342,
+      "last_name": "Esquembre",
+      "onboarded": true,
+      "username": "samlp|theknotww|aesquembre@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "aesquembre@theknotww.com",
+    "first_name": "Angel",
+    "last_name": "Esquembre",
+    "username": "samlp|theknotww|aesquembre@theknotww.com",
+    "user_id": 699342,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
       "email": "agantzia@theknotww.com",
       "first_name": "Angel",
       "id": 513971,
       "last_name": "Gantzia",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|agantzia@theknotww.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "agantzia@theknotww.com",
@@ -135,6 +572,36 @@
     "last_name": "Gantzia",
     "username": "samlp|theknotww|agantzia@theknotww.com",
     "user_id": 513971,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "allull@bodas.net",
+      "first_name": "Angel",
+      "id": 737945,
+      "last_name": "Llull",
+      "onboarded": true,
+      "username": "samlp|theknotww|allull@bodas.net"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "allull@bodas.net",
+    "first_name": "Angel",
+    "last_name": "Llull",
+    "username": "samlp|theknotww|allull@bodas.net",
+    "user_id": 737945,
     "team_role_name": "User"
   },
   {
@@ -156,6 +623,9 @@
       "username": "google-oauth2|110930287487749357992"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "apearson@theknotww.com",
@@ -163,6 +633,126 @@
     "last_name": "Pearson",
     "username": "google-oauth2|110930287487749357992",
     "user_id": 295757,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "apenmetcha@theknotww.com",
+      "first_name": "Anu",
+      "id": 737928,
+      "last_name": "Penmetcha",
+      "onboarded": true,
+      "username": "samlp|theknotww|apenmetcha@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "apenmetcha@theknotww.com",
+    "first_name": "Anu",
+    "last_name": "Penmetcha",
+    "username": "samlp|theknotww|apenmetcha@theknotww.com",
+    "user_id": 737928,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "aganguly@weddingwire.in",
+      "first_name": "Arijit",
+      "id": 780918,
+      "last_name": "Ganguly",
+      "onboarded": true,
+      "username": "samlp|theknotww|aganguly@weddingwire.in"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "aganguly@weddingwire.in",
+    "first_name": "Arijit",
+    "last_name": "Ganguly",
+    "username": "samlp|theknotww|aganguly@weddingwire.in",
+    "user_id": 780918,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "agomez@theknotww.com",
+      "first_name": "Ashley",
+      "id": 797968,
+      "last_name": "Gomez",
+      "onboarded": true,
+      "username": "samlp|theknotww|agomez@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "agomez@theknotww.com",
+    "first_name": "Ashley",
+    "last_name": "Gomez",
+    "username": "samlp|theknotww|agomez@xogrp.com",
+    "user_id": 797968,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "asams@theknotww.com",
+      "first_name": "Ashley",
+      "id": 797937,
+      "last_name": "Sams",
+      "onboarded": false,
+      "username": "samlp|theknotww|asams@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "asams@theknotww.com",
+    "first_name": "Ashley",
+    "last_name": "Sams",
+    "username": "samlp|theknotww|asams@theknotww.com",
+    "user_id": 797937,
     "team_role_name": "User"
   },
   {
@@ -181,6 +771,11 @@
       "username": "google-oauth2|102501278077216956665"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "aobrien@theknotww.com",
@@ -191,9 +786,129 @@
     "team_role_name": "User"
   },
   {
-    "creator_on_workspaces": [
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "amcellin@theknotww.com",
+      "first_name": "Ashling",
+      "id": 974632,
+      "last_name": "McEllin",
+      "onboarded": true,
+      "username": "samlp|theknotww|amcellin@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
       "Sandbox",
       "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "amcellin@theknotww.com",
+    "first_name": "Ashling",
+    "last_name": "McEllin",
+    "username": "samlp|theknotww|amcellin@theknotww.com",
+    "user_id": 974632,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "blongoria@theknotww.com",
+      "first_name": "Belinda",
+      "id": 928852,
+      "last_name": "Longoria",
+      "onboarded": true,
+      "username": "samlp|theknotww|blongoria@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "blongoria@theknotww.com",
+    "first_name": "Belinda",
+    "last_name": "Longoria",
+    "username": "samlp|theknotww|blongoria@theknotww.com",
+    "user_id": 928852,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "bbates@theknotww.com",
+      "first_name": "Ben",
+      "id": 737947,
+      "last_name": "Bates",
+      "onboarded": true,
+      "username": "samlp|theknotww|bbates@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "bbates@theknotww.com",
+    "first_name": "Ben",
+    "last_name": "Bates",
+    "username": "samlp|theknotww|bbates@theknotww.com",
+    "user_id": 737947,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "bbarkholz@theknotww.com",
+      "first_name": "Brandon",
+      "id": 976615,
+      "last_name": "Barkholz",
+      "onboarded": true,
+      "username": "samlp|theknotww|bbarkholz@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "bbarkholz@theknotww.com",
+    "first_name": "Brandon",
+    "last_name": "Barkholz",
+    "username": "samlp|theknotww|bbarkholz@xogrp.com",
+    "user_id": 976615,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -205,10 +920,13 @@
       "first_name": "Brett",
       "id": 510552,
       "last_name": "Paley",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|bpaley@xogrp.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "bpaley@xogrp.com",
@@ -219,8 +937,311 @@
     "team_role_name": "User"
   },
   {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "bward@theknotww.com",
+      "first_name": "Brian",
+      "id": 850479,
+      "last_name": "Ward",
+      "onboarded": true,
+      "username": "samlp|theknotww|bward@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "bward@theknotww.com",
+    "first_name": "Brian",
+    "last_name": "Ward",
+    "username": "samlp|theknotww|bward@theknotww.com",
+    "user_id": 850479,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "bvelardi@theknotww.com",
+      "first_name": "Brianne",
+      "id": 740400,
+      "last_name": "Velardi",
+      "onboarded": false,
+      "username": "samlp|theknotww|bvelardi@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "bvelardi@theknotww.com",
+    "first_name": "Brianne",
+    "last_name": "Velardi",
+    "username": "samlp|theknotww|bvelardi@theknotww.com",
+    "user_id": 740400,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cdenunzio@theknotww.com",
+      "first_name": "Caitie",
+      "id": 740378,
+      "last_name": "DeNunzio",
+      "onboarded": false,
+      "username": "samlp|theknotww|cdenunzio@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cdenunzio@theknotww.com",
+    "first_name": "Caitie",
+    "last_name": "DeNunzio",
+    "username": "samlp|theknotww|cdenunzio@theknotww.com",
+    "user_id": 740378,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cwilliamson@theknotww.com",
+      "first_name": "Caitlin ",
+      "id": 839607,
+      "last_name": "Williamson",
+      "onboarded": false,
+      "username": "samlp|theknotww|cwilliamson@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cwilliamson@theknotww.com",
+    "first_name": "Caitlin ",
+    "last_name": "Williamson",
+    "username": "samlp|theknotww|cwilliamson@theknotww.com",
+    "user_id": 839607,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "clewissteinman@theknotww.com",
+      "first_name": "Candice",
+      "id": 740402,
+      "last_name": "Lewis-Steinman",
+      "onboarded": true,
+      "username": "samlp|theknotww|clewissteinman@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "clewissteinman@theknotww.com",
+    "first_name": "Candice",
+    "last_name": "Lewis-Steinman",
+    "username": "samlp|theknotww|clewissteinman@theknotww.com",
+    "user_id": 740402,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cgravett@theknotww.com",
+      "first_name": "Cara",
+      "id": 740401,
+      "last_name": "Gravett",
+      "onboarded": true,
+      "username": "samlp|theknotww|cgravett@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cgravett@theknotww.com",
+    "first_name": "Cara",
+    "last_name": "Gravett",
+    "username": "samlp|theknotww|cgravett@theknotww.com",
+    "user_id": 740401,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cchandler@theknotww.com",
+      "first_name": "Carli",
+      "id": 797958,
+      "last_name": "Durham",
+      "onboarded": true,
+      "username": "samlp|theknotww|cchandler@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cchandler@theknotww.com",
+    "first_name": "Carli",
+    "last_name": "Durham",
+    "username": "samlp|theknotww|cchandler@theknotww.com",
+    "user_id": 797958,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cbaez@bodas.net",
+      "first_name": "Carlos",
+      "id": 1003613,
+      "last_name": "Báez",
+      "onboarded": true,
+      "username": "samlp|theknotww|cbaez@bodas.net"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cbaez@bodas.net",
+    "first_name": "Carlos",
+    "last_name": "Báez",
+    "username": "samlp|theknotww|cbaez@bodas.net",
+    "user_id": 1003613,
+    "team_role_name": "User"
+  },
+  {
     "creator_on_workspaces": [
       "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "carmstrong@theknotww.com",
+      "first_name": "Caroline",
+      "id": 908909,
+      "last_name": "Armstrong",
+      "onboarded": true,
+      "username": "samlp|theknotww|carmstrong@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "carmstrong@theknotww.com",
+    "first_name": "Caroline",
+    "last_name": "Armstrong",
+    "username": "samlp|theknotww|carmstrong@theknotww.com",
+    "user_id": 908909,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cburas@theknotww.com",
+      "first_name": "Caroline",
+      "id": 780976,
+      "last_name": "Buras",
+      "onboarded": true,
+      "username": "samlp|theknotww|cburas@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cburas@theknotww.com",
+    "first_name": "Caroline",
+    "last_name": "Buras",
+    "username": "samlp|theknotww|cburas@theknotww.com",
+    "user_id": 780976,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -236,6 +1257,10 @@
       "username": "auth0|682cb9fff221379363d462d8"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "clisboa@theknotww.com",
@@ -243,6 +1268,97 @@
     "last_name": "Lisboa",
     "username": "auth0|682cb9fff221379363d462d8",
     "user_id": 304963,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cacampbell@theknotww.com",
+      "first_name": "Casey",
+      "id": 797938,
+      "last_name": "Campbell",
+      "onboarded": true,
+      "username": "samlp|theknotww|cacampbell@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cacampbell@theknotww.com",
+    "first_name": "Casey",
+    "last_name": "Campbell",
+    "username": "samlp|theknotww|cacampbell@theknotww.com",
+    "user_id": 797938,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ccomeau@theknotww.com",
+      "first_name": "Casey",
+      "id": 737952,
+      "last_name": "Moujaes",
+      "onboarded": true,
+      "username": "samlp|theknotww|ccomeau@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ccomeau@theknotww.com",
+    "first_name": "Casey",
+    "last_name": "Moujaes",
+    "username": "samlp|theknotww|ccomeau@theknotww.com",
+    "user_id": 737952,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cassandra@weddingwire.com",
+      "first_name": "Cassandra",
+      "id": 1003478,
+      "last_name": "Edwards",
+      "onboarded": false,
+      "username": "samlp|theknotww|calbano@weddingwire.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cassandra@weddingwire.com",
+    "first_name": "Cassandra",
+    "last_name": "Edwards",
+    "username": "samlp|theknotww|calbano@weddingwire.com",
+    "user_id": 1003478,
     "team_role_name": "User"
   },
   {
@@ -260,10 +1376,15 @@
       "first_name": "Cassandra",
       "id": 510529,
       "last_name": "Studer",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|cstuder@weddingwire.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "cstuder@weddingwire.com",
@@ -281,21 +1402,118 @@
       "name": "User"
     },
     "user": {
-      "email": "cdipietro@theknotww.com",
-      "first_name": "Christina",
-      "id": 295866,
-      "last_name": "DiPietro",
+      "email": "clevine@theknotww.com",
+      "first_name": "Cathy",
+      "id": 797976,
+      "last_name": "Cruz-Levine",
       "onboarded": true,
-      "username": "auth0|6824e6fc1b0a22b6600fc81d"
+      "username": "samlp|theknotww|clevine@xogrp.com"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "cdipietro@theknotww.com",
-    "first_name": "Christina",
-    "last_name": "DiPietro",
-    "username": "auth0|6824e6fc1b0a22b6600fc81d",
-    "user_id": 295866,
+    "email": "clevine@theknotww.com",
+    "first_name": "Cathy",
+    "last_name": "Cruz-Levine",
+    "username": "samlp|theknotww|clevine@xogrp.com",
+    "user_id": 797976,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cchauvin@theknotww.com",
+      "first_name": "Cati",
+      "id": 740404,
+      "last_name": "Chauvin",
+      "onboarded": true,
+      "username": "samlp|theknotww|cchauvin@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cchauvin@theknotww.com",
+    "first_name": "Cati",
+    "last_name": "Chauvin",
+    "username": "samlp|theknotww|cchauvin@theknotww.com",
+    "user_id": 740404,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cmancinelli@theknotww.com",
+      "first_name": "Charles",
+      "id": 880490,
+      "last_name": "Mancinelli",
+      "onboarded": true,
+      "username": "google-oauth2|104674908513914165171"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cmancinelli@theknotww.com",
+    "first_name": "Charles",
+    "last_name": "Mancinelli",
+    "username": "google-oauth2|104674908513914165171",
+    "user_id": 880490,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "CMcardle@xogrp.com",
+      "first_name": "Chelsea",
+      "id": 797940,
+      "last_name": "O'Donoghue",
+      "onboarded": true,
+      "username": "samlp|theknotww|CMcardle@xogrp.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "CMcardle@xogrp.com",
+    "first_name": "Chelsea",
+    "last_name": "O'Donoghue",
+    "username": "samlp|theknotww|CMcardle@xogrp.com",
+    "user_id": 797940,
     "team_role_name": "User"
   },
   {
@@ -314,6 +1532,11 @@
       "username": "google-oauth2|105251709275994004726"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "cbrown@xogrp.com",
@@ -321,6 +1544,370 @@
     "last_name": "Brown",
     "username": "google-oauth2|105251709275994004726",
     "user_id": 305040,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cphung@weddingwire.com",
+      "first_name": "Cindy",
+      "id": 841048,
+      "last_name": "Phung",
+      "onboarded": true,
+      "username": "samlp|theknotww|cphung@weddingwire.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cphung@weddingwire.com",
+    "first_name": "Cindy",
+    "last_name": "Phung",
+    "username": "samlp|theknotww|cphung@weddingwire.com",
+    "user_id": 841048,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cfogle@theknotww.com",
+      "first_name": "Claire",
+      "id": 797973,
+      "last_name": "Fogle",
+      "onboarded": true,
+      "username": "samlp|theknotww|cfogle@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cfogle@theknotww.com",
+    "first_name": "Claire",
+    "last_name": "Fogle",
+    "username": "samlp|theknotww|cfogle@xogrp.com",
+    "user_id": 797973,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cjose@theknotww.com",
+      "first_name": "Claudia",
+      "id": 1003620,
+      "last_name": "De José López",
+      "onboarded": false,
+      "username": "samlp|theknotww|cjose@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cjose@theknotww.com",
+    "first_name": "Claudia",
+    "last_name": "De José López",
+    "username": "samlp|theknotww|cjose@theknotww.com",
+    "user_id": 1003620,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cpeyri@theknotww.com",
+      "first_name": "Clàudia",
+      "id": 766660,
+      "last_name": "Peyrí",
+      "onboarded": true,
+      "username": "samlp|theknotww|cpeyri@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cpeyri@theknotww.com",
+    "first_name": "Clàudia",
+    "last_name": "Peyrí",
+    "username": "samlp|theknotww|cpeyri@theknotww.com",
+    "user_id": 766660,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "csharp@theknotww.com",
+      "first_name": "Corey",
+      "id": 797939,
+      "last_name": "Sharp",
+      "onboarded": true,
+      "username": "samlp|theknotww|csharp@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "csharp@theknotww.com",
+    "first_name": "Corey",
+    "last_name": "Sharp",
+    "username": "samlp|theknotww|csharp@theknotww.com",
+    "user_id": 797939,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ctsuchida@theknotww.com",
+      "first_name": "Courtney",
+      "id": 953160,
+      "last_name": "Tsuchida",
+      "onboarded": true,
+      "username": "samlp|theknotww|ctsuchida@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ctsuchida@theknotww.com",
+    "first_name": "Courtney",
+    "last_name": "Tsuchida",
+    "username": "samlp|theknotww|ctsuchida@theknotww.com",
+    "user_id": 953160,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dheredia@theknotww.com",
+      "first_name": "Dani",
+      "id": 797952,
+      "last_name": "Heredia",
+      "onboarded": false,
+      "username": "samlp|theknotww|dheredia@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dheredia@theknotww.com",
+    "first_name": "Dani",
+    "last_name": "Heredia",
+    "username": "samlp|theknotww|dheredia@theknotww.com",
+    "user_id": 797952,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dcurvelo@theknotww.com",
+      "first_name": "Daniel",
+      "id": 797941,
+      "last_name": "Curvelo",
+      "onboarded": true,
+      "username": "samlp|theknotww|dcurvelo@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dcurvelo@theknotww.com",
+    "first_name": "Daniel",
+    "last_name": "Curvelo",
+    "username": "samlp|theknotww|dcurvelo@theknotww.com",
+    "user_id": 797941,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dsussman@theknotww.com",
+      "first_name": "Daniel",
+      "id": 755114,
+      "last_name": "Sussman",
+      "onboarded": false,
+      "username": "samlp|theknotww|dsussman@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dsussman@theknotww.com",
+    "first_name": "Daniel",
+    "last_name": "Sussman",
+    "username": "samlp|theknotww|dsussman@theknotww.com",
+    "user_id": 755114,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dmcinerney@weddingwire.com",
+      "first_name": "Daniela",
+      "id": 740403,
+      "last_name": "McInerney",
+      "onboarded": false,
+      "username": "samlp|theknotww|dmcinerney@weddingwire.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dmcinerney@weddingwire.com",
+    "first_name": "Daniela",
+    "last_name": "McInerney",
+    "username": "samlp|theknotww|dmcinerney@weddingwire.com",
+    "user_id": 740403,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dgeorgesen@theknotww.com",
+      "first_name": "Danielle",
+      "id": 1003611,
+      "last_name": "Dobson",
+      "onboarded": true,
+      "username": "samlp|theknotww|dgeorgesen@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dgeorgesen@theknotww.com",
+    "first_name": "Danielle",
+    "last_name": "Dobson",
+    "username": "samlp|theknotww|dgeorgesen@theknotww.com",
+    "user_id": 1003611,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dvalenti@theknotww.com",
+      "first_name": "Danielle",
+      "id": 974125,
+      "last_name": "Valenti",
+      "onboarded": true,
+      "username": "samlp|theknotww|dvalenti@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dvalenti@theknotww.com",
+    "first_name": "Danielle",
+    "last_name": "Valenti",
+    "username": "samlp|theknotww|dvalenti@theknotww.com",
+    "user_id": 974125,
     "team_role_name": "User"
   },
   {
@@ -343,6 +1930,7 @@
       "username": "auth0|6890db04048318cdf4f79812"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "data-ops-team@theknotww.com",
@@ -351,6 +1939,247 @@
     "username": "auth0|6890db04048318cdf4f79812",
     "user_id": 444359,
     "team_role_name": "Admin"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dkestle@theknotww.com",
+      "first_name": "Devon",
+      "id": 936995,
+      "last_name": "Heywood",
+      "onboarded": true,
+      "username": "samlp|theknotww|dkestle@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dkestle@theknotww.com",
+    "first_name": "Devon",
+    "last_name": "Heywood",
+    "username": "samlp|theknotww|dkestle@theknotww.com",
+    "user_id": 936995,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dcamargo@theknotww.com",
+      "first_name": "Diana",
+      "id": 1003485,
+      "last_name": "Camargo",
+      "onboarded": false,
+      "username": "samlp|theknotww|dcamargo@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dcamargo@theknotww.com",
+    "first_name": "Diana",
+    "last_name": "Camargo",
+    "username": "samlp|theknotww|dcamargo@theknotww.com",
+    "user_id": 1003485,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "dpatton@theknotww.com",
+      "first_name": "Diana",
+      "id": 797956,
+      "last_name": "Patton",
+      "onboarded": true,
+      "username": "samlp|theknotww|dpatton@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "dpatton@theknotww.com",
+    "first_name": "Diana",
+    "last_name": "Patton",
+    "username": "samlp|theknotww|dpatton@theknotww.com",
+    "user_id": 797956,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "etadtaeva@theknotww.com",
+      "first_name": "Ekaterina",
+      "id": 740464,
+      "last_name": "Tadtaeva",
+      "onboarded": true,
+      "username": "samlp|theknotww|etadtaeva@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "etadtaeva@theknotww.com",
+    "first_name": "Ekaterina",
+    "last_name": "Tadtaeva",
+    "username": "samlp|theknotww|etadtaeva@theknotww.com",
+    "user_id": 740464,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "emadrigal@weddingwire.com",
+      "first_name": "Elena",
+      "id": 737939,
+      "last_name": "Madrigal",
+      "onboarded": false,
+      "username": "samlp|theknotww|emadrigal@weddingwire.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "emadrigal@weddingwire.com",
+    "first_name": "Elena",
+    "last_name": "Madrigal",
+    "username": "samlp|theknotww|emadrigal@weddingwire.com",
+    "user_id": 737939,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "emartincampos@theknotww.com",
+      "first_name": "Elizabeth ",
+      "id": 797953,
+      "last_name": "Martin Campos ",
+      "onboarded": true,
+      "username": "samlp|theknotww|emartincampos@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "emartincampos@theknotww.com",
+    "first_name": "Elizabeth ",
+    "last_name": "Martin Campos ",
+    "username": "samlp|theknotww|emartincampos@theknotww.com",
+    "user_id": 797953,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ebuford@theknotww.com",
+      "first_name": "Emily",
+      "id": 797942,
+      "last_name": "Buford",
+      "onboarded": false,
+      "username": "samlp|theknotww|ebuford@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ebuford@theknotww.com",
+    "first_name": "Emily",
+    "last_name": "Buford",
+    "username": "samlp|theknotww|ebuford@theknotww.com",
+    "user_id": 797942,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "emarotta@theknotww.com",
+      "first_name": "Emily",
+      "id": 797962,
+      "last_name": "Marotta",
+      "onboarded": false,
+      "username": "samlp|theknotww|emarotta@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "emarotta@theknotww.com",
+    "first_name": "Emily",
+    "last_name": "Marotta",
+    "username": "samlp|theknotww|emarotta@theknotww.com",
+    "user_id": 797962,
+    "team_role_name": "User"
   },
   {
     "creator_on_workspaces": [
@@ -371,6 +2200,9 @@
       "username": "google-oauth2|117645275568227140717"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "enightingale@theknotww.com",
@@ -388,21 +2220,119 @@
       "name": "User"
     },
     "user": {
-      "email": "ebrandewie@theknotww.com",
-      "first_name": "Erin",
-      "id": 297514,
-      "last_name": "Brandewie",
+      "email": "eplatt@xogrp.com",
+      "first_name": "Emily",
+      "id": 939814,
+      "last_name": "Platt",
       "onboarded": true,
-      "username": "auth0|682650d418afa5c1ba17ea07"
+      "username": "samlp|theknotww|eplatt@xogrp.com"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "ebrandewie@theknotww.com",
+    "email": "eplatt@xogrp.com",
+    "first_name": "Emily",
+    "last_name": "Platt",
+    "username": "samlp|theknotww|eplatt@xogrp.com",
+    "user_id": 939814,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ebarkai@theknotww.com",
+      "first_name": "Erez",
+      "id": 737953,
+      "last_name": "Barkai",
+      "onboarded": true,
+      "username": "samlp|theknotww|ebarkai@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ebarkai@theknotww.com",
+    "first_name": "Erez",
+    "last_name": "Barkai",
+    "username": "samlp|theknotww|ebarkai@theknotww.com",
+    "user_id": 737953,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "enechayev@theknotww.com",
+      "first_name": "Eric",
+      "id": 631182,
+      "last_name": "Nechayev",
+      "onboarded": false,
+      "username": "samlp|theknotww|enechayev@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "enechayev@theknotww.com",
+    "first_name": "Eric",
+    "last_name": "Nechayev",
+    "username": "samlp|theknotww|enechayev@theknotww.com",
+    "user_id": 631182,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ealbertson@theknotww.com",
+      "first_name": "Erin",
+      "id": 1005347,
+      "last_name": "Albertson",
+      "onboarded": true,
+      "username": "samlp|theknotww|ealbertson@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ealbertson@theknotww.com",
     "first_name": "Erin",
-    "last_name": "Brandewie",
-    "username": "auth0|682650d418afa5c1ba17ea07",
-    "user_id": 297514,
+    "last_name": "Albertson",
+    "username": "samlp|theknotww|ealbertson@theknotww.com",
+    "user_id": 1005347,
     "team_role_name": "User"
   },
   {
@@ -421,6 +2351,11 @@
       "username": "samlp|theknotww|eguerenneur@theknotww.com"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "eguerenneur@theknotww.com",
@@ -431,8 +2366,41 @@
     "team_role_name": "User"
   },
   {
-    "creator_on_workspaces": [
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "elee@xogrp.com",
+      "first_name": "Esther",
+      "id": 936996,
+      "last_name": "Lee",
+      "onboarded": true,
+      "username": "samlp|theknotww|elee@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
       "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "elee@xogrp.com",
+    "first_name": "Esther",
+    "last_name": "Lee",
+    "username": "samlp|theknotww|elee@xogrp.com",
+    "user_id": 936996,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Pre-Production",
+      "Sandbox",
       "Sandbox"
     ],
     "is_role_from_group": false,
@@ -449,6 +2417,9 @@
       "username": "google-oauth2|102693652572958882398"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "emiao@theknotww.com",
@@ -460,7 +2431,278 @@
   },
   {
     "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "espiller@theknotww.com",
+      "first_name": "Evan",
+      "id": 748899,
+      "last_name": "Spiller",
+      "onboarded": true,
+      "username": "samlp|theknotww|espiller@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "espiller@theknotww.com",
+    "first_name": "Evan",
+    "last_name": "Spiller",
+    "username": "samlp|theknotww|espiller@theknotww.com",
+    "user_id": 748899,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ecarrizo@theknotww.com",
+      "first_name": "Ezequiel",
+      "id": 797950,
+      "last_name": "Carrizo",
+      "onboarded": true,
+      "username": "samlp|theknotww|ecarrizo@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
       "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ecarrizo@theknotww.com",
+    "first_name": "Ezequiel",
+    "last_name": "Carrizo",
+    "username": "samlp|theknotww|ecarrizo@theknotww.com",
+    "user_id": 797950,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "fneurohr@bodas.net",
+      "first_name": "Fabio",
+      "id": 780921,
+      "last_name": "Neurohr",
+      "onboarded": true,
+      "username": "samlp|theknotww|fneurohr@bodas.net"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "fneurohr@bodas.net",
+    "first_name": "Fabio",
+    "last_name": "Neurohr",
+    "username": "samlp|theknotww|fneurohr@bodas.net",
+    "user_id": 780921,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "fchaban@weddingwire.com",
+      "first_name": "Felicity",
+      "id": 737933,
+      "last_name": "Chaban",
+      "onboarded": true,
+      "username": "samlp|theknotww|fchaban@weddingwire.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "fchaban@weddingwire.com",
+    "first_name": "Felicity",
+    "last_name": "Chaban",
+    "username": "samlp|theknotww|fchaban@weddingwire.com",
+    "user_id": 737933,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "forbea@bodas.net",
+      "first_name": "Fernando",
+      "id": 974633,
+      "last_name": "Orbea",
+      "onboarded": false,
+      "username": "samlp|theknotww|forbea@bodas.net"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "forbea@bodas.net",
+    "first_name": "Fernando",
+    "last_name": "Orbea",
+    "username": "samlp|theknotww|forbea@bodas.net",
+    "user_id": 974633,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "fmicand@theknotww.com",
+      "first_name": "Florent",
+      "id": 727764,
+      "last_name": "Micand",
+      "onboarded": true,
+      "username": "samlp|theknotww|fmicand@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "fmicand@theknotww.com",
+    "first_name": "Florent",
+    "last_name": "Micand",
+    "username": "samlp|theknotww|fmicand@theknotww.com",
+    "user_id": 727764,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "gdodier@theknotww.com",
+      "first_name": "Gabrielle",
+      "id": 740380,
+      "last_name": "Dodier",
+      "onboarded": true,
+      "username": "samlp|theknotww|gdodier@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "gdodier@theknotww.com",
+    "first_name": "Gabrielle",
+    "last_name": "Dodier",
+    "username": "samlp|theknotww|gdodier@theknotww.com",
+    "user_id": 740380,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "gkeiser@theknotww.com",
+      "first_name": "Grant",
+      "id": 1003609,
+      "last_name": "Keiser",
+      "onboarded": true,
+      "username": "samlp|theknotww|gkeiser@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "gkeiser@theknotww.com",
+    "first_name": "Grant",
+    "last_name": "Keiser",
+    "username": "samlp|theknotww|gkeiser@theknotww.com",
+    "user_id": 1003609,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "gharing@xogrp.com",
+      "first_name": "Greg",
+      "id": 737943,
+      "last_name": "Haring",
+      "onboarded": true,
+      "username": "samlp|theknotww|gharing@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "gharing@xogrp.com",
+    "first_name": "Greg",
+    "last_name": "Haring",
+    "username": "samlp|theknotww|gharing@xogrp.com",
+    "user_id": 737943,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
       "Sandbox"
     ],
     "is_role_from_group": false,
@@ -469,21 +2711,25 @@
       "name": "User"
     },
     "user": {
-      "email": "gbezerra@theknotww.com",
-      "first_name": "George",
-      "id": 288360,
-      "last_name": "Bezerra",
+      "email": "hkaftan@theknotww.com",
+      "first_name": "Heather",
+      "id": 839597,
+      "last_name": "Kaftan",
       "onboarded": true,
-      "username": "google-oauth2|103801352960342370634"
+      "username": "samlp|theknotww|hkaftan@theknotww.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "gbezerra@theknotww.com",
-    "first_name": "George",
-    "last_name": "Bezerra",
-    "username": "google-oauth2|103801352960342370634",
-    "user_id": 288360,
+    "email": "hkaftan@theknotww.com",
+    "first_name": "Heather",
+    "last_name": "Kaftan",
+    "username": "samlp|theknotww|hkaftan@theknotww.com",
+    "user_id": 839597,
     "team_role_name": "User"
   },
   {
@@ -505,6 +2751,9 @@
       "username": "google-oauth2|110128612606098032629"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "hacevedo@theknotww.com",
@@ -512,6 +2761,96 @@
     "last_name": "Acevedo",
     "username": "google-oauth2|110128612606098032629",
     "user_id": 305008,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "hmonegro@theknotww.com",
+      "first_name": "Hostos",
+      "id": 972626,
+      "last_name": "Monegro",
+      "onboarded": false,
+      "username": "google-oauth2|111566763860377810978"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "hmonegro@theknotww.com",
+    "first_name": "Hostos",
+    "last_name": "Monegro",
+    "username": "google-oauth2|111566763860377810978",
+    "user_id": 972626,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "iconejo@theknotww.com",
+      "first_name": "Irene",
+      "id": 765255,
+      "last_name": "Conejo",
+      "onboarded": true,
+      "username": "samlp|theknotww|iconejo@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "iconejo@theknotww.com",
+    "first_name": "Irene",
+    "last_name": "Conejo",
+    "username": "samlp|theknotww|iconejo@theknotww.com",
+    "user_id": 765255,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ivalencia@theknotww.com",
+      "first_name": "Isaiah",
+      "id": 605800,
+      "last_name": "Valencia",
+      "onboarded": false,
+      "username": "samlp|theknotww|ivalencia@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ivalencia@theknotww.com",
+    "first_name": "Isaiah",
+    "last_name": "Valencia",
+    "username": "samlp|theknotww|ivalencia@theknotww.com",
+    "user_id": 605800,
     "team_role_name": "User"
   },
   {
@@ -533,6 +2872,11 @@
       "username": "google-oauth2|110509078186083857228"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "isayago@theknotww.com",
@@ -543,9 +2887,39 @@
     "team_role_name": "User"
   },
   {
-    "creator_on_workspaces": [
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jgufford@theknotww.com",
+      "first_name": "Jackie",
+      "id": 762044,
+      "last_name": "Gufford",
+      "onboarded": false,
+      "username": "samlp|theknotww|jgufford@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
       "Pre-Production",
       "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jgufford@theknotww.com",
+    "first_name": "Jackie",
+    "last_name": "Gufford",
+    "username": "samlp|theknotww|jgufford@theknotww.com",
+    "user_id": 762044,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -561,6 +2935,9 @@
       "username": "samlp|theknotww|jslovin@xogrp.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "jslovin@theknotww.com",
@@ -568,6 +2945,66 @@
     "last_name": "Slovin",
     "username": "samlp|theknotww|jslovin@xogrp.com",
     "user_id": 513241,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jjiwani@theknotww.com",
+      "first_name": "Jacqueline",
+      "id": 740381,
+      "last_name": "Jiwani",
+      "onboarded": true,
+      "username": "samlp|theknotww|jjiwani@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jjiwani@theknotww.com",
+    "first_name": "Jacqueline",
+    "last_name": "Jiwani",
+    "username": "samlp|theknotww|jjiwani@theknotww.com",
+    "user_id": 740381,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jsperling@theknotww.com",
+      "first_name": "Jade",
+      "id": 737932,
+      "last_name": "Sperling",
+      "onboarded": true,
+      "username": "samlp|theknotww|jsperling@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jsperling@theknotww.com",
+    "first_name": "Jade",
+    "last_name": "Sperling",
+    "username": "samlp|theknotww|jsperling@theknotww.com",
+    "user_id": 737932,
     "team_role_name": "User"
   },
   {
@@ -581,27 +3018,60 @@
       "name": "User"
     },
     "user": {
-      "email": "jpooley@theknotww.com",
-      "first_name": "James",
-      "id": 505221,
-      "last_name": "Pooley",
+      "email": "jrana@theknotww.com",
+      "first_name": "Janvi",
+      "id": 972628,
+      "last_name": "Rana",
       "onboarded": true,
-      "username": "samlp|theknotww|jpooley@theknotww.com"
+      "username": "samlp|theknotww|jrana@theknotww.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "jpooley@theknotww.com",
-    "first_name": "James",
-    "last_name": "Pooley",
-    "username": "samlp|theknotww|jpooley@theknotww.com",
-    "user_id": 505221,
+    "email": "jrana@theknotww.com",
+    "first_name": "Janvi",
+    "last_name": "Rana",
+    "username": "samlp|theknotww|jrana@theknotww.com",
+    "user_id": 972628,
     "team_role_name": "User"
   },
   {
     "creator_on_workspaces": [
       "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jgrahn@theknotww.com",
+      "first_name": "Jason",
+      "id": 760552,
+      "last_name": "Grahn",
+      "onboarded": true,
+      "username": "samlp|theknotww|jgrahn@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jgrahn@theknotww.com",
+    "first_name": "Jason",
+    "last_name": "Grahn",
+    "username": "samlp|theknotww|jgrahn@theknotww.com",
+    "user_id": 760552,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
       "Pre-Production",
+      "Sandbox",
       "Production"
     ],
     "is_role_from_group": false,
@@ -618,6 +3088,7 @@
       "username": "google-oauth2|113134822662836943199"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "jpilon@xogrp.com",
@@ -628,6 +3099,37 @@
     "team_role_name": "Admin"
   },
   {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jcriballes@bodas.net",
+      "first_name": "Jaume",
+      "id": 839624,
+      "last_name": "Criballés",
+      "onboarded": true,
+      "username": "samlp|theknotww|jcriballes@bodas.net"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jcriballes@bodas.net",
+    "first_name": "Jaume",
+    "last_name": "Criballés",
+    "username": "samlp|theknotww|jcriballes@bodas.net",
+    "user_id": 839624,
+    "team_role_name": "User"
+  },
+  {
     "creator_on_workspaces": [],
     "is_role_from_group": false,
     "team_role": {
@@ -635,21 +3137,118 @@
       "name": "User"
     },
     "user": {
-      "email": "jhasselo@theknotww.com",
-      "first_name": "Jeff",
-      "id": 297166,
-      "last_name": "Hasselo",
+      "email": "jbruno@xogrp.com",
+      "first_name": "Jenna",
+      "id": 971811,
+      "last_name": "Bruno",
       "onboarded": true,
-      "username": "google-oauth2|111809443031191031205"
+      "username": "samlp|theknotww|jbruno@xogrp.com"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "jhasselo@theknotww.com",
-    "first_name": "Jeff",
-    "last_name": "Hasselo",
-    "username": "google-oauth2|111809443031191031205",
-    "user_id": 297166,
+    "email": "jbruno@xogrp.com",
+    "first_name": "Jenna",
+    "last_name": "Bruno",
+    "username": "samlp|theknotww|jbruno@xogrp.com",
+    "user_id": 971811,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jgoldenberg@theknotww.com",
+      "first_name": "Jeremy",
+      "id": 745033,
+      "last_name": "Goldenberg",
+      "onboarded": true,
+      "username": "samlp|theknotww|jgoldenberg@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jgoldenberg@theknotww.com",
+    "first_name": "Jeremy",
+    "last_name": "Goldenberg",
+    "username": "samlp|theknotww|jgoldenberg@xogrp.com",
+    "user_id": 745033,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "JTortora@xogrp.com",
+      "first_name": "Jeremy",
+      "id": 1002938,
+      "last_name": "Tortora",
+      "onboarded": true,
+      "username": "samlp|theknotww|JTortora@xogrp.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "JTortora@xogrp.com",
+    "first_name": "Jeremy",
+    "last_name": "Tortora",
+    "username": "samlp|theknotww|JTortora@xogrp.com",
+    "user_id": 1002938,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jgeiger@theknotww.com",
+      "first_name": "Jesse",
+      "id": 749699,
+      "last_name": "Geiger",
+      "onboarded": true,
+      "username": "samlp|theknotww|jgeiger@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jgeiger@theknotww.com",
+    "first_name": "Jesse",
+    "last_name": "Geiger",
+    "username": "samlp|theknotww|jgeiger@theknotww.com",
+    "user_id": 749699,
     "team_role_name": "User"
   },
   {
@@ -663,14 +3262,48 @@
       "name": "User"
     },
     "user": {
+      "email": "jgonzalez@bodas.net",
+      "first_name": "Jessica",
+      "id": 56175,
+      "last_name": "Gonzalez",
+      "onboarded": true,
+      "username": "auth0|6576f252d014448ecc4fa7da"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jgonzalez@bodas.net",
+    "first_name": "Jessica",
+    "last_name": "Gonzalez",
+    "username": "auth0|6576f252d014448ecc4fa7da",
+    "user_id": 56175,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
       "email": "jchoi@theknotww.com",
       "first_name": "Ji In",
       "id": 515285,
       "last_name": "Choi",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|jchoi@theknotww.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "jchoi@theknotww.com",
@@ -688,28 +3321,214 @@
       "name": "User"
     },
     "user": {
-      "email": "jricou@theknotww.com",
-      "first_name": "Joana",
-      "id": 318675,
-      "last_name": "Ricou",
+      "email": "jcaretsky@theknotww.com",
+      "first_name": "Jill",
+      "id": 939818,
+      "last_name": "Caretsky",
       "onboarded": true,
-      "username": "google-oauth2|105192732793120672030"
+      "username": "samlp|theknotww|jcaretsky@theknotww.com"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "jricou@theknotww.com",
-    "first_name": "Joana",
-    "last_name": "Ricou",
-    "username": "google-oauth2|105192732793120672030",
-    "user_id": 318675,
+    "email": "jcaretsky@theknotww.com",
+    "first_name": "Jill",
+    "last_name": "Caretsky",
+    "username": "samlp|theknotww|jcaretsky@theknotww.com",
+    "user_id": 939818,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jcaniglia@xogrp.com",
+      "first_name": "Joe",
+      "id": 740379,
+      "last_name": "Caniglia",
+      "onboarded": false,
+      "username": "samlp|theknotww|jcaniglia@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jcaniglia@xogrp.com",
+    "first_name": "Joe",
+    "last_name": "Caniglia",
+    "username": "samlp|theknotww|jcaniglia@xogrp.com",
+    "user_id": 740379,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jkinsley@theknotww.com",
+      "first_name": "Johanna",
+      "id": 745034,
+      "last_name": "Kinsley",
+      "onboarded": true,
+      "username": "samlp|theknotww|jkinsley@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jkinsley@theknotww.com",
+    "first_name": "Johanna",
+    "last_name": "Kinsley",
+    "username": "samlp|theknotww|jkinsley@theknotww.com",
+    "user_id": 745034,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jjames@theknotww.com",
+      "first_name": "John",
+      "id": 737931,
+      "last_name": "James",
+      "onboarded": true,
+      "username": "samlp|theknotww|jjames@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jjames@theknotww.com",
+    "first_name": "John",
+    "last_name": "James",
+    "username": "samlp|theknotww|jjames@theknotww.com",
+    "user_id": 737931,
     "team_role_name": "User"
   },
   {
     "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jondiaz@bodas.net",
+      "first_name": "Jon",
+      "id": 974126,
+      "last_name": "Diaz",
+      "onboarded": true,
+      "username": "samlp|theknotww|jondiaz@bodas.net"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jondiaz@bodas.net",
+    "first_name": "Jon",
+    "last_name": "Diaz",
+    "username": "samlp|theknotww|jondiaz@bodas.net",
+    "user_id": 974126,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jgoldmann@theknotww.com",
+      "first_name": "Jon",
+      "id": 1102060,
+      "last_name": "Goldmann",
+      "onboarded": false,
+      "username": "samlp|theknotww|jgoldmann@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
       "Sandbox",
       "Production",
       "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jgoldmann@theknotww.com",
+    "first_name": "Jon",
+    "last_name": "Goldmann",
+    "username": "samlp|theknotww|jgoldmann@theknotww.com",
+    "user_id": 1102060,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jfanelli@theknotww.com",
+      "first_name": "Jordan",
+      "id": 740407,
+      "last_name": "Sullins",
+      "onboarded": true,
+      "username": "samlp|theknotww|jfanelli@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jfanelli@theknotww.com",
+    "first_name": "Jordan",
+    "last_name": "Sullins",
+    "username": "samlp|theknotww|jfanelli@theknotww.com",
+    "user_id": 740407,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -725,6 +3544,7 @@
       "username": "google-oauth2|103375513726435010786"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "jomares@theknotww.com",
@@ -736,8 +3556,161 @@
   },
   {
     "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jalvarezpoza@theknotww.com",
+      "first_name": "Jorge",
+      "id": 971810,
+      "last_name": "Alvarez Poza",
+      "onboarded": true,
+      "username": "samlp|theknotww|jalvarezpoza@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jalvarezpoza@theknotww.com",
+    "first_name": "Jorge",
+    "last_name": "Alvarez Poza",
+    "username": "samlp|theknotww|jalvarezpoza@theknotww.com",
+    "user_id": 971810,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jorhernandez@theknotww.com",
+      "first_name": "Jorge",
+      "id": 605801,
+      "last_name": "Hernandez",
+      "onboarded": true,
+      "username": "samlp|theknotww|jorhernandez@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jorhernandez@theknotww.com",
+    "first_name": "Jorge",
+    "last_name": "Hernandez",
+    "username": "samlp|theknotww|jorhernandez@theknotww.com",
+    "user_id": 605801,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jolave@bodas.net",
+      "first_name": "Jorge",
+      "id": 1005348,
+      "last_name": "Olave",
+      "onboarded": true,
+      "username": "samlp|theknotww|jolave@bodas.net"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
       "Pre-Production",
       "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jolave@bodas.net",
+    "first_name": "Jorge",
+    "last_name": "Olave",
+    "username": "samlp|theknotww|jolave@bodas.net",
+    "user_id": 1005348,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jmanzano@theknotww.com",
+      "first_name": "Jose",
+      "id": 780915,
+      "last_name": "Manzano",
+      "onboarded": true,
+      "username": "samlp|theknotww|jmanzano@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jmanzano@theknotww.com",
+    "first_name": "Jose",
+    "last_name": "Manzano",
+    "username": "samlp|theknotww|jmanzano@theknotww.com",
+    "user_id": 780915,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jmelo@theknotww.com",
+      "first_name": "Jose",
+      "id": 737948,
+      "last_name": "Melo",
+      "onboarded": false,
+      "username": "samlp|theknotww|jmelo@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jmelo@theknotww.com",
+    "first_name": "Jose",
+    "last_name": "Melo",
+    "username": "samlp|theknotww|jmelo@theknotww.com",
+    "user_id": 737948,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -753,6 +3726,9 @@
       "username": "samlp|theknotww|jpiedehierro@theknotww.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "jpiedehierro@theknotww.com",
@@ -769,34 +3745,6 @@
     ],
     "is_role_from_group": false,
     "team_role": {
-      "id": 1,
-      "name": "Admin"
-    },
-    "user": {
-      "email": "jking@theknotww.com",
-      "first_name": "Josh",
-      "id": 265221,
-      "last_name": "King",
-      "onboarded": true,
-      "username": "auth0|680a3e0d555376f1b94903f6"
-    },
-    "user_type": "CREATOR",
-    "_team_id": 287514,
-    "_team_identifier_used": "37ebf0b7",
-    "email": "jking@theknotww.com",
-    "first_name": "Josh",
-    "last_name": "King",
-    "username": "auth0|680a3e0d555376f1b94903f6",
-    "user_id": 265221,
-    "team_role_name": "Admin"
-  },
-  {
-    "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
-    ],
-    "is_role_from_group": false,
-    "team_role": {
       "id": 2,
       "name": "User"
     },
@@ -809,6 +3757,7 @@
       "username": "auth0|6759c5233d15e4b8051226ad"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "joy.pratt@bytecode.io",
@@ -819,11 +3768,284 @@
     "team_role_name": "User"
   },
   {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jufernandez@theknotww.com",
+      "first_name": "Juan",
+      "id": 953159,
+      "last_name": "Fernández",
+      "onboarded": true,
+      "username": "samlp|theknotww|jufernandez@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jufernandez@theknotww.com",
+    "first_name": "Juan",
+    "last_name": "Fernández",
+    "username": "samlp|theknotww|jufernandez@theknotww.com",
+    "user_id": 953159,
+    "team_role_name": "User"
+  },
+  {
     "creator_on_workspaces": [],
     "is_role_from_group": false,
     "team_role": {
       "id": 2,
       "name": "User"
+    },
+    "user": {
+      "email": "jvarela@theknotww.com",
+      "first_name": "Juan",
+      "id": 797948,
+      "last_name": "Varela",
+      "onboarded": true,
+      "username": "samlp|theknotww|jvarela@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jvarela@theknotww.com",
+    "first_name": "Juan",
+    "last_name": "Varela",
+    "username": "samlp|theknotww|jvarela@theknotww.com",
+    "user_id": 797948,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jgilliatt@theknotww.com",
+      "first_name": "Julian",
+      "id": 972624,
+      "last_name": "Gilliatt",
+      "onboarded": true,
+      "username": "samlp|theknotww|jgilliatt@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jgilliatt@theknotww.com",
+    "first_name": "Julian",
+    "last_name": "Gilliatt",
+    "username": "samlp|theknotww|jgilliatt@theknotww.com",
+    "user_id": 972624,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "juchiang@theknotww.com",
+      "first_name": "Julie",
+      "id": 636441,
+      "last_name": "Chiang",
+      "onboarded": true,
+      "username": "samlp|theknotww|juchiang@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "juchiang@theknotww.com",
+    "first_name": "Julie",
+    "last_name": "Chiang",
+    "username": "samlp|theknotww|juchiang@xogrp.com",
+    "user_id": 636441,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jwach@theknotww.com",
+      "first_name": "Julie",
+      "id": 760480,
+      "last_name": "Wach",
+      "onboarded": true,
+      "username": "samlp|theknotww|jwach@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jwach@theknotww.com",
+    "first_name": "Julie",
+    "last_name": "Wach",
+    "username": "samlp|theknotww|jwach@theknotww.com",
+    "user_id": 760480,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jpytka@theknotww.com",
+      "first_name": "Justin",
+      "id": 974634,
+      "last_name": "Pytka",
+      "onboarded": true,
+      "username": "samlp|theknotww|jpytka@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jpytka@theknotww.com",
+    "first_name": "Justin",
+    "last_name": "Pytka",
+    "username": "samlp|theknotww|jpytka@theknotww.com",
+    "user_id": 974634,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "jsamuels@theknotww.com",
+      "first_name": "Justin",
+      "id": 740408,
+      "last_name": "Samuels",
+      "onboarded": true,
+      "username": "samlp|theknotww|jsamuels@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "jsamuels@theknotww.com",
+    "first_name": "Justin",
+    "last_name": "Samuels",
+    "username": "samlp|theknotww|jsamuels@theknotww.com",
+    "user_id": 740408,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "cbhunjan@theknotww.com",
+      "first_name": "Kajal",
+      "id": 908919,
+      "last_name": "Bhunjan",
+      "onboarded": true,
+      "username": "samlp|theknotww|cbhunjan@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "cbhunjan@theknotww.com",
+    "first_name": "Kajal",
+    "last_name": "Bhunjan",
+    "username": "samlp|theknotww|cbhunjan@theknotww.com",
+    "user_id": 908919,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kscovitch@theknotww.com",
+      "first_name": "Kara",
+      "id": 737923,
+      "last_name": "Scovitch",
+      "onboarded": false,
+      "username": "samlp|theknotww|kscovitch@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kscovitch@theknotww.com",
+    "first_name": "Kara",
+    "last_name": "Scovitch",
+    "username": "samlp|theknotww|kscovitch@theknotww.com",
+    "user_id": 737923,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 1,
+      "name": "Admin"
     },
     "user": {
       "email": "knangia@theknotww.com",
@@ -834,6 +4056,11 @@
       "username": "google-oauth2|116283107673255151449"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "knangia@theknotww.com",
@@ -841,6 +4068,762 @@
     "last_name": "Nangia",
     "username": "google-oauth2|116283107673255151449",
     "user_id": 303701,
+    "team_role_name": "Admin"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kmezzapelle@xogrp.com",
+      "first_name": "Kathryn",
+      "id": 974631,
+      "last_name": "Gallagher",
+      "onboarded": true,
+      "username": "samlp|theknotww|kmezzapelle@xogrp.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kmezzapelle@xogrp.com",
+    "first_name": "Kathryn",
+    "last_name": "Gallagher",
+    "username": "samlp|theknotww|kmezzapelle@xogrp.com",
+    "user_id": 974631,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kmurray@theknotww.com",
+      "first_name": "Katie",
+      "id": 839622,
+      "last_name": "Murray",
+      "onboarded": true,
+      "username": "samlp|theknotww|kmurray@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kmurray@theknotww.com",
+    "first_name": "Katie",
+    "last_name": "Murray",
+    "username": "samlp|theknotww|kmurray@theknotww.com",
+    "user_id": 839622,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kweber@theknotww.com",
+      "first_name": "Katie",
+      "id": 930444,
+      "last_name": "Weber",
+      "onboarded": true,
+      "username": "samlp|theknotww|kweber@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kweber@theknotww.com",
+    "first_name": "Katie",
+    "last_name": "Weber",
+    "username": "samlp|theknotww|kweber@theknotww.com",
+    "user_id": 930444,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kvenezio@theknotww.com",
+      "first_name": "Katrina",
+      "id": 797959,
+      "last_name": "Greben",
+      "onboarded": true,
+      "username": "samlp|theknotww|kvenezio@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kvenezio@theknotww.com",
+    "first_name": "Katrina",
+    "last_name": "Greben",
+    "username": "samlp|theknotww|kvenezio@theknotww.com",
+    "user_id": 797959,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ksavage@theknotww.com",
+      "first_name": "Kay",
+      "id": 928839,
+      "last_name": "Savage",
+      "onboarded": true,
+      "username": "samlp|theknotww|ksavage@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ksavage@theknotww.com",
+    "first_name": "Kay",
+    "last_name": "Savage",
+    "username": "samlp|theknotww|ksavage@theknotww.com",
+    "user_id": 928839,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kbeckert@theknotww.com",
+      "first_name": "Kaye",
+      "id": 740406,
+      "last_name": "Beckert",
+      "onboarded": false,
+      "username": "samlp|theknotww|kbeckert@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kbeckert@theknotww.com",
+    "first_name": "Kaye",
+    "last_name": "Beckert",
+    "username": "samlp|theknotww|kbeckert@theknotww.com",
+    "user_id": 740406,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "keri@xogrp.com",
+      "first_name": "Keri",
+      "id": 1003422,
+      "last_name": "Sowerby",
+      "onboarded": false,
+      "username": "samlp|theknotww|keri@xogrp.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "keri@xogrp.com",
+    "first_name": "Keri",
+    "last_name": "Sowerby",
+    "username": "samlp|theknotww|keri@xogrp.com",
+    "user_id": 1003422,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kkempski@theknotww.com",
+      "first_name": "Kiara",
+      "id": 737946,
+      "last_name": "Kempski",
+      "onboarded": true,
+      "username": "samlp|theknotww|kkempski@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kkempski@theknotww.com",
+    "first_name": "Kiara",
+    "last_name": "Kempski",
+    "username": "samlp|theknotww|kkempski@theknotww.com",
+    "user_id": 737946,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kradke@theknotww.com",
+      "first_name": "Kirby",
+      "id": 865616,
+      "last_name": "Radke",
+      "onboarded": false,
+      "username": "samlp|theknotww|kradke@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kradke@theknotww.com",
+    "first_name": "Kirby",
+    "last_name": "Radke",
+    "username": "samlp|theknotww|kradke@theknotww.com",
+    "user_id": 865616,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "kcampbell@xogrp.com",
+      "first_name": "Kyle",
+      "id": 977168,
+      "last_name": "Campbell",
+      "onboarded": true,
+      "username": "samlp|theknotww|kcampbell@xogrp.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "kcampbell@xogrp.com",
+    "first_name": "Kyle",
+    "last_name": "Campbell",
+    "username": "samlp|theknotww|kcampbell@xogrp.com",
+    "user_id": 977168,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "khaugland@theknotww.com",
+      "first_name": "Kyle",
+      "id": 740410,
+      "last_name": "Haugland",
+      "onboarded": true,
+      "username": "samlp|theknotww|khaugland@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "khaugland@theknotww.com",
+    "first_name": "Kyle",
+    "last_name": "Haugland",
+    "username": "samlp|theknotww|khaugland@theknotww.com",
+    "user_id": 740410,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lbirnbaum@theknotww.com",
+      "first_name": "Lauren",
+      "id": 974716,
+      "last_name": "Birnbaum",
+      "onboarded": false,
+      "username": "samlp|theknotww|lbirnbaum@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lbirnbaum@theknotww.com",
+    "first_name": "Lauren",
+    "last_name": "Birnbaum",
+    "username": "samlp|theknotww|lbirnbaum@theknotww.com",
+    "user_id": 974716,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lbyrne@theknotww.com",
+      "first_name": "Lauren",
+      "id": 971809,
+      "last_name": "Byrne",
+      "onboarded": true,
+      "username": "samlp|theknotww|lbyrne@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lbyrne@theknotww.com",
+    "first_name": "Lauren",
+    "last_name": "Byrne",
+    "username": "samlp|theknotww|lbyrne@theknotww.com",
+    "user_id": 971809,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lholzer@weddingwire.com",
+      "first_name": "Lauren",
+      "id": 737941,
+      "last_name": "Holzer",
+      "onboarded": false,
+      "username": "samlp|theknotww|lholzer@weddingwire.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lholzer@weddingwire.com",
+    "first_name": "Lauren",
+    "last_name": "Holzer",
+    "username": "samlp|theknotww|lholzer@weddingwire.com",
+    "user_id": 737941,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lstewart@theknotww.com",
+      "first_name": "Lauren",
+      "id": 797955,
+      "last_name": "Plevniak-Stewart",
+      "onboarded": true,
+      "username": "samlp|theknotww|lstewart@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lstewart@theknotww.com",
+    "first_name": "Lauren",
+    "last_name": "Plevniak-Stewart",
+    "username": "samlp|theknotww|lstewart@theknotww.com",
+    "user_id": 797955,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lporter@theknotww.com",
+      "first_name": "Lauren",
+      "id": 737937,
+      "last_name": "Porter",
+      "onboarded": false,
+      "username": "samlp|theknotww|lporter@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lporter@theknotww.com",
+    "first_name": "Lauren",
+    "last_name": "Porter",
+    "username": "samlp|theknotww|lporter@theknotww.com",
+    "user_id": 737937,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ltofflemire@theknotww.com",
+      "first_name": "Lauren",
+      "id": 797943,
+      "last_name": "Tofflemire",
+      "onboarded": true,
+      "username": "samlp|theknotww|ltofflemire@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ltofflemire@theknotww.com",
+    "first_name": "Lauren",
+    "last_name": "Tofflemire",
+    "username": "samlp|theknotww|ltofflemire@theknotww.com",
+    "user_id": 797943,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lsabermaash@theknotww.com",
+      "first_name": "Lily",
+      "id": 839634,
+      "last_name": "Sweeney",
+      "onboarded": true,
+      "username": "samlp|theknotww|lsabermaash@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lsabermaash@theknotww.com",
+    "first_name": "Lily",
+    "last_name": "Sweeney",
+    "username": "samlp|theknotww|lsabermaash@theknotww.com",
+    "user_id": 839634,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lbissey@theknotww.com",
+      "first_name": "Lindsay",
+      "id": 780911,
+      "last_name": "Bissey",
+      "onboarded": true,
+      "username": "samlp|theknotww|lbissey@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lbissey@theknotww.com",
+    "first_name": "Lindsay",
+    "last_name": "Bissey",
+    "username": "samlp|theknotww|lbissey@theknotww.com",
+    "user_id": 780911,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lquest@theknotww.com",
+      "first_name": "Lisa",
+      "id": 740405,
+      "last_name": "Quest",
+      "onboarded": true,
+      "username": "samlp|theknotww|lquest@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lquest@theknotww.com",
+    "first_name": "Lisa",
+    "last_name": "Quest",
+    "username": "samlp|theknotww|lquest@theknotww.com",
+    "user_id": 740405,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "llecluse@theknotww.com",
+      "first_name": "Louis",
+      "id": 672185,
+      "last_name": "Lécluse",
+      "onboarded": true,
+      "username": "samlp|theknotww|llecluse@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "llecluse@theknotww.com",
+    "first_name": "Louis",
+    "last_name": "Lécluse",
+    "username": "samlp|theknotww|llecluse@theknotww.com",
+    "user_id": 672185,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lrugiu@theknotww.com",
+      "first_name": "Luca",
+      "id": 780922,
+      "last_name": "Rugiu",
+      "onboarded": true,
+      "username": "samlp|theknotww|lrugiu@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lrugiu@theknotww.com",
+    "first_name": "Luca",
+    "last_name": "Rugiu",
+    "username": "samlp|theknotww|lrugiu@theknotww.com",
+    "user_id": 780922,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "lnguyen@weddingwire.com",
+      "first_name": "Lylan",
+      "id": 780900,
+      "last_name": "Thach",
+      "onboarded": true,
+      "username": "samlp|theknotww|lnguyen@weddingwire.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "lnguyen@weddingwire.com",
+    "first_name": "Lylan",
+    "last_name": "Thach",
+    "username": "samlp|theknotww|lnguyen@weddingwire.com",
+    "user_id": 780900,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mroszko@theknotww.com",
+      "first_name": "Madeline",
+      "id": 797963,
+      "last_name": "Roszko",
+      "onboarded": true,
+      "username": "samlp|theknotww|mroszko@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mroszko@theknotww.com",
+    "first_name": "Madeline",
+    "last_name": "Roszko",
+    "username": "samlp|theknotww|mroszko@theknotww.com",
+    "user_id": 797963,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mcarey@theknotww.com",
+      "first_name": "Madison",
+      "id": 971712,
+      "last_name": "Carey",
+      "onboarded": true,
+      "username": "samlp|theknotww|mcarey@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mcarey@theknotww.com",
+    "first_name": "Madison",
+    "last_name": "Carey",
+    "username": "samlp|theknotww|mcarey@theknotww.com",
+    "user_id": 971712,
     "team_role_name": "User"
   },
   {
@@ -862,6 +4845,9 @@
       "username": "samlp|theknotww|mmcbride@xogrp.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "mmcbride@theknotww.com",
@@ -869,6 +4855,579 @@
     "last_name": "McBride",
     "username": "samlp|theknotww|mmcbride@xogrp.com",
     "user_id": 505218,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mdavis@theknotww.com",
+      "first_name": "Maggie",
+      "id": 610581,
+      "last_name": "Cross",
+      "onboarded": true,
+      "username": "samlp|theknotww|mdavis@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mdavis@theknotww.com",
+    "first_name": "Maggie",
+    "last_name": "Cross",
+    "username": "samlp|theknotww|mdavis@theknotww.com",
+    "user_id": 610581,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mpapasian@theknotww.com",
+      "first_name": "Margaux",
+      "id": 975062,
+      "last_name": "Papasian",
+      "onboarded": true,
+      "username": "samlp|theknotww|mpapasian@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mpapasian@theknotww.com",
+    "first_name": "Margaux",
+    "last_name": "Papasian",
+    "username": "samlp|theknotww|mpapasian@theknotww.com",
+    "user_id": 975062,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mrylander@theknotww.com",
+      "first_name": "Mari",
+      "id": 737954,
+      "last_name": "Rylander",
+      "onboarded": true,
+      "username": "samlp|theknotww|mrylander@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mrylander@theknotww.com",
+    "first_name": "Mari",
+    "last_name": "Rylander",
+    "username": "samlp|theknotww|mrylander@theknotww.com",
+    "user_id": 737954,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mpryor@theknotww.com",
+      "first_name": "Marisa ",
+      "id": 797947,
+      "last_name": "Pryor ",
+      "onboarded": true,
+      "username": "samlp|theknotww|mpryor@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mpryor@theknotww.com",
+    "first_name": "Marisa ",
+    "last_name": "Pryor ",
+    "username": "samlp|theknotww|mpryor@theknotww.com",
+    "user_id": 797947,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "makelly@theknotww.com",
+      "first_name": "Mary",
+      "id": 740409,
+      "last_name": "Kelly",
+      "onboarded": true,
+      "username": "samlp|theknotww|makelly@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "makelly@theknotww.com",
+    "first_name": "Mary",
+    "last_name": "Kelly",
+    "username": "samlp|theknotww|makelly@theknotww.com",
+    "user_id": 740409,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mmcginty@xogrp.com",
+      "first_name": "Mary",
+      "id": 1003956,
+      "last_name": "McGinty",
+      "onboarded": false,
+      "username": "samlp|theknotww|mmcginty@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mmcginty@xogrp.com",
+    "first_name": "Mary",
+    "last_name": "McGinty",
+    "username": "samlp|theknotww|mmcginty@xogrp.com",
+    "user_id": 1003956,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "MCallahan@xogrp.com",
+      "first_name": "MaryKate",
+      "id": 747419,
+      "last_name": "Callahan",
+      "onboarded": true,
+      "username": "samlp|theknotww|MCallahan@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "MCallahan@xogrp.com",
+    "first_name": "MaryKate",
+    "last_name": "Callahan",
+    "username": "samlp|theknotww|MCallahan@xogrp.com",
+    "user_id": 747419,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mamoon@theknotww.com",
+      "first_name": "Matthew",
+      "id": 740466,
+      "last_name": "Moon",
+      "onboarded": true,
+      "username": "samlp|theknotww|mamoon@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mamoon@theknotww.com",
+    "first_name": "Matthew",
+    "last_name": "Moon",
+    "username": "samlp|theknotww|mamoon@theknotww.com",
+    "user_id": 740466,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mphillips@xogrp.com",
+      "first_name": "Matthew",
+      "id": 975189,
+      "last_name": "Phillips",
+      "onboarded": false,
+      "username": "samlp|theknotww|mphillips@xogrp.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mphillips@xogrp.com",
+    "first_name": "Matthew",
+    "last_name": "Phillips",
+    "username": "samlp|theknotww|mphillips@xogrp.com",
+    "user_id": 975189,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mfine@theknotww.com",
+      "first_name": "Max",
+      "id": 973794,
+      "last_name": "Fine",
+      "onboarded": false,
+      "username": "samlp|theknotww|mfine@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mfine@theknotww.com",
+    "first_name": "Max",
+    "last_name": "Fine",
+    "username": "samlp|theknotww|mfine@theknotww.com",
+    "user_id": 973794,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "msublett@theknotww.com",
+      "first_name": "Meredith",
+      "id": 797960,
+      "last_name": "Dawson",
+      "onboarded": false,
+      "username": "samlp|theknotww|msublett@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "msublett@theknotww.com",
+    "first_name": "Meredith",
+    "last_name": "Dawson",
+    "username": "samlp|theknotww|msublett@theknotww.com",
+    "user_id": 797960,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mpickrum@theknotww.com",
+      "first_name": "Michael",
+      "id": 765024,
+      "last_name": "Pickrum",
+      "onboarded": true,
+      "username": "samlp|theknotww|mpickrum@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mpickrum@theknotww.com",
+    "first_name": "Michael",
+    "last_name": "Pickrum",
+    "username": "samlp|theknotww|mpickrum@theknotww.com",
+    "user_id": 765024,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mcarswell@theknotww.com",
+      "first_name": "Michelle",
+      "id": 740386,
+      "last_name": "Carswell",
+      "onboarded": false,
+      "username": "samlp|theknotww|mcarswell@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mcarswell@theknotww.com",
+    "first_name": "Michelle",
+    "last_name": "Carswell",
+    "username": "samlp|theknotww|mcarswell@theknotww.com",
+    "user_id": 740386,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mdibartolo@theknotww.com",
+      "first_name": "Michelle",
+      "id": 953158,
+      "last_name": "DiBartolo",
+      "onboarded": true,
+      "username": "samlp|theknotww|mdibartolo@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mdibartolo@theknotww.com",
+    "first_name": "Michelle",
+    "last_name": "DiBartolo",
+    "username": "samlp|theknotww|mdibartolo@theknotww.com",
+    "user_id": 953158,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mvignapiano@theknotww.com",
+      "first_name": "Mike",
+      "id": 972625,
+      "last_name": "Vignapiano",
+      "onboarded": true,
+      "username": "samlp|theknotww|mvignapiano@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mvignapiano@theknotww.com",
+    "first_name": "Mike",
+    "last_name": "Vignapiano",
+    "username": "samlp|theknotww|mvignapiano@theknotww.com",
+    "user_id": 972625,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mpowell@theknotww.com",
+      "first_name": "Miles",
+      "id": 839623,
+      "last_name": "Powell",
+      "onboarded": true,
+      "username": "samlp|theknotww|mpowell@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mpowell@theknotww.com",
+    "first_name": "Miles",
+    "last_name": "Powell",
+    "username": "samlp|theknotww|mpowell@xogrp.com",
+    "user_id": 839623,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mireverte@theknotww.com",
+      "first_name": "Mireia",
+      "id": 880326,
+      "last_name": "Reverte",
+      "onboarded": true,
+      "username": "samlp|theknotww|mireverte@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mireverte@theknotww.com",
+    "first_name": "Mireia",
+    "last_name": "Reverte",
+    "username": "samlp|theknotww|mireverte@theknotww.com",
+    "user_id": 880326,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mrochin@bodas.net",
+      "first_name": "Monica",
+      "id": 839629,
+      "last_name": "Rochin",
+      "onboarded": true,
+      "username": "samlp|theknotww|mrochin@bodas.net"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mrochin@bodas.net",
+    "first_name": "Monica",
+    "last_name": "Rochin",
+    "username": "samlp|theknotww|mrochin@bodas.net",
+    "user_id": 839629,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "mdrumheller@theknotww.com",
+      "first_name": "Morgan",
+      "id": 740384,
+      "last_name": "Drumheller",
+      "onboarded": false,
+      "username": "samlp|theknotww|mdrumheller@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "mdrumheller@theknotww.com",
+    "first_name": "Morgan",
+    "last_name": "Drumheller",
+    "username": "samlp|theknotww|mdrumheller@theknotww.com",
+    "user_id": 740384,
     "team_role_name": "User"
   },
   {
@@ -889,6 +5448,10 @@
       "username": "google-oauth2|100643811583263208679"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "mibanez@bodas.net",
@@ -896,6 +5459,36 @@
     "last_name": "Ibañez",
     "username": "google-oauth2|100643811583263208679",
     "user_id": 296619,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "njanes@theknotww.com",
+      "first_name": "Nate",
+      "id": 839602,
+      "last_name": "Janes",
+      "onboarded": true,
+      "username": "samlp|theknotww|njanes@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "njanes@theknotww.com",
+    "first_name": "Nate",
+    "last_name": "Janes",
+    "username": "samlp|theknotww|njanes@theknotww.com",
+    "user_id": 839602,
     "team_role_name": "User"
   },
   {
@@ -913,10 +5506,13 @@
       "first_name": "Nia",
       "id": 516922,
       "last_name": "Gipson",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|ngipson@theknotww.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "ngipson@theknotww.com",
@@ -924,6 +5520,223 @@
     "last_name": "Gipson",
     "username": "samlp|theknotww|ngipson@theknotww.com",
     "user_id": 516922,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Sandbox",
+      "Production",
+      "Pre-Production",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 1,
+      "name": "Admin"
+    },
+    "user": {
+      "email": "nijohnson@theknotww.com",
+      "first_name": "Nick",
+      "id": 61889,
+      "last_name": "Johnson",
+      "onboarded": true,
+      "username": "google-oauth2|116766349198273252287"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "nijohnson@theknotww.com",
+    "first_name": "Nick",
+    "last_name": "Johnson",
+    "username": "google-oauth2|116766349198273252287",
+    "user_id": 61889,
+    "team_role_name": "Admin"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "nismith@theknotww.com",
+      "first_name": "Nicole",
+      "id": 737930,
+      "last_name": "Smith",
+      "onboarded": false,
+      "username": "samlp|theknotww|nismith@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "nismith@theknotww.com",
+    "first_name": "Nicole",
+    "last_name": "Smith",
+    "username": "samlp|theknotww|nismith@theknotww.com",
+    "user_id": 737930,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "nportugues@bodas.net",
+      "first_name": "Nil",
+      "id": 797944,
+      "last_name": "Portugués",
+      "onboarded": true,
+      "username": "samlp|theknotww|nportugues@bodas.net"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "nportugues@bodas.net",
+    "first_name": "Nil",
+    "last_name": "Portugués",
+    "username": "samlp|theknotww|nportugues@bodas.net",
+    "user_id": 797944,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "nkaul@theknotww.com",
+      "first_name": "Nitin",
+      "id": 765254,
+      "last_name": "Kaul ",
+      "onboarded": true,
+      "username": "samlp|theknotww|nkaul@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "nkaul@theknotww.com",
+    "first_name": "Nitin",
+    "last_name": "Kaul ",
+    "username": "samlp|theknotww|nkaul@theknotww.com",
+    "user_id": 765254,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "nmartin@theknotww.com",
+      "first_name": "Noah",
+      "id": 1003614,
+      "last_name": "Martin",
+      "onboarded": true,
+      "username": "samlp|theknotww|nmartin@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "nmartin@theknotww.com",
+    "first_name": "Noah",
+    "last_name": "Martin",
+    "username": "samlp|theknotww|nmartin@theknotww.com",
+    "user_id": 1003614,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 1,
+      "name": "Admin"
+    },
+    "user": {
+      "email": "oivanchenko@theknotww.com",
+      "first_name": "Olga",
+      "id": 505225,
+      "last_name": "Ivanchenko",
+      "onboarded": true,
+      "username": "samlp|theknotww|oivanchenko@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "oivanchenko@theknotww.com",
+    "first_name": "Olga",
+    "last_name": "Ivanchenko",
+    "username": "samlp|theknotww|oivanchenko@theknotww.com",
+    "user_id": 505225,
+    "team_role_name": "Admin"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ppalines@theknotww.com",
+      "first_name": "Pam",
+      "id": 740385,
+      "last_name": "Palines",
+      "onboarded": true,
+      "username": "samlp|theknotww|ppalines@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ppalines@theknotww.com",
+    "first_name": "Pam",
+    "last_name": "Palines",
+    "username": "samlp|theknotww|ppalines@theknotww.com",
+    "user_id": 740385,
     "team_role_name": "User"
   },
   {
@@ -937,76 +5750,114 @@
       "name": "User"
     },
     "user": {
-      "email": "nijohnson@theknotww.com",
-      "first_name": "Nick",
-      "id": 61889,
-      "last_name": "Johnson",
+      "email": "pliser@theknotww.com",
+      "first_name": "Pavel",
+      "id": 533449,
+      "last_name": "Liser",
       "onboarded": true,
-      "username": "google-oauth2|116766349198273252287"
+      "username": "samlp|theknotww|pliser@theknotww.com"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "nijohnson@theknotww.com",
-    "first_name": "Nick",
-    "last_name": "Johnson",
-    "username": "google-oauth2|116766349198273252287",
-    "user_id": 61889,
+    "email": "pliser@theknotww.com",
+    "first_name": "Pavel",
+    "last_name": "Liser",
+    "username": "samlp|theknotww|pliser@theknotww.com",
+    "user_id": 533449,
     "team_role_name": "User"
   },
   {
-    "creator_on_workspaces": [
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "pzollicoffer@theknotww.com",
+      "first_name": "Perry",
+      "id": 913134,
+      "last_name": "Zollicoffer",
+      "onboarded": true,
+      "username": "samlp|theknotww|pzollicoffer@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
       "Sandbox",
+      "Production",
       "Pre-Production"
     ],
-    "is_role_from_group": false,
-    "team_role": {
-      "id": 2,
-      "name": "User"
-    },
-    "user": {
-      "email": "oivanchenko@theknotww.com",
-      "first_name": "Olga",
-      "id": 505225,
-      "last_name": "Ivanchenko",
-      "onboarded": false,
-      "username": "samlp|theknotww|oivanchenko@theknotww.com"
-    },
-    "user_type": "CREATOR",
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "oivanchenko@theknotww.com",
-    "first_name": "Olga",
-    "last_name": "Ivanchenko",
-    "username": "samlp|theknotww|oivanchenko@theknotww.com",
-    "user_id": 505225,
+    "email": "pzollicoffer@theknotww.com",
+    "first_name": "Perry",
+    "last_name": "Zollicoffer",
+    "username": "samlp|theknotww|pzollicoffer@theknotww.com",
+    "user_id": 913134,
     "team_role_name": "User"
   },
   {
-    "creator_on_workspaces": [
-      "Sandbox"
-    ],
+    "creator_on_workspaces": [],
     "is_role_from_group": false,
     "team_role": {
       "id": 2,
       "name": "User"
     },
     "user": {
-      "email": "rjessen@theknotww.com",
-      "first_name": "Rachel",
-      "id": 288361,
-      "last_name": "Jessen",
-      "onboarded": true,
-      "username": "auth0|681e6ea7e277963a8f2b377e"
+      "email": "pdelmonte@theknotww.com",
+      "first_name": "Phoebe",
+      "id": 740383,
+      "last_name": "Delmonte",
+      "onboarded": false,
+      "username": "samlp|theknotww|pdelmonte@theknotww.com"
     },
-    "user_type": "CREATOR",
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production",
+      "Sandbox"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "rjessen@theknotww.com",
-    "first_name": "Rachel",
-    "last_name": "Jessen",
-    "username": "auth0|681e6ea7e277963a8f2b377e",
-    "user_id": 288361,
+    "email": "pdelmonte@theknotww.com",
+    "first_name": "Phoebe",
+    "last_name": "Delmonte",
+    "username": "samlp|theknotww|pdelmonte@theknotww.com",
+    "user_id": 740383,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "pcamprubi@theknotww.com",
+      "first_name": "Pol",
+      "id": 974805,
+      "last_name": "Camprubi",
+      "onboarded": true,
+      "username": "samlp|theknotww|pcamprubi@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "pcamprubi@theknotww.com",
+    "first_name": "Pol",
+    "last_name": "Camprubi",
+    "username": "samlp|theknotww|pcamprubi@theknotww.com",
+    "user_id": 974805,
     "team_role_name": "User"
   },
   {
@@ -1027,6 +5878,10 @@
       "username": "google-oauth2|116404940359054995245"
     },
     "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
     "email": "rtodorova@theknotww.com",
@@ -1037,6 +5892,37 @@
     "team_role_name": "User"
   },
   {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "rsawhney@theknotww.com",
+      "first_name": "Rahul",
+      "id": 972630,
+      "last_name": "Sawhney",
+      "onboarded": false,
+      "username": "samlp|theknotww|rsawhney@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "rsawhney@theknotww.com",
+    "first_name": "Rahul",
+    "last_name": "Sawhney",
+    "username": "samlp|theknotww|rsawhney@theknotww.com",
+    "user_id": 972630,
+    "team_role_name": "User"
+  },
+  {
     "creator_on_workspaces": [],
     "is_role_from_group": false,
     "team_role": {
@@ -1044,21 +5930,882 @@
       "name": "User"
     },
     "user": {
-      "email": "tmatuella@theknotww.com",
-      "first_name": "Tyler",
-      "id": 505222,
-      "last_name": "Matuella",
-      "onboarded": false,
-      "username": "google-oauth2|117661581843708247852"
+      "email": "rmoskowitz@theknotww.com",
+      "first_name": "Raina",
+      "id": 737924,
+      "last_name": "Moskowitz",
+      "onboarded": true,
+      "username": "samlp|theknotww|rmoskowitz@theknotww.com"
     },
     "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
-    "email": "tmatuella@theknotww.com",
-    "first_name": "Tyler",
-    "last_name": "Matuella",
-    "username": "google-oauth2|117661581843708247852",
-    "user_id": 505222,
+    "email": "rmoskowitz@theknotww.com",
+    "first_name": "Raina",
+    "last_name": "Moskowitz",
+    "username": "samlp|theknotww|rmoskowitz@theknotww.com",
+    "user_id": 737924,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "rjoshi@xogrp.com",
+      "first_name": "Ravi",
+      "id": 797957,
+      "last_name": "Joshi",
+      "onboarded": false,
+      "username": "samlp|theknotww|rjoshi@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "rjoshi@xogrp.com",
+    "first_name": "Ravi",
+    "last_name": "Joshi",
+    "username": "samlp|theknotww|rjoshi@xogrp.com",
+    "user_id": 797957,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "rinconstanti@xogrp.com",
+      "first_name": "Robert",
+      "id": 797945,
+      "last_name": "Inconstanti",
+      "onboarded": true,
+      "username": "samlp|theknotww|rinconstanti@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "rinconstanti@xogrp.com",
+    "first_name": "Robert",
+    "last_name": "Inconstanti",
+    "username": "samlp|theknotww|rinconstanti@xogrp.com",
+    "user_id": 797945,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "rowilliams@theknotww.com",
+      "first_name": "Robert",
+      "id": 839630,
+      "last_name": "Williams",
+      "onboarded": true,
+      "username": "samlp|theknotww|rowilliams@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "rowilliams@theknotww.com",
+    "first_name": "Robert",
+    "last_name": "Williams",
+    "username": "samlp|theknotww|rowilliams@theknotww.com",
+    "user_id": 839630,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "rcomesana@bodas.net",
+      "first_name": "Rubén",
+      "id": 850480,
+      "last_name": "Comesaña",
+      "onboarded": true,
+      "username": "samlp|theknotww|rcomesana@bodas.net"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "rcomesana@bodas.net",
+    "first_name": "Rubén",
+    "last_name": "Comesaña",
+    "username": "samlp|theknotww|rcomesana@bodas.net",
+    "user_id": 850480,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "skaplan@theknotww.com",
+      "first_name": "Sam",
+      "id": 797951,
+      "last_name": "Kaplan",
+      "onboarded": true,
+      "username": "samlp|theknotww|skaplan@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "skaplan@theknotww.com",
+    "first_name": "Sam",
+    "last_name": "Kaplan",
+    "username": "samlp|theknotww|skaplan@theknotww.com",
+    "user_id": 797951,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "scrisman@theknotww.com",
+      "first_name": "Sara",
+      "id": 740388,
+      "last_name": "Crisman",
+      "onboarded": true,
+      "username": "samlp|theknotww|scrisman@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "scrisman@theknotww.com",
+    "first_name": "Sara",
+    "last_name": "Crisman",
+    "username": "samlp|theknotww|scrisman@theknotww.com",
+    "user_id": 740388,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "smilbrath@theknotww.com",
+      "first_name": "Sarah",
+      "id": 839609,
+      "last_name": "Milbrath",
+      "onboarded": true,
+      "username": "samlp|theknotww|smilbrath@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "smilbrath@theknotww.com",
+    "first_name": "Sarah",
+    "last_name": "Milbrath",
+    "username": "samlp|theknotww|smilbrath@theknotww.com",
+    "user_id": 839609,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "sfrancis@theknotww.com",
+      "first_name": "Scott",
+      "id": 797961,
+      "last_name": "Francis",
+      "onboarded": true,
+      "username": "samlp|theknotww|sfrancis@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "sfrancis@theknotww.com",
+    "first_name": "Scott",
+    "last_name": "Francis",
+    "username": "samlp|theknotww|sfrancis@theknotww.com",
+    "user_id": 797961,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "shochberg@theknotww.com",
+      "first_name": "Sean",
+      "id": 740387,
+      "last_name": "Hochberg",
+      "onboarded": false,
+      "username": "samlp|theknotww|shochberg@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "shochberg@theknotww.com",
+    "first_name": "Sean",
+    "last_name": "Hochberg",
+    "username": "samlp|theknotww|shochberg@theknotww.com",
+    "user_id": 740387,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "slague@theknotww.com",
+      "first_name": "Sean",
+      "id": 737922,
+      "last_name": "Lague",
+      "onboarded": true,
+      "username": "samlp|theknotww|slague@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "slague@theknotww.com",
+    "first_name": "Sean",
+    "last_name": "Lague",
+    "username": "samlp|theknotww|slague@theknotww.com",
+    "user_id": 737922,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "sgran@theknotww.com",
+      "first_name": "Shandan",
+      "id": 830971,
+      "last_name": "Gran",
+      "onboarded": true,
+      "username": "samlp|theknotww|sgran@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "sgran@theknotww.com",
+    "first_name": "Shandan",
+    "last_name": "Gran",
+    "username": "samlp|theknotww|sgran@theknotww.com",
+    "user_id": 830971,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "shrobinson@theknotww.com",
+      "first_name": "Shea",
+      "id": 740391,
+      "last_name": "Robinson",
+      "onboarded": false,
+      "username": "samlp|theknotww|shrobinson@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "shrobinson@theknotww.com",
+    "first_name": "Shea",
+    "last_name": "Robinson",
+    "username": "samlp|theknotww|shrobinson@theknotww.com",
+    "user_id": 740391,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "sdharmasankar@theknotww.com",
+      "first_name": "Shivani",
+      "id": 547845,
+      "last_name": "Dharmasankar",
+      "onboarded": true,
+      "username": "samlp|theknotww|sdharmasankar@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "sdharmasankar@theknotww.com",
+    "first_name": "Shivani",
+    "last_name": "Dharmasankar",
+    "username": "samlp|theknotww|sdharmasankar@theknotww.com",
+    "user_id": 547845,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "skarthikeyan@theknotww.com",
+      "first_name": "Snigdha",
+      "id": 839603,
+      "last_name": "Karthikeyan",
+      "onboarded": true,
+      "username": "samlp|theknotww|skarthikeyan@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "skarthikeyan@theknotww.com",
+    "first_name": "Snigdha",
+    "last_name": "Karthikeyan",
+    "username": "samlp|theknotww|skarthikeyan@theknotww.com",
+    "user_id": 839603,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "stjacobs@theknotww.com",
+      "first_name": "Stephen",
+      "id": 797946,
+      "last_name": "Jacobs",
+      "onboarded": true,
+      "username": "samlp|theknotww|stjacobs@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "stjacobs@theknotww.com",
+    "first_name": "Stephen",
+    "last_name": "Jacobs",
+    "username": "samlp|theknotww|stjacobs@theknotww.com",
+    "user_id": 797946,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "sshaw@theknotww.com",
+      "first_name": "Steven",
+      "id": 839598,
+      "last_name": "Shaw",
+      "onboarded": true,
+      "username": "samlp|theknotww|sshaw@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "sshaw@theknotww.com",
+    "first_name": "Steven",
+    "last_name": "Shaw",
+    "username": "samlp|theknotww|sshaw@theknotww.com",
+    "user_id": 839598,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "shurwitz@theknotww.com",
+      "first_name": "Storm",
+      "id": 973291,
+      "last_name": "Hurwitz",
+      "onboarded": true,
+      "username": "samlp|theknotww|shurwitz@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "shurwitz@theknotww.com",
+    "first_name": "Storm",
+    "last_name": "Hurwitz",
+    "username": "samlp|theknotww|shurwitz@theknotww.com",
+    "user_id": 973291,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "sdiharce@xogrp.com",
+      "first_name": "Susie",
+      "id": 740390,
+      "last_name": "Diharce",
+      "onboarded": true,
+      "username": "samlp|theknotww|sdiharce@xogrp.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "sdiharce@xogrp.com",
+    "first_name": "Susie",
+    "last_name": "Diharce",
+    "username": "samlp|theknotww|sdiharce@xogrp.com",
+    "user_id": 740390,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "tmiller@theknotww.com",
+      "first_name": "Tiffany",
+      "id": 747658,
+      "last_name": "Miller",
+      "onboarded": false,
+      "username": "samlp|theknotww|tmiller@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "tmiller@theknotww.com",
+    "first_name": "Tiffany",
+    "last_name": "Miller",
+    "username": "samlp|theknotww|tmiller@theknotww.com",
+    "user_id": 747658,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "tchelednik@theknotww.com",
+      "first_name": "Tom",
+      "id": 740389,
+      "last_name": "Chelednik",
+      "onboarded": true,
+      "username": "samlp|theknotww|tchelednik@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "tchelednik@theknotww.com",
+    "first_name": "Tom",
+    "last_name": "Chelednik",
+    "username": "samlp|theknotww|tchelednik@theknotww.com",
+    "user_id": 740389,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "tsyros@theknotww.com",
+      "first_name": "Tony",
+      "id": 740394,
+      "last_name": "Syros",
+      "onboarded": true,
+      "username": "samlp|theknotww|tsyros@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "tsyros@theknotww.com",
+    "first_name": "Tony",
+    "last_name": "Syros",
+    "username": "samlp|theknotww|tsyros@theknotww.com",
+    "user_id": 740394,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "tader@theknotww.com",
+      "first_name": "Tristan",
+      "id": 839618,
+      "last_name": "Ader",
+      "onboarded": true,
+      "username": "samlp|theknotww|tader@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "tader@theknotww.com",
+    "first_name": "Tristan",
+    "last_name": "Ader",
+    "username": "samlp|theknotww|tader@theknotww.com",
+    "user_id": 839618,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "tkhill@theknotww.com",
+      "first_name": "Tyson",
+      "id": 908659,
+      "last_name": "Hill",
+      "onboarded": true,
+      "username": "samlp|theknotww|tkhill@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "tkhill@theknotww.com",
+    "first_name": "Tyson",
+    "last_name": "Hill",
+    "username": "samlp|theknotww|tkhill@theknotww.com",
+    "user_id": 908659,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "umarwaha@theknotww.com",
+      "first_name": "Udit",
+      "id": 839613,
+      "last_name": "Marwaha",
+      "onboarded": true,
+      "username": "samlp|theknotww|umarwaha@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "umarwaha@theknotww.com",
+    "first_name": "Udit",
+    "last_name": "Marwaha",
+    "username": "samlp|theknotww|umarwaha@theknotww.com",
+    "user_id": 839613,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "vsingh@theknotww.com",
+      "first_name": "Vineet",
+      "id": 740395,
+      "last_name": "Singh",
+      "onboarded": false,
+      "username": "samlp|theknotww|vsingh@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Sandbox",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "vsingh@theknotww.com",
+    "first_name": "Vineet",
+    "last_name": "Singh",
+    "username": "samlp|theknotww|vsingh@theknotww.com",
+    "user_id": 740395,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "yrobles@bodas.net",
+      "first_name": "Yanina",
+      "id": 797954,
+      "last_name": "Robles",
+      "onboarded": true,
+      "username": "samlp|theknotww|yrobles@bodas.net"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "yrobles@bodas.net",
+    "first_name": "Yanina",
+    "last_name": "Robles",
+    "username": "samlp|theknotww|yrobles@bodas.net",
+    "user_id": 797954,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [
+      "Sandbox"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "ykhouder@bodas.net",
+      "first_name": "Yasser",
+      "id": 1003953,
+      "last_name": "Khouder",
+      "onboarded": true,
+      "username": "samlp|theknotww|ykhouder@bodas.net"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [
+      "Pre-Production",
+      "Production"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "ykhouder@bodas.net",
+    "first_name": "Yasser",
+    "last_name": "Khouder",
+    "username": "samlp|theknotww|ykhouder@bodas.net",
+    "user_id": 1003953,
+    "team_role_name": "User"
+  },
+  {
+    "creator_on_workspaces": [],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "yweiss@theknotww.com",
+      "first_name": "Yunna",
+      "id": 740393,
+      "last_name": "Weiss",
+      "onboarded": false,
+      "username": "samlp|theknotww|yweiss@theknotww.com"
+    },
+    "user_type": "VIEWER",
+    "viewer_on_workspaces": [
+      "Production",
+      "Pre-Production",
+      "Sandbox"
+    ],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "yweiss@theknotww.com",
+    "first_name": "Yunna",
+    "last_name": "Weiss",
+    "username": "samlp|theknotww|yweiss@theknotww.com",
+    "user_id": 740393,
     "team_role_name": "User"
   }
 ]
