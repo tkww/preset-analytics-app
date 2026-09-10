@@ -5,12 +5,16 @@ on:
     branches: [ main ]
   workflow_dispatch: {}
   schedule:
-    - cron: '0 3 * * *' # nightly UTC
+    - cron: '0 */6 * * *' # every 6 hours UTC
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
 
 jobs:
   build-deploy:
@@ -45,6 +49,22 @@ jobs:
 
       - name: Fetch Preset data
         run: npm run fetch:data
+
+      # Persisting the merged snapshot retains history beyond the API's rolling
+      # window, and the commit keeps the schedule from being disabled for inactivity.
+      # Pushes made with GITHUB_TOKEN do not retrigger this workflow.
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): refresh Preset snapshot"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       - name: Build
         run: npm run build

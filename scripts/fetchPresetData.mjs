@@ -174,6 +174,33 @@ async function tryEndpoints(label, candidates, { paginated = false, pageSize = 1
 const AUDIT_DAYS = Number(process.env.PRESET_AUDIT_DAYS || 30);
 const AUDIT_PAGE_SIZE = Number(process.env.PRESET_AUDIT_PAGE_SIZE || 100);
 const AUDIT_MAX_PAGES = Number(process.env.PRESET_AUDIT_MAX_PAGES || 200);
+const AUDIT_MERGE = process.env.PRESET_AUDIT_MERGE !== '0';
+
+// The API only exposes a rolling window, so each run is merged into the committed
+// dataset instead of replacing it; otherwise history older than the window is lost.
+const auditKey = (l) => [
+  l.timestamp,
+  typeof l.user === 'string' ? l.user : l.user?.email,
+  l.action,
+  l.entity_type,
+  l.entity_id,
+  l.workspace_name
+].join('|');
+
+async function mergeAuditHistory(outDir, fresh) {
+  if (!AUDIT_MERGE) return fresh;
+  let existing = [];
+  try {
+    const parsed = JSON.parse(await fs.readFile(path.join(outDir, 'audit_logs.json'), 'utf8'));
+    if (Array.isArray(parsed)) existing = parsed;
+  } catch { /* first run, or unreadable snapshot */ }
+  const byKey = new Map(existing.map(l => [auditKey(l), l]));
+  const before = byKey.size;
+  fresh.forEach(l => { const k = auditKey(l); if (!byKey.has(k)) byKey.set(k, l); });
+  const merged = [...byKey.values()].sort((a, b) => String(b.timestamp).localeCompare(String(a.timestamp)));
+  console.log(`audit_logs: retained ${before}, fetched ${fresh.length}, added ${merged.length - before} -> ${merged.length} total`);
+  return merged;
+}
 
 // The audit endpoint caps each response at ~100 rows, so a single request only
 // covers a few hours and silently drops quieter workspaces (e.g. Production).
@@ -366,6 +393,7 @@ async function main() {
 
   const usersFinal = users;
   const rolesFinal = roles;
+  const auditLogs = await mergeAuditHistory(outDir, auditLogsAll);
 
   const timestamp = new Date().toISOString();
   const metaWrap = (arr) => ({ generated_at: timestamp, count: arr.length, data: arr.slice(0,3).map(o=>o?.id ?? o?.name ?? 'sample') });
@@ -374,8 +402,8 @@ async function main() {
   await fs.writeFile(path.join(outDir, 'roles.json'), JSON.stringify(rolesFinal, null, 2));
   await fs.writeFile(path.join(outDir, 'teams.json'), JSON.stringify(teams, null, 2));
   await fs.writeFile(path.join(outDir, 'team_members.json'), JSON.stringify(teamMembers, null, 2));
-  await fs.writeFile(path.join(outDir, 'audit_logs.json'), JSON.stringify(auditLogsAll, null, 2));
-  const auditTimestamps = auditLogsAll.map(l => l.timestamp).filter(Boolean).sort();
+  await fs.writeFile(path.join(outDir, 'audit_logs.json'), JSON.stringify(auditLogs, null, 2));
+  const auditTimestamps = auditLogs.map(l => l.timestamp).filter(Boolean).sort();
   await fs.writeFile(path.join(outDir, 'summary.json'), JSON.stringify({
     generated_at: timestamp,
     users: metaWrap(usersFinal),
@@ -384,7 +412,8 @@ async function main() {
     team_members: metaWrap(teamMembers),
     audit_logs: {
       generated_at: timestamp,
-      count: auditLogsAll.length,
+      count: auditLogs.length,
+      fetched_this_run: auditLogsAll.length,
       window_days: AUDIT_DAYS,
       earliest: auditTimestamps[0] ?? null,
       latest: auditTimestamps[auditTimestamps.length - 1] ?? null
