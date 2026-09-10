@@ -27,7 +27,8 @@ body { margin:0; background: radial-gradient(circle at 20% 20%, #171c24, #0f1115
 .nav-tabs button:hover { color:var(--text); border-color:#3d4756; }
 .nav-tabs button.active { background: linear-gradient(135deg,#2d3440,#242b35); color: var(--text); border-color:#4f8cff44; box-shadow:0 0 0 1px #4f8cff55 inset,0 0 0 1px #4f8cff33,0 2px 6px -1px #000; }
 
-.actions { margin-left:auto; display:flex; gap:.5rem; }
+.actions { margin-left:auto; display:flex; gap:.5rem; align-items:center; }
+.data-age { font-size:.72rem; opacity:.7; white-space:nowrap; }
 button.secondary { background:#243042; color:var(--text); border:1px solid #2f3b49; padding:.55rem .9rem; border-radius: var(--radius-sm); cursor:pointer; font:inherit; display:flex; gap:.4rem; align-items:center; }
 button.secondary:hover { background:#2b394d; }
 

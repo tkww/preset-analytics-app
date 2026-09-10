@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TeamsPage } from './pages/TeamsPage';
 import { AuditLogsPage } from './pages/AuditLogsPage';
 import { AnalyticsPage } from './pages/AnalyticsPage';
+import { DataAge } from './components/DataAge';
 import { IconRefresh } from './components/Icons';
 
 export const App: React.FC = () => {
@@ -18,8 +19,9 @@ export const App: React.FC = () => {
           <button className={tab==='teams' ? 'active' : ''} onClick={()=>setTab('teams')}>🧩 Teams</button>
         </nav>
         <div className="actions">
-          <button className="secondary" onClick={() => setRefreshKey(k => k + 1)} title="Reload local JSON data">
-            <IconRefresh /> Refresh Data
+          <DataAge refreshKey={refreshKey} />
+          <button className="secondary" onClick={() => setRefreshKey(k => k + 1)} title="Re-read the published JSON snapshot. New data only appears after the nightly GitHub Actions build.">
+            <IconRefresh /> Reload
           </button>
         </div>
       </header>

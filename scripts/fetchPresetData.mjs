@@ -375,7 +375,21 @@ async function main() {
   await fs.writeFile(path.join(outDir, 'teams.json'), JSON.stringify(teams, null, 2));
   await fs.writeFile(path.join(outDir, 'team_members.json'), JSON.stringify(teamMembers, null, 2));
   await fs.writeFile(path.join(outDir, 'audit_logs.json'), JSON.stringify(auditLogsAll, null, 2));
-  await fs.writeFile(path.join(outDir, 'summary.json'), JSON.stringify({ users: metaWrap(usersFinal), roles: metaWrap(rolesFinal), teams: metaWrap(teams), team_members: metaWrap(teamMembers) }, null, 2));
+  const auditTimestamps = auditLogsAll.map(l => l.timestamp).filter(Boolean).sort();
+  await fs.writeFile(path.join(outDir, 'summary.json'), JSON.stringify({
+    generated_at: timestamp,
+    users: metaWrap(usersFinal),
+    roles: metaWrap(rolesFinal),
+    teams: metaWrap(teams),
+    team_members: metaWrap(teamMembers),
+    audit_logs: {
+      generated_at: timestamp,
+      count: auditLogsAll.length,
+      window_days: AUDIT_DAYS,
+      earliest: auditTimestamps[0] ?? null,
+      latest: auditTimestamps[auditTimestamps.length - 1] ?? null
+    }
+  }, null, 2));
   if (process.env.PRESET_DEBUG_AUTH === '1' && debugAuthPayload) {
     await fs.writeFile(path.join(outDir, '_auth_debug.json'), JSON.stringify(debugAuthPayload, null, 2));
   }
