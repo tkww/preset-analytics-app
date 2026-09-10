@@ -33,7 +33,7 @@ Open http://localhost:5173/preset-analytics-app/ (adjust base if running locally
 
 ## Deployment
 
-Push to `main` triggers data fetch + build + deploy. A nightly cron also refreshes data. See workflow in `.github/workflows/deploy.yml`.
+Push to `main` triggers data fetch + build + deploy. A cron also refreshes data every 6 hours, merging new audit events into `public/data/` and committing the result so history accumulates beyond the API's 30-day window. See workflow in `.github/workflows/deploy.yml`.
 
 ## Security Notes
 
