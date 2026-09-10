@@ -71,6 +71,7 @@ tbody tr:nth-child(even) { background:#1d232c; }
 tbody tr:hover { background:#28303b; }
 
 .error { color: var(--danger); font-weight:500; }
+.card-body a { color:#4f8cff; }
 
 .app-footer { padding:1rem; font-size:.65rem; text-align:center; color:var(--text-dim); border-top:1px solid #262c37; background:#12161c; }
 

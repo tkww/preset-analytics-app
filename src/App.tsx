@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import { TeamsPage } from './pages/TeamsPage';
 import { AuditLogsPage } from './pages/AuditLogsPage';
 import { AnalyticsPage } from './pages/AnalyticsPage';
+import { AboutPage } from './pages/AboutPage';
 import { DataAge } from './components/DataAge';
 import { IconRefresh } from './components/Icons';
 
 export const App: React.FC = () => {
   const [refreshKey, setRefreshKey] = useState(0);
-  const [tab, setTab] = useState<'analytics' | 'audit' | 'teams'>('analytics');
+  const [tab, setTab] = useState<'analytics' | 'audit' | 'teams' | 'about'>('analytics');
 
   return (
     <div className="app-shell">
@@ -17,6 +18,7 @@ export const App: React.FC = () => {
           <button className={tab==='analytics' ? 'active' : ''} onClick={()=>setTab('analytics')}>📊 Analytics</button>
           <button className={tab==='audit' ? 'active' : ''} onClick={()=>setTab('audit')}>📜 Audit Logs</button>
           <button className={tab==='teams' ? 'active' : ''} onClick={()=>setTab('teams')}>🧩 Teams</button>
+          <button className={tab==='about' ? 'active' : ''} onClick={()=>setTab('about')}>ℹ️ About</button>
         </nav>
         <div className="actions">
           <DataAge refreshKey={refreshKey} />
@@ -29,6 +31,7 @@ export const App: React.FC = () => {
   {tab === 'analytics' && <AnalyticsPage refreshKey={refreshKey} />}
   {tab === 'audit' && <AuditLogsPage refreshKey={refreshKey} />}
   {tab === 'teams' && <TeamsPage refreshKey={refreshKey} />}
+  {tab === 'about' && <AboutPage refreshKey={refreshKey} />}
       </main>
       <footer className="app-footer">Static snapshot generated from Preset API via GitHub Actions. Secrets never exposed client-side.</footer>
     </div>
