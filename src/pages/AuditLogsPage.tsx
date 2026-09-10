@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Card } from '../components/Card';
 import { fetchDataFile } from '../utils/fetchData';
 import { search } from '../utils/search';
+import { workspaceOf, workspaceOptions } from '../utils/workspaces';
 
 interface AuditLog { [k: string]: any }
 
@@ -47,6 +48,7 @@ const renderStructured = (raw: any): JSX.Element => {
 export const AuditLogsPage: React.FC<{ refreshKey: number }> = ({ refreshKey }) => {
   const [logs, setLogs] = useState<AuditLog[]>([]);
   const [query, setQuery] = useState('');
+  const [workspace, setWorkspace] = useState('ALL');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string|null>(null);
   const [expanded, setExpanded] = useState<Record<number, boolean>>({});
@@ -61,7 +63,13 @@ export const AuditLogsPage: React.FC<{ refreshKey: number }> = ({ refreshKey }) 
       .finally(() => setLoading(false));
   }, [refreshKey]);
 
-  const filtered = query ? logs.filter(l => search(l, query)) : logs;
+  const workspaces = useMemo(() => workspaceOptions(logs), [logs]);
+
+  const filtered = useMemo(() => logs.filter(l => {
+    if (workspace !== 'ALL' && workspaceOf(l) !== workspace) return false;
+    if (query && !search(l, query)) return false;
+    return true;
+  }), [logs, workspace, query]);
 
   const toggle = (idx: number) => setExpanded(e => ({ ...e, [idx]: !e[idx] }));
 
@@ -77,7 +85,7 @@ export const AuditLogsPage: React.FC<{ refreshKey: number }> = ({ refreshKey }) 
         <td>{log.entity_type || log.object_type || log.resource_type || '—'}</td>
         <td>{log.entity_name || log.object_name || '—'}</td>
         <td>{log.entity_id || log.object_id || log.resource_id || '—'}</td>
-        <td>{log.workspace_title || log.workspace_name || '—'}</td>
+        <td>{workspaceOf(log)}</td>
         <td>{hasHidden || log.details ? <button className="mini" onClick={() => toggle(idx)}>{expanded[idx] ? 'Hide' : 'Show'}</button> : '—'}</td>
       </tr>
     );
@@ -88,6 +96,19 @@ export const AuditLogsPage: React.FC<{ refreshKey: number }> = ({ refreshKey }) 
       <Card className="full-span" title="Audit Logs" actions={<input placeholder="Search" value={query} onChange={e => setQuery(e.target.value)} />}> 
         {loading && <p>Loading…</p>}
         {error && <p className="error">{error}</p>}
+        {!loading && !error && (
+          <div className="workspace-filters" style={{display:'flex', flexWrap:'wrap', gap:'.4rem', marginBottom:'.75rem'}}>
+            {workspaces.map(ws => (
+              <button
+                key={ws}
+                className={ws === workspace ? 'mini active' : 'mini'}
+                onClick={() => setWorkspace(ws)}
+                style={ws === workspace ? {background:'#3a4b63'} : undefined}
+              >{ws}</button>
+            ))}
+            <span style={{opacity:.6, fontSize:'.7rem', alignSelf:'center', marginLeft:'.25rem'}}>{filtered.length} of {logs.length} events</span>
+          </div>
+        )}
         {!loading && !error && (
           <div className="table-wrapper">
             <table>

@@ -171,6 +171,70 @@ async function tryEndpoints(label, candidates, { paginated = false, pageSize = 1
   return [];
 }
 
+const AUDIT_DAYS = Number(process.env.PRESET_AUDIT_DAYS || 30);
+const AUDIT_PAGE_SIZE = Number(process.env.PRESET_AUDIT_PAGE_SIZE || 100);
+const AUDIT_MAX_PAGES = Number(process.env.PRESET_AUDIT_MAX_PAGES || 200);
+
+// The audit endpoint caps each response at ~100 rows, so a single request only
+// covers a few hours and silently drops quieter workspaces (e.g. Production).
+// Preset has shipped several pagination conventions, so probe until one advances.
+const AUDIT_PAGE_PARAM_STYLES = [
+  (page, size) => `page_number=${page}&page_size=${size}`,
+  (page, size) => `page=${page}&page_size=${size}`,
+  (page, size) => `offset=${(page - 1) * size}&limit=${size}`,
+];
+
+const extractAuditItems = (json) => {
+  if (Array.isArray(json)) return json;
+  for (const key of ['data', 'result', 'payload', 'logs']) {
+    if (Array.isArray(json?.[key])) return json[key];
+  }
+  return [];
+};
+
+async function fetchAuditPage(teamId, pageQuery) {
+  const endpoint = `/v2/audit/teams/${encodeURIComponent(teamId)}/logs?days=${AUDIT_DAYS}${pageQuery ? `&${pageQuery}` : ''}`;
+  const res = await api(endpoint);
+  if (!res) return { failed: true };
+  if (!res.ok) {
+    console.warn(`audit_logs: ${res.status} ${endpoint}`);
+    return { failed: true };
+  }
+  return { items: extractAuditItems(await res.json()) };
+}
+
+/** Returns all audit log rows for a team, or null when the endpoint is unusable. */
+async function fetchAuditLogs(teamId) {
+  const first = await fetchAuditPage(teamId, null);
+  if (first.failed) return null;
+  if (!first.items.length) return null;
+
+  const seen = new Set(first.items.map(l => JSON.stringify(l)));
+  const collected = [...first.items];
+  if (first.items.length < AUDIT_PAGE_SIZE) return collected;
+
+  for (const style of AUDIT_PAGE_PARAM_STYLES) {
+    const styleSeen = new Set(seen);
+    const styleItems = [];
+    for (let page = 2; page <= AUDIT_MAX_PAGES; page++) {
+      const { failed, items } = await fetchAuditPage(teamId, style(page, AUDIT_PAGE_SIZE));
+      if (failed || !items.length) break;
+      const fresh = items.filter(l => !styleSeen.has(JSON.stringify(l)));
+      if (!fresh.length) break; // param ignored by the API, or end of history
+      fresh.forEach(l => styleSeen.add(JSON.stringify(l)));
+      styleItems.push(...fresh);
+      if (items.length < AUDIT_PAGE_SIZE) break;
+    }
+    if (styleItems.length) {
+      console.log(`audit_logs: paginated team ${teamId} with "${style(2, AUDIT_PAGE_SIZE)}" -> +${styleItems.length}`);
+      return [...collected, ...styleItems];
+    }
+  }
+
+  console.warn(`audit_logs: team ${teamId} returned a full page but no pagination style advanced; results truncated at ${collected.length}`);
+  return collected;
+}
+
 async function main() {
   const outDir = path.resolve('public/data');
   await fs.mkdir(outDir, { recursive: true });
@@ -287,25 +351,16 @@ async function main() {
     }
     if (!got) console.warn(`team_members: ${(numericId ?? nameId)} all patterns failed`);
 
-    // Audit logs fetch (once per team)
+    // Audit logs fetch (once per team, paginated across all workspaces)
     const auditTried = new Set();
     for (const candidate of uniqueIds) {
       if (auditTried.has(candidate)) continue;
       auditTried.add(candidate);
-      const auditEndpoint = `/v2/audit/teams/${encodeURIComponent(candidate)}/logs?days=30`;
-      try {
-        const res = await api(auditEndpoint);
-        if (!res) continue;
-        if (res.status === 404) { console.warn(`audit_logs: 404 ${auditEndpoint}`); continue; }
-        if (!res.ok) { console.warn(`audit_logs: ${res.status} ${auditEndpoint}`); continue; }
-        const json = await res.json();
-        let items = [];
-        if (Array.isArray(json)) items = json; else if (Array.isArray(json?.data)) items = json.data; else if (Array.isArray(json?.result)) items = json.result; else if (Array.isArray(json?.payload)) items = json.payload; else if (Array.isArray(json?.logs)) items = json.logs;
-        if (!items.length) continue;
-        items.forEach(l => auditLogsAll.push({ ...l, _team_id: numericId ?? nameId, _team_identifier_used: candidate }));
-        console.log(`audit_logs: team ${numericId ?? nameId} via ${auditEndpoint} -> ${items.length}`);
-        break; // stop after first successful identifier
-      } catch (e) { console.warn(`audit_logs: error ${e.message}`); }
+      const items = await fetchAuditLogs(candidate);
+      if (items === null) continue; // endpoint unusable for this identifier
+      items.forEach(l => auditLogsAll.push({ ...l, _team_id: numericId ?? nameId, _team_identifier_used: candidate }));
+      console.log(`audit_logs: team ${numericId ?? nameId} -> ${items.length}`);
+      break; // stop after first successful identifier
     }
   }
 

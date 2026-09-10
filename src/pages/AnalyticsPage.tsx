@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Card } from '../components/Card';
 import { fetchDataFile } from '../utils/fetchData';
 import { search } from '../utils/search';
+import { workspaceOf, workspaceOptions } from '../utils/workspaces';
 
 interface AuditLog { [k: string]: any }
 
@@ -46,35 +47,14 @@ export const AnalyticsPage: React.FC<{ refreshKey: number }> = ({ refreshKey }) 
       .finally(() => setLoading(false));
   }, [refreshKey]);
 
-  const workspaces = useMemo(() => {
-    const found = new Set<string>();
-    logs.forEach(l => {
-      const title = (l.workspace_title || l.workspace_name || 'unknown').trim() || 'unknown';
-      found.add(title);
-    });
-    const desiredOrder = ['Production','Pre-Production','Sandbox','unknown'];
-    const ordered: string[] = ['ALL'];
-    desiredOrder.forEach(name => {
-      // case-insensitive match of exact desired name present in set
-      for (const f of Array.from(found)) {
-        if (f.toLowerCase() === name.toLowerCase()) {
-          ordered.push(f);
-          found.delete(f);
-          break;
-        }
-      }
-    });
-    // Append any remaining workspaces (alphabetical) not already added
-    const remaining = Array.from(found).filter(f => !ordered.includes(f)).sort((a,b)=>a.localeCompare(b));
-    return [...ordered, ...remaining];
-  }, [logs]);
+  const workspaces = useMemo(() => workspaceOptions(logs), [logs]);
 
   const filtered = useMemo(() => {
     const now = Date.now();
     const rangeMs = range === 'week' ? 7*24*3600*1000 : range === 'month' ? 30*24*3600*1000 : 365*24*3600*1000;
     const cutoff = now - rangeMs;
     return logs.filter(l => {
-      if (workspace !== 'ALL' && (l.workspace_title || l.workspace_name || 'Unknown') !== workspace) return false;
+      if (workspace !== 'ALL' && workspaceOf(l) !== workspace) return false;
       if (query && !search(l, query)) return false;
       const ts = l.timestamp ? Date.parse(l.timestamp) : NaN;
       if (!isNaN(ts) && ts < cutoff) return false; // keep only within range
