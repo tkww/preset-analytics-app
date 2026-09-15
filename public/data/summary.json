@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-15T00:33:00.948Z",
+  "generated_at": "2026-09-15T06:21:29.261Z",
   "users": {
-    "generated_at": "2026-09-15T00:33:00.948Z",
+    "generated_at": "2026-09-15T06:21:29.261Z",
     "count": 0,
     "data": []
   },
   "roles": {
-    "generated_at": "2026-09-15T00:33:00.948Z",
+    "generated_at": "2026-09-15T06:21:29.261Z",
     "count": 0,
     "data": []
   },
   "teams": {
-    "generated_at": "2026-09-15T00:33:00.948Z",
+    "generated_at": "2026-09-15T06:21:29.261Z",
     "count": 1,
     "data": [
       287514
     ]
   },
   "team_members": {
-    "generated_at": "2026-09-15T00:33:00.948Z",
+    "generated_at": "2026-09-15T06:21:29.261Z",
     "count": 224,
     "data": [
       "sample",
@@ -27,11 +27,11 @@
     ]
   },
   "audit_logs": {
-    "generated_at": "2026-09-15T00:33:00.948Z",
-    "count": 8923,
-    "fetched_this_run": 7954,
+    "generated_at": "2026-09-15T06:21:29.261Z",
+    "count": 8926,
+    "fetched_this_run": 7957,
     "window_days": 30,
     "earliest": "2025-08-27T18:11:13.629000",
-    "latest": "2026-09-14T23:39:08.138000"
+    "latest": "2026-09-15T01:45:27.586000"
   }
 }
