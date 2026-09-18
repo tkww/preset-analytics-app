@@ -1,6 +1,6 @@
 [
   {
-    "admin_count": 7,
+    "admin_count": 8,
     "audit_log_retention_days": 30,
     "billing_method": "INVOICE",
     "billing_status": "NONE",
@@ -59,8 +59,8 @@
     "tier": "ENTERPRISE",
     "title": "The Knot Worldwide",
     "trial_expiry": "2025-06-30T03:00:00",
-    "user_count": 225,
-    "user_creator_count": 76,
+    "user_count": 224,
+    "user_creator_count": 75,
     "user_viewer_count": 149,
     "viewer_hard_limit": 500,
     "viewer_soft_limit": 500,
