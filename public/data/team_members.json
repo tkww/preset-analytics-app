@@ -6415,7 +6415,7 @@
       "first_name": "Romain",
       "id": 1106656,
       "last_name": "Billardello",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|rbillardello@mariages.net"
     },
     "user_type": "VIEWER",
