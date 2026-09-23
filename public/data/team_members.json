@@ -7209,7 +7209,7 @@
       "first_name": "Yann",
       "id": 1106652,
       "last_name": "Leone",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|yleone@theknotww.com"
     },
     "user_type": "VIEWER",
