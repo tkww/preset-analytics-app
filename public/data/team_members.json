@@ -5503,7 +5503,7 @@
       "first_name": "Meredith",
       "id": 797960,
       "last_name": "Dawson",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|msublett@theknotww.com"
     },
     "user_type": "VIEWER",
