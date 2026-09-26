@@ -423,6 +423,36 @@
     "team_role_name": "User"
   },
   {
+    "creator_on_workspaces": [
+      "Sandbox",
+      "Production",
+      "Pre-Production"
+    ],
+    "is_role_from_group": false,
+    "team_role": {
+      "id": 2,
+      "name": "User"
+    },
+    "user": {
+      "email": "alamberti@theknotww.com",
+      "first_name": "Amy",
+      "id": 1106864,
+      "last_name": "Lamberti",
+      "onboarded": true,
+      "username": "samlp|theknotww|alamberti@theknotww.com"
+    },
+    "user_type": "CREATOR",
+    "viewer_on_workspaces": [],
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7",
+    "email": "alamberti@theknotww.com",
+    "first_name": "Amy",
+    "last_name": "Lamberti",
+    "username": "samlp|theknotww|alamberti@theknotww.com",
+    "user_id": 1106864,
+    "team_role_name": "User"
+  },
+  {
     "creator_on_workspaces": [],
     "is_role_from_group": false,
     "team_role": {
@@ -635,8 +665,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -1940,9 +1970,9 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
       "Sandbox",
-      "Production"
+      "Production",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -2062,9 +2092,9 @@
   },
   {
     "creator_on_workspaces": [
-      "Production",
       "Pre-Production",
-      "Sandbox"
+      "Sandbox",
+      "Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -2642,8 +2672,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
-      "Sandbox"
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -3311,8 +3341,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -3432,8 +3462,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
-      "Sandbox"
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -3889,8 +3919,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
-      "Sandbox"
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -4435,8 +4465,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -4496,9 +4526,9 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
+      "Production",
       "Sandbox",
-      "Production"
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -5007,8 +5037,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
-      "Sandbox"
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -5038,8 +5068,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
-      "Sandbox"
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -5159,8 +5189,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -5432,8 +5462,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -6253,8 +6283,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
-      "Sandbox"
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -6374,8 +6404,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -6892,8 +6922,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Pre-Production",
-      "Sandbox"
+      "Sandbox",
+      "Pre-Production"
     ],
     "is_role_from_group": false,
     "team_role": {
@@ -7108,8 +7138,8 @@
   },
   {
     "creator_on_workspaces": [
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "is_role_from_group": false,
     "team_role": {
