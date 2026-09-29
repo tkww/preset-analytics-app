@@ -3717,7 +3717,7 @@
       "first_name": "Jon",
       "id": 1102060,
       "last_name": "Goldmann",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|jgoldmann@theknotww.com"
     },
     "user_type": "VIEWER",
