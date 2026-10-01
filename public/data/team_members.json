@@ -3930,7 +3930,7 @@
       "first_name": "Jose",
       "id": 737948,
       "last_name": "Melo",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|jmelo@theknotww.com"
     },
     "user_type": "VIEWER",
