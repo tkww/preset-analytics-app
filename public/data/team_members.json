@@ -827,7 +827,7 @@
       "first_name": "Ashley",
       "id": 797937,
       "last_name": "Sams",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|asams@theknotww.com"
     },
     "user_type": "VIEWER",
