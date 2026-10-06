@@ -6141,7 +6141,7 @@
       "first_name": "Paola",
       "id": 1106654,
       "last_name": "Martínez",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|pmartinez@bodas.net"
     },
     "user_type": "VIEWER",
