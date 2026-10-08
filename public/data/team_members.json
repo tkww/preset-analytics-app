@@ -3322,7 +3322,7 @@
       "first_name": "Jeremy",
       "id": 1106660,
       "last_name": "Jones",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|jjones@xogrp.com"
     },
     "user_type": "VIEWER",
