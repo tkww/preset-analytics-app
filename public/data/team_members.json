@@ -16,9 +16,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Sandbox",
       "Production",
-      "Pre-Production",
-      "Sandbox"
+      "Pre-Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -290,8 +290,8 @@
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
       "Production",
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -319,9 +319,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Pre-Production",
       "Sandbox",
-      "Production",
-      "Pre-Production"
+      "Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -409,9 +409,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Sandbox",
       "Production",
-      "Pre-Production",
-      "Sandbox"
+      "Pre-Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -892,9 +892,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Production",
       "Pre-Production",
-      "Sandbox",
-      "Production"
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -1805,9 +1805,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Pre-Production",
       "Sandbox",
-      "Production",
-      "Pre-Production"
+      "Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -2138,8 +2138,8 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
-      "Production",
       "Sandbox",
+      "Production",
       "Pre-Production"
     ],
     "_team_id": 287514,
@@ -2380,9 +2380,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
-      "Sandbox",
       "Production",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -2658,8 +2658,8 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
-      "Production",
       "Sandbox",
+      "Production",
       "Pre-Production"
     ],
     "_team_id": 287514,
@@ -3025,8 +3025,8 @@
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
       "Production",
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -3390,8 +3390,8 @@
     },
     "user_type": "CREATOR",
     "viewer_on_workspaces": [
-      "Pre-Production",
-      "Production"
+      "Production",
+      "Pre-Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -3662,8 +3662,8 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
-      "Sandbox",
       "Production",
+      "Sandbox",
       "Pre-Production"
     ],
     "_team_id": 287514,
@@ -3846,8 +3846,8 @@
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
       "Production",
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -4057,8 +4057,8 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
-      "Sandbox",
       "Production",
+      "Sandbox",
       "Pre-Production"
     ],
     "_team_id": 287514,
@@ -4118,8 +4118,8 @@
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
       "Production",
-      "Sandbox",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -4391,9 +4391,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Sandbox",
       "Production",
-      "Pre-Production",
-      "Sandbox"
+      "Pre-Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -4451,9 +4451,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
-      "Sandbox",
       "Production",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -4632,9 +4632,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
-      "Sandbox",
       "Production",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -5176,9 +5176,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Production",
       "Pre-Production",
-      "Sandbox",
-      "Production"
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -5429,36 +5429,6 @@
     "last_name": "Dawson",
     "username": "samlp|theknotww|msublett@theknotww.com",
     "user_id": 797960,
-    "team_role_name": "User"
-  },
-  {
-    "creator_on_workspaces": [],
-    "is_role_from_group": false,
-    "team_role": {
-      "id": 2,
-      "name": "User"
-    },
-    "user": {
-      "email": "mpickrum@theknotww.com",
-      "first_name": "Michael",
-      "id": 765024,
-      "last_name": "Pickrum",
-      "onboarded": true,
-      "username": "samlp|theknotww|mpickrum@theknotww.com"
-    },
-    "user_type": "VIEWER",
-    "viewer_on_workspaces": [
-      "Production",
-      "Pre-Production",
-      "Sandbox"
-    ],
-    "_team_id": 287514,
-    "_team_identifier_used": "37ebf0b7",
-    "email": "mpickrum@theknotww.com",
-    "first_name": "Michael",
-    "last_name": "Pickrum",
-    "username": "samlp|theknotww|mpickrum@theknotww.com",
-    "user_id": 765024,
     "team_role_name": "User"
   },
   {
@@ -6390,9 +6360,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Sandbox",
       "Production",
-      "Pre-Production",
-      "Sandbox"
+      "Pre-Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -6574,8 +6544,8 @@
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
       "Sandbox",
-      "Pre-Production",
-      "Production"
+      "Production",
+      "Pre-Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -6790,8 +6760,8 @@
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
       "Sandbox",
-      "Production",
-      "Pre-Production"
+      "Pre-Production",
+      "Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -6851,9 +6821,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
+      "Pre-Production",
       "Sandbox",
-      "Production",
-      "Pre-Production"
+      "Production"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
@@ -7154,9 +7124,9 @@
     },
     "user_type": "VIEWER",
     "viewer_on_workspaces": [
-      "Sandbox",
       "Production",
-      "Pre-Production"
+      "Pre-Production",
+      "Sandbox"
     ],
     "_team_id": 287514,
     "_team_identifier_used": "37ebf0b7",
