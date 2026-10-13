@@ -1678,7 +1678,7 @@
       "first_name": "Claudia",
       "id": 1003620,
       "last_name": "De José López",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|cjose@theknotww.com"
     },
     "user_type": "VIEWER",
@@ -5839,7 +5839,7 @@
       "first_name": "Nikol",
       "id": 1126103,
       "last_name": "Gkerpini",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|ngkerpini@theknotww.com"
     },
     "user_type": "VIEWER",
