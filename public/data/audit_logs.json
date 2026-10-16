@@ -2,6 +2,20 @@
   {
     "action": "dashboard:view",
     "details": null,
+    "entity_id": "20",
+    "entity_name": "EXEC - Actuals and MTD Pacing to Budget / Forecast",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-16T03:25:55.023000",
+    "user": "cstuder@weddingwire.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
     "entity_id": "28",
     "entity_name": "EXEC - Actuals and MTD Pacing to Budget / Forecast",
     "entity_type": "urn:preset:ws:dashboard",
