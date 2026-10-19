@@ -4510,7 +4510,7 @@
       "first_name": "Keri",
       "id": 1003422,
       "last_name": "Sowerby",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|keri@xogrp.com"
     },
     "user_type": "CREATOR",
