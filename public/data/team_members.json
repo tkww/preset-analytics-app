@@ -1557,8 +1557,8 @@
       "email": "clansdowne@theknotww.com",
       "first_name": "Chloe",
       "id": 1136675,
-      "last_name": "Lansdowne",
-      "onboarded": false,
+      "last_name": "Cheesman",
+      "onboarded": true,
       "username": "samlp|theknotww|clansdowne@theknotww.com"
     },
     "user_type": "VIEWER",
@@ -1571,7 +1571,7 @@
     "_team_identifier_used": "37ebf0b7",
     "email": "clansdowne@theknotww.com",
     "first_name": "Chloe",
-    "last_name": "Lansdowne",
+    "last_name": "Cheesman",
     "username": "samlp|theknotww|clansdowne@theknotww.com",
     "user_id": 1136675,
     "team_role_name": "User"
