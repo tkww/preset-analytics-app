@@ -6263,7 +6263,7 @@
       "first_name": "Rahul",
       "id": 1137191,
       "last_name": "Yadav",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|ryadav@theknotww.com"
     },
     "user_type": "VIEWER",
