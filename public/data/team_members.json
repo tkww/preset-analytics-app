@@ -4323,7 +4323,7 @@
       "first_name": "Kartik",
       "id": 1136674,
       "last_name": "Kamboj",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|kkamboj@theknotww.com"
     },
     "user_type": "VIEWER",
