@@ -5623,7 +5623,7 @@
       "first_name": "Michelle",
       "id": 740386,
       "last_name": "Carswell",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|mcarswell@theknotww.com"
     },
     "user_type": "VIEWER",
