@@ -2,6 +2,20 @@
   {
     "action": "dashboard:view",
     "details": null,
+    "entity_id": "28",
+    "entity_name": "EXEC - Actuals and MTD Pacing to Budget / Forecast",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-24T18:46:09.974000",
+    "user": "rmoskowitz@theknotww.com",
+    "workspace_name": "2576dafc",
+    "workspace_title": "Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
     "entity_id": "35",
     "entity_name": "Vendor Success Scorecard",
     "entity_type": "urn:preset:ws:dashboard",
