@@ -1,5 +1,78 @@
 [
   {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "Search (Marketplace) - P0 Metrics",
+      "filter": "{\"NATIVE_FILTER-date\":{\"id\":\"NATIVE_FILTER-date\",\"extraFormData\":{\"time_range\":\"2026-01-01 : 2026-12-31\"},\"filterState\":{\"value\":\"2026-01-01 : 2026-12-31\"},\"ownState\":{}},\"NATIVE_FILTER-platform\":{\"id\":\"NATIVE_FILTER-platform\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-venue\":{\"id\":\"NATIVE_FILTER-venue\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-login\":{\"id\":\"NATIVE_FILTER-login\",\"extraFormData\":{\"filters\":[{\"col\":\"LOGIN_STATE\",\"op\":\"IN\",\"val\":[\"Anonymous\"]}]},\"filterState\":{\"label\":\"Anonymous\",\"value\":[\"Anonymous\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-new_returning\":{\"id\":\"NATIVE_FILTER-new_returning\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-sort\":{\"id\":\"NATIVE_FILTER-sort\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-search_type\":{\"id\":\"NATIVE_FILTER-search_type\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-booking\":{\"id\":\"NATIVE_FILTER-booking\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}}}"
+    },
+    "entity_id": "62",
+    "entity_name": "Search (Marketplace) - P0 Metrics",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-25T13:30:35.720000",
+    "user": "ebarkai@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "64",
+    "entity_name": "MP Query Search Performance",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-25T13:29:32.622000",
+    "user": "ebarkai@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "62",
+    "entity_name": "Search (Marketplace) - P0 Metrics",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-25T13:29:28.935000",
+    "user": "ebarkai@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "62",
+    "entity_name": "Search (Marketplace) - P0 Metrics",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-25T12:45:14.763000",
+    "user": "ebarkai@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "100",
+    "entity_name": "Cash Fund Venmo Stripe Integration",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-25T12:44:17.869000",
+    "user": "ebarkai@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
     "action": "dashboard:view",
     "details": null,
     "entity_id": "28",
