@@ -1458,8 +1458,8 @@
     ],
     "is_role_from_group": false,
     "team_role": {
-      "id": 2,
-      "name": "User"
+      "id": 1,
+      "name": "Admin"
     },
     "user": {
       "email": "cstuder@weddingwire.com",
@@ -1482,7 +1482,7 @@
     "last_name": "Studer",
     "username": "samlp|theknotww|cstuder@weddingwire.com",
     "user_id": 510529,
-    "team_role_name": "User"
+    "team_role_name": "Admin"
   },
   {
     "creator_on_workspaces": [],

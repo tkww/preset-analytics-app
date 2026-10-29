@@ -1,6 +1,6 @@
 [
   {
-    "admin_count": 8,
+    "admin_count": 9,
     "audit_log_retention_days": 30,
     "billing_method": "INVOICE",
     "billing_status": "NONE",
