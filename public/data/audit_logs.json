@@ -1,5 +1,33 @@
 [
   {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "28",
+    "entity_name": "EXEC - Actuals and MTD Pacing to Budget / Forecast",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-31T07:03:42.391000",
+    "user": "bward@theknotww.com",
+    "workspace_name": "2576dafc",
+    "workspace_title": "Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "28",
+    "entity_name": "EXEC - Actuals and MTD Pacing to Budget / Forecast",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-10-31T07:02:48.900000",
+    "user": "bward@theknotww.com",
+    "workspace_name": "2576dafc",
+    "workspace_title": "Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
     "action": "chart:view",
     "details": null,
     "entity_id": "84",
