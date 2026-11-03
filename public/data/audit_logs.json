@@ -1,5 +1,752 @@
 [
   {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-10-01\",\"validateMessage\":false,\"value\":[1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CATEGORY_BUCKET\",\"op\":\"IN\",\"val\":[\"Non-Venue\"]}]},\"filterState\":{\"label\":\"Non-Venue\",\"value\":[\"Non-Venue\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T12:02:53.025000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-10-01\",\"validateMessage\":false,\"value\":[1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CATEGORY_BUCKET\",\"op\":\"IN\",\"val\":[\"Venue\"]}]},\"filterState\":{\"label\":\"Venue\",\"value\":[\"Venue\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T12:01:14.866000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "user:login",
+    "details": null,
+    "entity_id": null,
+    "entity_name": null,
+    "entity_type": null,
+    "source": null,
+    "timestamp": "2026-11-03T12:01:02.325000",
+    "user": "acarvajal@theknotww.com",
+    "workspace_name": null,
+    "workspace_title": null,
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "12",
+    "entity_name": "PECOMP001 - Order Self-Service Tabular Report",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T11:58:23.463000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-10-01\",\"validateMessage\":false,\"value\":[1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{\"value\":null,\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T11:57:48.589000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "30",
+    "entity_name": "PRODUCT - Core Planning Actions",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T11:43:30.592000",
+    "user": "jpytka@theknotww.com",
+    "workspace_name": "2576dafc",
+    "workspace_title": "Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:download",
+    "details": {
+      "chart_name": "Order Line Item level tabular report",
+      "dashboard_id": 12,
+      "dashboard_title": "PECOMP001 - Order Self-Service Tabular Report",
+      "format": "csv"
+    },
+    "entity_id": "117",
+    "entity_name": "Order Line Item level tabular report",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-03T11:31:15.107000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "PECOMP001 - Order Self-Service Tabular Report",
+      "filter": "{\"NATIVE_FILTER-7vsEJZ_crG8MLlwAlRKsY\":{\"id\":\"NATIVE_FILTER-7vsEJZ_crG8MLlwAlRKsY\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-OKuA3CRobdQOzPOFdjuXG\":{\"id\":\"NATIVE_FILTER-OKuA3CRobdQOzPOFdjuXG\",\"extraFormData\":{\"time_range\":\"2024-10-20 : today\"},\"filterState\":{\"value\":\"2024-10-20 : today\"},\"ownState\":{}},\"NATIVE_FILTER-EIN_rEYyuov7WulS5PqDy\":{\"id\":\"NATIVE_FILTER-EIN_rEYyuov7WulS5PqDy\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-68nc_CJsT5Y3B83r88oGX\":{\"id\":\"NATIVE_FILTER-68nc_CJsT5Y3B83r88oGX\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-YQpa2NP27jNza7IZTt1gf\":{\"id\":\"NATIVE_FILTER-YQpa2NP27jNza7IZTt1gf\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-pEy-5Xy5T58Hp3OZJ6wsN\":{\"id\":\"NATIVE_FILTER-pEy-5Xy5T58Hp3OZJ6wsN\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-rZlun8xk36BEh-VLipOOW\":{\"id\":\"NATIVE_FILTER-rZlun8xk36BEh-VLipOOW\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-Rvp6RdsVPrNarowDFREfR\":{\"id\":\"NATIVE_FILTER-Rvp6RdsVPrNarowDFREfR\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-Egv99DgP9I7gpxWpl1Z88\":{\"id\":\"NATIVE_FILTER-Egv99DgP9I7gpxWpl1Z88\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-GT3Dm8Vwud8fzjssljhgm\":{\"id\":\"NATIVE_FILTER-GT3Dm8Vwud8fzjssljhgm\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-aJ869Mo4KGc3hfuqKTHvM\":{\"id\":\"NATIVE_FILTER-aJ869Mo4KGc3hfuqKTHvM\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-xVZlE3PjSD-P0lu9yVoLz\":{\"id\":\"NATIVE_FILTER-xVZlE3PjSD-P0lu9yVoLz\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-x5SNGpQSBNctb3_TBpc8_\":{\"id\":\"NATIVE_FILTER-x5SNGpQSBNctb3_TBpc8_\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-3CRave_xFT1u9i1vqrCL4\":{\"id\":\"NATIVE_FILTER-3CRave_xFT1u9i1vqrCL4\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-9mxPeqKCW6fDOglZ_8y5j\":{\"id\":\"NATIVE_FILTER-9mxPeqKCW6fDOglZ_8y5j\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-A7lHajIk7H2KcMixjCmdT\":{\"id\":\"NATIVE_FILTER-A7lHajIk7H2KcMixjCmdT\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-t_32FrX-NLl0OtLYc0e2m\":{\"id\":\"NATIVE_FILTER-t_32FrX-NLl0OtLYc0e2m\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-oyH3njEWyRDOb4Qd72OgM\":{\"id\":\"NATIVE_FILTER-oyH3njEWyRDOb4Qd72OgM\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-IrSUP7gWa7S1YSx7thb_g\":{\"id\":\"NATIVE_FILTER-IrSUP7gWa7S1YSx7thb_g\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-wH384yQ76eh3_oufd4KMR\":{\"id\":\"NATIVE_FILTER-wH384yQ76eh3_oufd4KMR\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-2HkIa-fWxeqCMn9EiShyZ\":{\"id\":\"NATIVE_FILTER-2HkIa-fWxeqCMn9EiShyZ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-B-_gAAv5dD3q6HqflWjQS\":{\"id\":\"NATIVE_FILTER-B-_gAAv5dD3q6HqflWjQS\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}}}"
+    },
+    "entity_id": "12",
+    "entity_name": "PECOMP001 - Order Self-Service Tabular Report",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T11:30:06.363000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "12",
+    "entity_name": "PECOMP001 - Order Self-Service Tabular Report",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T11:29:11.479000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-10-01\",\"validateMessage\":false,\"value\":[1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CATEGORY_BUCKET\",\"op\":\"IN\",\"val\":[\"Non-Venue\"]}]},\"filterState\":{\"label\":\"Non-Venue\",\"value\":[\"Non-Venue\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T10:29:47.123000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-10-01\",\"validateMessage\":false,\"value\":[1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CATEGORY_BUCKET\",\"op\":\"IN\",\"val\":[\"Venue\"]}]},\"filterState\":{\"label\":\"Venue\",\"value\":[\"Venue\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T10:21:03.664000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-10-01\",\"validateMessage\":false,\"value\":[1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CATEGORY_BUCKET\",\"op\":\"IN\",\"val\":[\"Non-Venue\"]}]},\"filterState\":{\"label\":\"Non-Venue\",\"value\":[\"Non-Venue\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T10:18:21.505000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-10-01\",\"validateMessage\":false,\"value\":[1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T10:09:32.143000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1759276800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-10-01\",\"validateMessage\":false,\"value\":[1759276800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T10:09:20.744000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-10-01\",\"validateMessage\":false,\"value\":[1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T10:03:50.721000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T10:03:35.026000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "user:login",
+    "details": null,
+    "entity_id": null,
+    "entity_name": null,
+    "entity_type": null,
+    "source": null,
+    "timestamp": "2026-11-03T10:03:31.891000",
+    "user": "cpeyri@theknotww.com",
+    "workspace_name": null,
+    "workspace_title": null,
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "INTL metrics",
+      "filter": "{\"NATIVE_FILTER-6HDKCArJGD4AUkqJ7SfHD\":{\"id\":\"NATIVE_FILTER-6HDKCArJGD4AUkqJ7SfHD\",\"extraFormData\":{\"time_range\":\"2026-10-01 : 2026-11-01\"},\"filterState\":{\"value\":\"2026-10-01 : 2026-11-01\"},\"ownState\":{}}}"
+    },
+    "entity_id": "113",
+    "entity_name": "INTL metrics",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T09:42:19.562000",
+    "user": "clansdowne@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "113",
+    "entity_name": "INTL metrics",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T09:41:29.781000",
+    "user": "clansdowne@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "309",
+    "entity_name": "[Interactive Table] PLP to Checkout Completed Session CVR %",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-03T09:37:06.260000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "280",
+    "entity_name": "[Interactive Table] Paper Standard Funnel",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-03T09:37:05.339000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "13",
+    "entity_name": "PECOMP002 - Paper TOF, MOF, BOF Key Metrics Dashboard",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T09:37:03.731000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "366",
+    "entity_name": "[Interactive Table] Paper Standard Funnel - User Type",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-03T09:37:01.194000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "21",
+    "entity_name": "PRODUCT - Core Planning Actions",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T09:36:57.673000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "313",
+    "entity_name": "[YTD] Paper Orders",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-03T09:36:57.566000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "44",
+    "entity_name": "PECOMP007- Paper Cohort Metrics",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T09:36:55.834000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "209",
+    "entity_name": "[Interative Table] MTD Paper Sessions - Acquisition Channel",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-03T09:36:54.940000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "13",
+    "entity_name": "PECOMP002 - Paper TOF, MOF, BOF Key Metrics Dashboard",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T09:36:54.724000",
+    "user": "etadtaeva@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"UK\"]}]},\"filterState\":{\"label\":\"UK\",\"value\":[\"UK\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid Bing\"]}]},\"filterState\":{\"label\":\"Paid Bing\",\"value\":[\"Paid Bing\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:31:07.085000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"UK\"]}]},\"filterState\":{\"label\":\"UK\",\"value\":[\"UK\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid FB\"]}]},\"filterState\":{\"label\":\"Paid FB\",\"value\":[\"Paid FB\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:30:19.585000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"UK\"]}]},\"filterState\":{\"label\":\"UK\",\"value\":[\"UK\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid GADS\"]}]},\"filterState\":{\"label\":\"Paid GADS\",\"value\":[\"Paid GADS\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:29:27.428000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"PT\"]}]},\"filterState\":{\"label\":\"PT\",\"value\":[\"PT\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid GADS\"]}]},\"filterState\":{\"label\":\"Paid GADS\",\"value\":[\"Paid GADS\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:28:01.923000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"IN\"]}]},\"filterState\":{\"label\":\"IN\",\"value\":[\"IN\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid GADS\"]}]},\"filterState\":{\"label\":\"Paid GADS\",\"value\":[\"Paid GADS\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:26:58.700000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"FR\"]}]},\"filterState\":{\"label\":\"FR\",\"value\":[\"FR\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid Bing\"]}]},\"filterState\":{\"label\":\"Paid Bing\",\"value\":[\"Paid Bing\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:25:56.374000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"FR\"]}]},\"filterState\":{\"label\":\"FR\",\"value\":[\"FR\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid FB\"]}]},\"filterState\":{\"label\":\"Paid FB\",\"value\":[\"Paid FB\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:24:56.560000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"FR\"]}]},\"filterState\":{\"label\":\"FR\",\"value\":[\"FR\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid GADS\"]}]},\"filterState\":{\"label\":\"Paid GADS\",\"value\":[\"Paid GADS\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:24:04.448000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-12 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-12 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"IT\"]}]},\"filterState\":{\"label\":\"IT\",\"value\":[\"IT\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Criteo\"]}]},\"filterState\":{\"label\":\"Criteo\",\"value\":[\"Criteo\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:22:20.952000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-19 : 2026-11-02\"},\"filterState\":{\"value\":\"2026-10-19 : 2026-11-02\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"IT\"]}]},\"filterState\":{\"label\":\"IT\",\"value\":[\"IT\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Criteo\"]}]},\"filterState\":{\"label\":\"Criteo\",\"value\":[\"Criteo\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:19:45.220000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-19 : 2026-11-01\"},\"filterState\":{\"value\":\"2026-10-19 : 2026-11-01\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"IT\"]}]},\"filterState\":{\"label\":\"IT\",\"value\":[\"IT\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Criteo\"]}]},\"filterState\":{\"label\":\"Criteo\",\"value\":[\"Criteo\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:18:11.443000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-19 : 2026-11-01\"},\"filterState\":{\"value\":\"2026-10-19 : 2026-11-01\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"IT\"]}]},\"filterState\":{\"label\":\"IT\",\"value\":[\"IT\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid Bing\"]}]},\"filterState\":{\"label\":\"Paid Bing\",\"value\":[\"Paid Bing\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:15:49.382000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-19 : 2026-11-01\"},\"filterState\":{\"value\":\"2026-10-19 : 2026-11-01\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"IT\"]}]},\"filterState\":{\"label\":\"IT\",\"value\":[\"IT\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid FB\"]}]},\"filterState\":{\"label\":\"Paid FB\",\"value\":[\"Paid FB\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:14:36.425000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-19 : 2026-11-01\"},\"filterState\":{\"value\":\"2026-10-19 : 2026-11-01\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"IT\"]}]},\"filterState\":{\"label\":\"IT\",\"value\":[\"IT\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid GADS\"]}]},\"filterState\":{\"label\":\"Paid GADS\",\"value\":[\"Paid GADS\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:13:34.931000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-19 : 2026-11-01\"},\"filterState\":{\"value\":\"2026-10-19 : 2026-11-01\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"ES\"]}]},\"filterState\":{\"label\":\"ES\",\"value\":[\"ES\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid Bing\"]}]},\"filterState\":{\"label\":\"Paid Bing\",\"value\":[\"Paid Bing\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:12:33.739000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-19 : 2026-11-01\"},\"filterState\":{\"value\":\"2026-10-19 : 2026-11-01\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"ES\"]}]},\"filterState\":{\"label\":\"ES\",\"value\":[\"ES\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid FB\"]}]},\"filterState\":{\"label\":\"Paid FB\",\"value\":[\"Paid FB\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:11:40.791000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "WP100 - Lead Analysis",
+      "filter": "{\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\":{\"id\":\"NATIVE_FILTER-qzzQVC4g01gvl-X2smNFf\",\"extraFormData\":{\"time_range\":\"2026-10-19 : 2026-11-01\"},\"filterState\":{\"value\":\"2026-10-19 : 2026-11-01\"},\"ownState\":{}},\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\":{\"id\":\"NATIVE_FILTER-T1APBukRte9cINI_uKRmV\",\"extraFormData\":{\"filters\":[{\"col\":\"BRAND_CODE\",\"op\":\"IN\",\"val\":[\"ES\"]}]},\"filterState\":{\"label\":\"ES\",\"value\":[\"ES\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\":{\"id\":\"NATIVE_FILTER-ItFXgdwuqNyjr5EE94hJ6\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\":{\"id\":\"NATIVE_FILTER-_yqMkPMZTrbLp-NI_Ysh2\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\":{\"id\":\"NATIVE_FILTER-7lhBE70pNwArJuBbq6QsS\",\"extraFormData\":{\"filters\":[{\"col\":\"ACQUISITION_SUB_CHANNEL\",\"op\":\"IN\",\"val\":[\"Paid GADS\"]}]},\"filterState\":{\"label\":\"Paid GADS\",\"value\":[\"Paid GADS\"],\"excludeFilterValues\":true},\"ownState\":{}}}"
+    },
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:10:31.056000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "112",
+    "entity_name": "WP100 - Lead Analysis",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-03T08:08:09.160000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "user:login",
+    "details": null,
+    "entity_id": null,
+    "entity_name": null,
+    "entity_type": null,
+    "source": null,
+    "timestamp": "2026-11-03T08:08:05.284000",
+    "user": "pcamprubi@theknotww.com",
+    "workspace_name": null,
+    "workspace_title": null,
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
     "action": "dashboard:view",
     "details": null,
     "entity_id": "28",
