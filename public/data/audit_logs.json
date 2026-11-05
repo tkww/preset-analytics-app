@@ -1,5 +1,1693 @@
 [
   {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "121",
+    "entity_name": "US WW Wedding Passport",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T05:14:14.178000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:delete",
+    "details": {
+      "certification_details": null,
+      "certified_by": null,
+      "css": null,
+      "dashboard_title": "[ untitled dashboard ]",
+      "embedded": [],
+      "json_metadata": "{\"color_scheme_domain\": [], \"shared_label_colors\": [], \"map_label_colors\": {}, \"label_colors\": {}}",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ],
+      "position_json": null,
+      "published": false
+    },
+    "entity_id": "120",
+    "entity_name": "[ untitled dashboard ]",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T05:14:11.639000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:update",
+    "details": {
+      "dashboard_title": "US WW Wedding Passport",
+      "json_metadata": "{\"native_filter_configuration\": [{\"id\": \"NATIVE_FILTER-date\", \"name\": \"Time Range\", \"type\": \"NATIVE_FILTER\", \"description\": \"Entry date (US Eastern). Default: campaign start through yesterday (today is excluded; yesterday may still be partial).\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {\"time_range\": \"2026-10-21 : today\"}, \"filterState\": {\"value\": \"2026-10-21 : today\"}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": []}, \"filterType\": \"filter_time\", \"targets\": [{}], \"controlValues\": {\"enableEmptyFilter\": false, \"timeShift\": false}}, {\"id\": \"NATIVE_FILTER-grain\", \"name\": \"Time Grain\", \"type\": \"NATIVE_FILTER\", \"description\": \"Day or week buckets on time charts\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_timegrain\", \"targets\": [{\"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false}, \"time_grains\": [\"P1D\", \"P1W\"]}, {\"id\": \"NATIVE_FILTER-channel\", \"name\": \"Channel Group\", \"type\": \"NATIVE_FILTER\", \"description\": \"Channel of the first landing-page entry\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"CHANNEL_GROUP\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}, {\"id\": \"NATIVE_FILTER-cmp\", \"name\": \"Main CMP\", \"type\": \"NATIVE_FILTER\", \"description\": \"CMP of the first landing-page entry\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"Main CMP\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}, {\"id\": \"NATIVE_FILTER-user_type\", \"name\": \"User Type\", \"type\": \"NATIVE_FILTER\", \"description\": \"new or existing member\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"USER_TYPE\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}, {\"id\": \"NATIVE_FILTER-venue\", \"name\": \"Venue Flag\", \"type\": \"NATIVE_FILTER\", \"description\": \"Venue / Non-Venue / No Lead. On Signups: venue flag of the first lead\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"VENUE_FLAG\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}, {\"id\": \"NATIVE_FILTER-category\", \"name\": \"Category\", \"type\": \"NATIVE_FILTER\", \"description\": \"Lead vendor category. On Signups: category of the first lead\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"CATEGORY\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}], \"chart_configuration\": {}, \"global_chart_configuration\": {\"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": []}, \"chartsInScope\": []}, \"chart_customization_config\": [], \"color_scheme\": \"\", \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"shared_label_colors\": [], \"timed_refresh_immune_slices\": [], \"cross_filters_enabled\": true}"
+    },
+    "entity_id": "121",
+    "entity_name": "US WW Wedding Passport",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.826000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:update",
+    "details": {
+      "dashboard_title": "US WW Wedding Passport",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "121",
+    "entity_name": "US WW Wedding Passport",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.788000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:create",
+    "details": {
+      "certification_details": "",
+      "certified_by": "",
+      "css": "",
+      "dashboard_title": "US WW Wedding Passport",
+      "embedded": [],
+      "json_metadata": "{\"native_filter_configuration\": [{\"id\": \"NATIVE_FILTER-date\", \"name\": \"Time Range\", \"type\": \"NATIVE_FILTER\", \"description\": \"Entry date (US Eastern). Default: campaign start through yesterday (today is excluded; yesterday may still be partial).\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {\"time_range\": \"2026-10-21 : today\"}, \"filterState\": {\"value\": \"2026-10-21 : today\"}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": []}, \"filterType\": \"filter_time\", \"targets\": [{}], \"controlValues\": {\"enableEmptyFilter\": false, \"timeShift\": false}}, {\"id\": \"NATIVE_FILTER-grain\", \"name\": \"Time Grain\", \"type\": \"NATIVE_FILTER\", \"description\": \"Day or week buckets on time charts\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_timegrain\", \"targets\": [{\"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false}, \"time_grains\": [\"P1D\", \"P1W\"]}, {\"id\": \"NATIVE_FILTER-channel\", \"name\": \"Channel Group\", \"type\": \"NATIVE_FILTER\", \"description\": \"Channel of the first landing-page entry\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"CHANNEL_GROUP\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}, {\"id\": \"NATIVE_FILTER-cmp\", \"name\": \"Main CMP\", \"type\": \"NATIVE_FILTER\", \"description\": \"CMP of the first landing-page entry\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"Main CMP\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}, {\"id\": \"NATIVE_FILTER-user_type\", \"name\": \"User Type\", \"type\": \"NATIVE_FILTER\", \"description\": \"new or existing member\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"USER_TYPE\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}, {\"id\": \"NATIVE_FILTER-venue\", \"name\": \"Venue Flag\", \"type\": \"NATIVE_FILTER\", \"description\": \"Venue / Non-Venue / No Lead. On Signups: venue flag of the first lead\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"VENUE_FLAG\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}, {\"id\": \"NATIVE_FILTER-category\", \"name\": \"Category\", \"type\": \"NATIVE_FILTER\", \"description\": \"Lead vendor category. On Signups: category of the first lead\", \"cascadeParentIds\": [], \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": [2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253]}, \"filterType\": \"filter_select\", \"targets\": [{\"column\": {\"name\": \"CATEGORY\"}, \"datasetId\": 464}], \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}}], \"chart_configuration\": {}, \"global_chart_configuration\": {\"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": []}, \"chartsInScope\": []}, \"chart_customization_config\": [], \"color_scheme\": \"\", \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"shared_label_colors\": [], \"timed_refresh_immune_slices\": [], \"cross_filters_enabled\": true, \"default_filters\": \"{}\"}",
+      "owners": [],
+      "position_json": "{\"DASHBOARD_VERSION_KEY\": \"v2\", \"ROOT_ID\": {\"type\": \"ROOT\", \"id\": \"ROOT_ID\", \"children\": [\"TABS-main\"]}, \"GRID_ID\": {\"type\": \"GRID\", \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"children\": []}, \"HEADER_ID\": {\"type\": \"HEADER\", \"id\": \"HEADER_ID\", \"meta\": {\"text\": \"US WW Wedding Passport\"}}, \"TABS-main\": {\"type\": \"TABS\", \"id\": \"TABS-main\", \"parents\": [\"ROOT_ID\"], \"meta\": {}, \"children\": [\"TAB-marketing-kpis\", \"TAB-lead-categories\", \"TAB-pacing\"]}, \"TAB-marketing-kpis\": {\"type\": \"TAB\", \"id\": \"TAB-marketing-kpis\", \"parents\": [\"ROOT_ID\", \"TABS-main\"], \"children\": [\"HEADER-kpis\", \"ROW-kpis-filters\", \"ROW-kpis-0\", \"ROW-kpis-1\", \"ROW-kpis-2\", \"ROW-kpis-3\", \"ROW-kpis-4\"], \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"Marketing KPIs\"}}, \"TAB-lead-categories\": {\"type\": \"TAB\", \"id\": \"TAB-lead-categories\", \"parents\": [\"ROOT_ID\", \"TABS-main\"], \"children\": [\"HEADER-categories\", \"ROW-categories-filters\", \"ROW-categories-0\", \"ROW-categories-1\", \"ROW-categories-2\"], \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"Lead Categories\"}}, \"TAB-pacing\": {\"type\": \"TAB\", \"id\": \"TAB-pacing\", \"parents\": [\"ROOT_ID\", \"TABS-main\"], \"children\": [\"HEADER-pacing\", \"ROW-pacing-filters\", \"ROW-pacing-0\", \"ROW-pacing-1\"], \"meta\": {\"defaultText\": \"Tab title\", \"placeholder\": \"Tab title\", \"text\": \"Pacing\"}}, \"HEADER-kpis\": {\"type\": \"HEADER\", \"id\": \"HEADER-kpis\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\"], \"meta\": {\"text\": \"Marketing KPIs\", \"headerSize\": \"MEDIUM_HEADER\", \"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-kpis-filters\": {\"type\": \"ROW\", \"id\": \"ROW-kpis-filters\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\"], \"children\": [\"MARKDOWN-kpis\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"MARKDOWN-kpis\": {\"type\": \"MARKDOWN\", \"id\": \"MARKDOWN-kpis\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-filters\"], \"meta\": {\"code\": \"**Check in the morning:** source tables refresh at different times, so yesterday can still be partial. 30D figures are not final until 30 days after entry, so recent days look low. \\\"Direct\\\" includes any link without a CMP (boosted posts, Meta Membership, IG link-in-bio, onsite banners).\\n\\n**Filters that apply to this section:** Time Range, Time Grain, Channel Group, Main CMP, User Type, Venue Flag, Category\", \"width\": 12, \"height\": 12}}, \"ROW-kpis-0\": {\"type\": \"ROW\", \"id\": \"ROW-kpis-0\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\"], \"children\": [\"CHART-kpi_signups\", \"CHART-kpi_ddls_30d\", \"CHART-kpi_ubos_30d\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-kpi_signups\": {\"type\": \"CHART\", \"id\": \"CHART-kpi_signups\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-0\"], \"meta\": {\"uuid\": \"088ea28c-4d55-5732-8793-b505bbdbb62a\", \"chartId\": 2244, \"sliceName\": \"Signups\", \"width\": 4, \"height\": 30}}, \"CHART-kpi_ddls_30d\": {\"type\": \"CHART\", \"id\": \"CHART-kpi_ddls_30d\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-0\"], \"meta\": {\"uuid\": \"369c889e-802a-5052-a522-343b36d3c64a\", \"chartId\": 2243, \"sliceName\": \"DDLs (30D)\", \"width\": 4, \"height\": 30}}, \"CHART-kpi_ubos_30d\": {\"type\": \"CHART\", \"id\": \"CHART-kpi_ubos_30d\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-0\"], \"meta\": {\"uuid\": \"73099506-9350-5e1b-b0e2-eade0bfbdae1\", \"chartId\": 2245, \"sliceName\": \"UBOs (30D)\", \"width\": 4, \"height\": 30}}, \"ROW-kpis-1\": {\"type\": \"ROW\", \"id\": \"ROW-kpis-1\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\"], \"children\": [\"CHART-pie_signups_channel\", \"CHART-pie_ddls_channel\", \"CHART-pie_ubos_channel\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-pie_signups_channel\": {\"type\": \"CHART\", \"id\": \"CHART-pie_signups_channel\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-1\"], \"meta\": {\"uuid\": \"bd7aa06f-8a76-55d6-bda3-ec903fdac8ed\", \"chartId\": 2256, \"sliceName\": \"Signups by Channel\", \"width\": 4, \"height\": 50}}, \"CHART-pie_ddls_channel\": {\"type\": \"CHART\", \"id\": \"CHART-pie_ddls_channel\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-1\"], \"meta\": {\"uuid\": \"756e2a77-e6b6-503b-83e6-87610ada2a6b\", \"chartId\": 2255, \"sliceName\": \"DDLs (30D) by Channel\", \"width\": 4, \"height\": 50}}, \"CHART-pie_ubos_channel\": {\"type\": \"CHART\", \"id\": \"CHART-pie_ubos_channel\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-1\"], \"meta\": {\"uuid\": \"6e6fe1ea-7222-5e18-b6df-3ddae266f30e\", \"chartId\": 2258, \"sliceName\": \"UBOs (30D) by Channel\", \"width\": 4, \"height\": 50}}, \"ROW-kpis-2\": {\"type\": \"ROW\", \"id\": \"ROW-kpis-2\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\"], \"children\": [\"CHART-bar_signups_channel\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-bar_signups_channel\": {\"type\": \"CHART\", \"id\": \"CHART-bar_signups_channel\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-2\"], \"meta\": {\"uuid\": \"35d7a1b9-3aac-51bf-810f-cc3656f4de5b\", \"chartId\": 2240, \"sliceName\": \"Signups by Channel over Time\", \"width\": 12, \"height\": 50}}, \"ROW-kpis-3\": {\"type\": \"ROW\", \"id\": \"ROW-kpis-3\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\"], \"children\": [\"CHART-bar_ddls_channel\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-bar_ddls_channel\": {\"type\": \"CHART\", \"id\": \"CHART-bar_ddls_channel\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-3\"], \"meta\": {\"uuid\": \"71de026c-4db6-53a6-a808-22b845abcb0f\", \"chartId\": 2239, \"sliceName\": \"DDLs (30D) by Channel over Time\", \"width\": 12, \"height\": 50}}, \"ROW-kpis-4\": {\"type\": \"ROW\", \"id\": \"ROW-kpis-4\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\"], \"children\": [\"CHART-bar_ubos_channel\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-bar_ubos_channel\": {\"type\": \"CHART\", \"id\": \"CHART-bar_ubos_channel\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-marketing-kpis\", \"ROW-kpis-4\"], \"meta\": {\"uuid\": \"2bf62c83-dbb2-5a1c-95fc-95c41570d15d\", \"chartId\": 2241, \"sliceName\": \"UBOs (30D) by Channel over Time\", \"width\": 12, \"height\": 50}}, \"HEADER-categories\": {\"type\": \"HEADER\", \"id\": \"HEADER-categories\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\"], \"meta\": {\"text\": \"Lead Categories\", \"headerSize\": \"MEDIUM_HEADER\", \"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-categories-filters\": {\"type\": \"ROW\", \"id\": \"ROW-categories-filters\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\"], \"children\": [\"MARKDOWN-categories\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"MARKDOWN-categories\": {\"type\": \"MARKDOWN\", \"id\": \"MARKDOWN-categories\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\", \"ROW-categories-filters\"], \"meta\": {\"code\": \"Signups sit on the row of each entrant's first lead, so Category / Venue Flag filters on Signups mean \\\"entrants whose first lead was in X\\\". Total = leads by Dec 3; the 7D/30D/90D windows have no cut-off and can exceed Total. A blank category = leads with an unmapped vendor category.\\n\\n**Filters that apply to this section:** Time Range, Time Grain, Channel Group, Main CMP, User Type, Venue Flag, Category\", \"width\": 12, \"height\": 12}}, \"ROW-categories-0\": {\"type\": \"ROW\", \"id\": \"ROW-categories-0\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\"], \"children\": [\"CHART-venue_ubos_line\", \"CHART-pie_ubos_category\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-venue_ubos_line\": {\"type\": \"CHART\", \"id\": \"CHART-venue_ubos_line\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\", \"ROW-categories-0\"], \"meta\": {\"uuid\": \"81da5eee-61e6-521f-a5db-e03c19df4359\", \"chartId\": 2260, \"sliceName\": \"Venue and Non-Venue UBOs (30D)\", \"width\": 6, \"height\": 50}}, \"CHART-pie_ubos_category\": {\"type\": \"CHART\", \"id\": \"CHART-pie_ubos_category\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\", \"ROW-categories-0\"], \"meta\": {\"uuid\": \"7c046520-754a-5e8f-b457-caaed34e0e4e\", \"chartId\": 2257, \"sliceName\": \"UBOs (30D) by Category\", \"width\": 6, \"height\": 50}}, \"ROW-categories-1\": {\"type\": \"ROW\", \"id\": \"ROW-categories-1\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\"], \"children\": [\"CHART-venue_ddls_line\", \"CHART-pie_ddls_category\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-venue_ddls_line\": {\"type\": \"CHART\", \"id\": \"CHART-venue_ddls_line\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\", \"ROW-categories-1\"], \"meta\": {\"uuid\": \"7018738d-a09f-586f-888b-64c447538e4b\", \"chartId\": 2259, \"sliceName\": \"Venue and Non-Venue DDLs (30D)\", \"width\": 6, \"height\": 50}}, \"CHART-pie_ddls_category\": {\"type\": \"CHART\", \"id\": \"CHART-pie_ddls_category\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\", \"ROW-categories-1\"], \"meta\": {\"uuid\": \"d44437fb-33ab-5add-a5c4-e621643bdd64\", \"chartId\": 2254, \"sliceName\": \"DDLs (30D) by Category\", \"width\": 6, \"height\": 50}}, \"ROW-categories-2\": {\"type\": \"ROW\", \"id\": \"ROW-categories-2\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\"], \"children\": [\"CHART-category_table\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-category_table\": {\"type\": \"CHART\", \"id\": \"CHART-category_table\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-lead-categories\", \"ROW-categories-2\"], \"meta\": {\"uuid\": \"d77e0898-1bbc-5808-a766-55333ed2e3ca\", \"chartId\": 2242, \"sliceName\": \"Category Performance of DDLs and UBOs by Window\", \"width\": 12, \"height\": 70}}, \"HEADER-pacing\": {\"type\": \"HEADER\", \"id\": \"HEADER-pacing\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\"], \"meta\": {\"text\": \"Linear Pacing to Goal\", \"headerSize\": \"MEDIUM_HEADER\", \"background\": \"BACKGROUND_TRANSPARENT\"}}, \"ROW-pacing-filters\": {\"type\": \"ROW\", \"id\": \"ROW-pacing-filters\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\"], \"children\": [\"MARKDOWN-pacing\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"MARKDOWN-pacing\": {\"type\": \"MARKDOWN\", \"id\": \"MARKDOWN-pacing\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-filters\"], \"meta\": {\"code\": \"Goals: 10,000 signups and 10,000 UBOs (30D) over the 44-day campaign (Oct 21 - Dec 3). Projection = to-date / days elapsed x 44, where days elapsed runs from Oct 21 to the last date in the Time Range. Keep the range starting Oct 21. UBOs (30D) understate while recent entrants' 30-day windows are open.\\n\\n**Filters that apply to this section:** Time Range\\n\\n**Not applicable here:** Time Grain, Channel Group, Main CMP, User Type, Venue Flag, Category\", \"width\": 12, \"height\": 12}}, \"ROW-pacing-0\": {\"type\": \"ROW\", \"id\": \"ROW-pacing-0\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\"], \"children\": [\"CHART-pace_signups\", \"CHART-pace_signups_pct\", \"CHART-pace_signups_proj\", \"CHART-pace_signups_vs_goal\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-pace_signups\": {\"type\": \"CHART\", \"id\": \"CHART-pace_signups\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-0\"], \"meta\": {\"uuid\": \"7d162538-8d93-5acf-8be8-a070fd58d19d\", \"chartId\": 2246, \"sliceName\": \"Signups to Date\", \"width\": 3, \"height\": 30}}, \"CHART-pace_signups_pct\": {\"type\": \"CHART\", \"id\": \"CHART-pace_signups_pct\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-0\"], \"meta\": {\"uuid\": \"75d92694-66eb-5a46-b526-8b0b60b36885\", \"chartId\": 2247, \"sliceName\": \"Signups % to Goal (10\", \"width\": 3, \"height\": 30}}, \"CHART-pace_signups_proj\": {\"type\": \"CHART\", \"id\": \"CHART-pace_signups_proj\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-0\"], \"meta\": {\"uuid\": \"01ad9cfa-291d-5009-bb86-598a8de4f096\", \"chartId\": 2248, \"sliceName\": \"Projected Signups (linear)\", \"width\": 3, \"height\": 30}}, \"CHART-pace_signups_vs_goal\": {\"type\": \"CHART\", \"id\": \"CHART-pace_signups_vs_goal\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-0\"], \"meta\": {\"uuid\": \"0e9acaaf-66c9-5705-94d4-b47df6270e5b\", \"chartId\": 2249, \"sliceName\": \"Signups Projection vs Goal\", \"width\": 3, \"height\": 30}}, \"ROW-pacing-1\": {\"type\": \"ROW\", \"id\": \"ROW-pacing-1\", \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\"], \"children\": [\"CHART-pace_ubos\", \"CHART-pace_ubos_pct\", \"CHART-pace_ubos_proj\", \"CHART-pace_ubos_vs_goal\"], \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}}, \"CHART-pace_ubos\": {\"type\": \"CHART\", \"id\": \"CHART-pace_ubos\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-1\"], \"meta\": {\"uuid\": \"6d1e9b0d-3e6f-5a45-a643-c6cf7482588f\", \"chartId\": 2250, \"sliceName\": \"UBOs (30D) to Date\", \"width\": 3, \"height\": 30}}, \"CHART-pace_ubos_pct\": {\"type\": \"CHART\", \"id\": \"CHART-pace_ubos_pct\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-1\"], \"meta\": {\"uuid\": \"daf49a29-392e-534e-842c-a620734249a4\", \"chartId\": 2251, \"sliceName\": \"UBOs (30D) % to Goal (10\", \"width\": 3, \"height\": 30}}, \"CHART-pace_ubos_proj\": {\"type\": \"CHART\", \"id\": \"CHART-pace_ubos_proj\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-1\"], \"meta\": {\"uuid\": \"8f0506de-0029-539d-8b44-e2ee86f41f96\", \"chartId\": 2252, \"sliceName\": \"Projected UBOs (30D) (linear)\", \"width\": 3, \"height\": 30}}, \"CHART-pace_ubos_vs_goal\": {\"type\": \"CHART\", \"id\": \"CHART-pace_ubos_vs_goal\", \"children\": [], \"parents\": [\"ROOT_ID\", \"TABS-main\", \"TAB-pacing\", \"ROW-pacing-1\"], \"meta\": {\"uuid\": \"2dfee8a7-fd88-571b-8462-2acbfa362672\", \"chartId\": 2253, \"sliceName\": \"UBOs (30D) Projection vs Goal\", \"width\": 3, \"height\": 30}}}",
+      "published": false
+    },
+    "entity_id": "121",
+    "entity_name": "US WW Wedding Passport",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.772000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Venue and Non-Venue UBOs (30D)",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2260",
+    "entity_name": "Venue and Non-Venue UBOs (30D)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.740000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Venue and Non-Venue UBOs (30D)",
+      "chart_type": "echarts_timeseries_line",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"echarts_timeseries_line\", \"x_axis\": \"ANCHOR_DATE\", \"time_grain_sqla\": \"P1D\", \"x_axis_sort_asc\": true, \"metrics\": [\"venue_ubos_30d\", \"non_venue_ubos_30d\"], \"groupby\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"ANCHOR_DATE\", \"operator\": \"TEMPORAL_RANGE\", \"comparator\": \"No filter\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"isExtra\": false, \"isNew\": false, \"datasourceWarning\": false, \"filterOptionName\": \"filter_time_venue_ubos_line\"}], \"row_limit\": 10000, \"order_desc\": true, \"show_empty_columns\": true, \"color_scheme\": \"supersetColors\", \"show_legend\": true, \"legendType\": \"scroll\", \"legendOrientation\": \"top\", \"rich_tooltip\": true, \"markerEnabled\": true, \"markerSize\": 6, \"zoomable\": false, \"x_axis_time_format\": \"smart_date\", \"tooltipTimeFormat\": \"smart_date\", \"y_axis_format\": \",d\", \"truncateYAxis\": false, \"extra_form_data\": {}, \"annotation_layers\": []}",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": "{\"datasource\": {\"id\": 464, \"type\": \"table\"}, \"force\": false, \"queries\": [{\"filters\": [{\"col\": \"ANCHOR_DATE\", \"op\": \"TEMPORAL_RANGE\", \"val\": \"No filter\"}], \"extras\": {\"time_grain_sqla\": \"P1D\", \"having\": \"\", \"where\": \"\"}, \"applied_time_extras\": {}, \"columns\": [{\"timeGrain\": \"P1D\", \"columnType\": \"BASE_AXIS\", \"sqlExpression\": \"ANCHOR_DATE\", \"label\": \"ANCHOR_DATE\", \"expressionType\": \"SQL\", \"isColumnReference\": true}], \"metrics\": [\"venue_ubos_30d\", \"non_venue_ubos_30d\"], \"orderby\": [[\"venue_ubos_30d\", false]], \"row_limit\": 10000, \"series_columns\": [], \"time_offsets\": [], \"time_compare_full_range\": false, \"post_processing\": [{\"operation\": \"pivot\", \"options\": {\"index\": [\"ANCHOR_DATE\"], \"columns\": [], \"aggregates\": {\"venue_ubos_30d\": {\"operator\": \"mean\"}, \"non_venue_ubos_30d\": {\"operator\": \"mean\"}}, \"drop_missing_columns\": false}}, {\"operation\": \"flatten\"}], \"annotation_layers\": [], \"series_limit\": 0, \"group_others_when_limit_reached\": false, \"order_desc\": true, \"url_params\": {}, \"custom_params\": {}, \"custom_form_data... [TRUNCATED: 2054 bytes total]",
+      "schema_perm": null
+    },
+    "entity_id": "2260",
+    "entity_name": "Venue and Non-Venue UBOs (30D)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.727000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Venue and Non-Venue DDLs (30D)",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2259",
+    "entity_name": "Venue and Non-Venue DDLs (30D)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.703000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Venue and Non-Venue DDLs (30D)",
+      "chart_type": "echarts_timeseries_line",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"echarts_timeseries_line\", \"x_axis\": \"ANCHOR_DATE\", \"time_grain_sqla\": \"P1D\", \"x_axis_sort_asc\": true, \"metrics\": [\"venue_ddls_30d\", \"non_venue_ddls_30d\"], \"groupby\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"ANCHOR_DATE\", \"operator\": \"TEMPORAL_RANGE\", \"comparator\": \"No filter\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"isExtra\": false, \"isNew\": false, \"datasourceWarning\": false, \"filterOptionName\": \"filter_time_venue_ddls_line\"}], \"row_limit\": 10000, \"order_desc\": true, \"show_empty_columns\": true, \"color_scheme\": \"supersetColors\", \"show_legend\": true, \"legendType\": \"scroll\", \"legendOrientation\": \"top\", \"rich_tooltip\": true, \"markerEnabled\": true, \"markerSize\": 6, \"zoomable\": false, \"x_axis_time_format\": \"smart_date\", \"tooltipTimeFormat\": \"smart_date\", \"y_axis_format\": \",d\", \"truncateYAxis\": false, \"extra_form_data\": {}, \"annotation_layers\": []}",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": "{\"datasource\": {\"id\": 464, \"type\": \"table\"}, \"force\": false, \"queries\": [{\"filters\": [{\"col\": \"ANCHOR_DATE\", \"op\": \"TEMPORAL_RANGE\", \"val\": \"No filter\"}], \"extras\": {\"time_grain_sqla\": \"P1D\", \"having\": \"\", \"where\": \"\"}, \"applied_time_extras\": {}, \"columns\": [{\"timeGrain\": \"P1D\", \"columnType\": \"BASE_AXIS\", \"sqlExpression\": \"ANCHOR_DATE\", \"label\": \"ANCHOR_DATE\", \"expressionType\": \"SQL\", \"isColumnReference\": true}], \"metrics\": [\"venue_ddls_30d\", \"non_venue_ddls_30d\"], \"orderby\": [[\"venue_ddls_30d\", false]], \"row_limit\": 10000, \"series_columns\": [], \"time_offsets\": [], \"time_compare_full_range\": false, \"post_processing\": [{\"operation\": \"pivot\", \"options\": {\"index\": [\"ANCHOR_DATE\"], \"columns\": [], \"aggregates\": {\"venue_ddls_30d\": {\"operator\": \"mean\"}, \"non_venue_ddls_30d\": {\"operator\": \"mean\"}}, \"drop_missing_columns\": false}}, {\"operation\": \"flatten\"}], \"annotation_layers\": [], \"series_limit\": 0, \"group_others_when_limit_reached\": false, \"order_desc\": true, \"url_params\": {}, \"custom_params\": {}, \"custom_form_data... [TRUNCATED: 2054 bytes total]",
+      "schema_perm": null
+    },
+    "entity_id": "2259",
+    "entity_name": "Venue and Non-Venue DDLs (30D)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.689000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "UBOs (30D) by Channel",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2258",
+    "entity_name": "UBOs (30D) by Channel",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.664000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "UBOs (30D) by Channel",
+      "chart_type": "pie",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"pie\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"groupby\": [\"CHANNEL_GROUP\"], \"metric\": \"ubos_30d\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}]... [TRUNCATED: 1480 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2258",
+    "entity_name": "UBOs (30D) by Channel",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.650000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "UBOs (30D) by Category",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2257",
+    "entity_name": "UBOs (30D) by Category",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.625000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "UBOs (30D) by Category",
+      "chart_type": "pie",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"pie\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"groupby\": [\"CATEGORY\"], \"metric\": \"ubos_30d\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"ro... [TRUNCATED: 1493 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2257",
+    "entity_name": "UBOs (30D) by Category",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.611000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Signups by Channel",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2256",
+    "entity_name": "Signups by Channel",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.578000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Signups by Channel",
+      "chart_type": "pie",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"pie\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"groupby\": [\"CHANNEL_GROUP\"], \"metric\": \"signups\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}],... [TRUNCATED: 1479 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2256",
+    "entity_name": "Signups by Channel",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.564000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "DDLs (30D) by Channel",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2255",
+    "entity_name": "DDLs (30D) by Channel",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.537000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "DDLs (30D) by Channel",
+      "chart_type": "pie",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"pie\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"groupby\": [\"CHANNEL_GROUP\"], \"metric\": \"ddls_30d\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}]... [TRUNCATED: 1480 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2255",
+    "entity_name": "DDLs (30D) by Channel",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.524000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "DDLs (30D) by Category",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2254",
+    "entity_name": "DDLs (30D) by Category",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.499000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "DDLs (30D) by Category",
+      "chart_type": "pie",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"pie\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"groupby\": [\"CATEGORY\"], \"metric\": \"ddls_30d\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"ro... [TRUNCATED: 1493 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2254",
+    "entity_name": "DDLs (30D) by Category",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.485000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "UBOs (30D) Projection vs Goal",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2253",
+    "entity_name": "UBOs (30D) Projection vs Goal",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.461000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "UBOs (30D) Projection vs Goal",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"ubos_30d_projection_vs_goal\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"... [TRUNCATED: 1276 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2253",
+    "entity_name": "UBOs (30D) Projection vs Goal",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.448000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Projected UBOs (30D) (linear)",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2252",
+    "entity_name": "Projected UBOs (30D) (linear)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.423000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Projected UBOs (30D) (linear)",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"ubos_30d_projected\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"head... [TRUNCATED: 1265 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2252",
+    "entity_name": "Projected UBOs (30D) (linear)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.409000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "UBOs (30D) % to Goal (10",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2251",
+    "entity_name": "UBOs (30D) % to Goal (10",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.384000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "UBOs (30D) % to Goal (10",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"ubos_30d_pct_to_goal\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"he... [TRUNCATED: 1268 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2251",
+    "entity_name": "UBOs (30D) % to Goal (10",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.371000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "UBOs (30D) to Date",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2250",
+    "entity_name": "UBOs (30D) to Date",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.347000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "UBOs (30D) to Date",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"ubos_30d\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"header_font_si... [TRUNCATED: 1255 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2250",
+    "entity_name": "UBOs (30D) to Date",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.334000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Signups Projection vs Goal",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2249",
+    "entity_name": "Signups Projection vs Goal",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.305000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Signups Projection vs Goal",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"signups_projection_vs_goal\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}... [TRUNCATED: 1275 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2249",
+    "entity_name": "Signups Projection vs Goal",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.290000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Projected Signups (linear)",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2248",
+    "entity_name": "Projected Signups (linear)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.264000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Projected Signups (linear)",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"signups_projected\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"heade... [TRUNCATED: 1264 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2248",
+    "entity_name": "Projected Signups (linear)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.250000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Signups % to Goal (10",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2247",
+    "entity_name": "Signups % to Goal (10",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.227000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Signups % to Goal (10",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"signups_pct_to_goal\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"hea... [TRUNCATED: 1267 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2247",
+    "entity_name": "Signups % to Goal (10",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.214000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Signups to Date",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2246",
+    "entity_name": "Signups to Date",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.189000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Signups to Date",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"signups\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"header_font_siz... [TRUNCATED: 1254 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2246",
+    "entity_name": "Signups to Date",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.176000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "UBOs (30D)",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2245",
+    "entity_name": "UBOs (30D)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.151000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "UBOs (30D)",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"ubos_30d\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"header_font_si... [TRUNCATED: 1255 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2245",
+    "entity_name": "UBOs (30D)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.137000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Signups",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2244",
+    "entity_name": "Signups",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.112000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Signups",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"signups\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"header_font_siz... [TRUNCATED: 1254 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2244",
+    "entity_name": "Signups",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.099000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "DDLs (30D)",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2243",
+    "entity_name": "DDLs (30D)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.072000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "DDLs (30D)",
+      "chart_type": "big_number_total",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"big_number_total\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"metric\": \"ddls_30d\", \"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\", \"operator\": \"TEMPORAL_RANGE\", \"subject\": \"ANCHOR_DATE\"}], \"header_font_si... [TRUNCATED: 1255 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2243",
+    "entity_name": "DDLs (30D)",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.059000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Category Performance of DDLs and UBOs by Window",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2242",
+    "entity_name": "Category Performance of DDLs and UBOs by Window",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.035000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Category Performance of DDLs and UBOs by Window",
+      "chart_type": "ag-grid-table",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"ag-grid-table\", \"query_mode\": \"aggregate\", \"groupby\": [\"CATEGORY\"], \"temporal_columns_lookup\": {\"ANCHOR_DATE\": true}, \"metrics\": [\"ddls_7d\", \"ddls_30d\", \"ddls_90d\", \"ddls_total\", \"ubos_7d\", \"ubos_30d\", \"ubos_90d\", \"ubos_total\"], \"all_columns\": [], \"percent_metrics\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"ANCHOR_DATE\", \"operator\": \"TEMPORAL_RANGE\", \"comparator\": \"No filter\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"isExtra\": false, \"isNew\": false, \"datasourceWarning\": false, \"filterOptionName\": \"filter_time_category_table\"}], \"order_by_cols\": [], \"row_limit\": 10000, \"order_desc\": true, \"show_totals\": false, \"table_timestamp_format\": \"smart_date\", \"include_search\": true, \"allow_render_html\": true, \"show_raw_record_totals\": false, \"show_cell_bars\": true, \"align_pn\": false, \"color_pn\": true, \"comparison_color_enabled\": false, \"comparison_color_scheme\": \"Green\", \"comparison_type\": \"values\", \"extra_form_data\": {}, \"annotation_layers\": []}",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": "{\"datasource\": {\"id\": 464, \"type\": \"table\"}, \"force\": false, \"queries\": [{\"filters\": [{\"col\": \"ANCHOR_DATE\", \"op\": \"TEMPORAL_RANGE\", \"val\": \"No filter\"}], \"extras\": {\"having\": \"\", \"where\": \"\"}, \"applied_time_extras\": {}, \"columns\": [\"CATEGORY\"], \"metrics\": [\"ddls_7d\", \"ddls_30d\", \"ddls_90d\", \"ddls_total\", \"ubos_7d\", \"ubos_30d\", \"ubos_90d\", \"ubos_total\"], \"orderby\": [[\"ddls_7d\", false]], \"row_limit\": 10000, \"post_processing\": [], \"time_offsets\": [], \"annotation_layers\": [], \"series_limit\": 0, \"group_others_when_limit_reached\": false, \"order_desc\": true, \"url_params\": {}, \"custom_params\": {}, \"custom_form_data\": {}}], \"form_data\": {\"datasource\": \"464__table\", \"viz_type\": \"ag-grid-table\", \"query_mode\": \"aggregate\", \"groupby\": [\"CATEGORY\"], \"temporal_columns_lookup\": {\"ANCHOR_DATE\": true}, \"metrics\": [\"ddls_7d\", \"ddls_30d\", \"ddls_90d\", \"ddls_total\", \"ubos_7d\", \"ubos_30d\", \"ubos_90d\", \"ubos_total\"], \"all_columns\": [], \"percent_metrics\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"ANCHOR_DATE\", \"... [TRUNCATED: 1739 bytes total]",
+      "schema_perm": null
+    },
+    "entity_id": "2242",
+    "entity_name": "Category Performance of DDLs and UBOs by Window",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:28.021000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "UBOs (30D) by Channel over Time",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2241",
+    "entity_name": "UBOs (30D) by Channel over Time",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:27.996000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "UBOs (30D) by Channel over Time",
+      "chart_type": "echarts_timeseries_bar",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"echarts_timeseries_bar\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"x_axis\": \"ANCHOR_DATE\", \"xAxisForceCategorical\": false, \"x_axis_sort_asc\": true, \"metrics\": [\"ubos_30d\"], \"groupby\": [\"CHANNEL_GROUP\"], \"adhoc_filters\": [{\"clause\": \"WHERE\", \"compar... [TRUNCATED: 2385 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2241",
+    "entity_name": "UBOs (30D) by Channel over Time",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:27.982000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Signups by Channel over Time",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2240",
+    "entity_name": "Signups by Channel over Time",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:27.958000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "Signups by Channel over Time",
+      "chart_type": "echarts_timeseries_bar",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"echarts_timeseries_bar\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"x_axis\": \"ANCHOR_DATE\", \"xAxisForceCategorical\": false, \"x_axis_sort_asc\": true, \"metrics\": [\"signups\"], \"groupby\": [\"CHANNEL_GROUP\"], \"adhoc_filters\": [{\"clause\": \"WHERE\", \"compara... [TRUNCATED: 2384 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2240",
+    "entity_name": "Signups by Channel over Time",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:27.944000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "DDLs (30D) by Channel over Time",
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ]
+    },
+    "entity_id": "2239",
+    "entity_name": "DDLs (30D) by Channel over Time",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:27.910000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:create",
+    "details": {
+      "cache_timeout": null,
+      "certification_details": null,
+      "certified_by": null,
+      "chart_name": "DDLs (30D) by Channel over Time",
+      "chart_type": "echarts_timeseries_bar",
+      "datasource_id": 464,
+      "datasource_name": "WP_US_user_performance_dash_v1",
+      "datasource_type": "table",
+      "description": null,
+      "owners": [],
+      "params": "{\"datasource\": \"464__table\", \"viz_type\": \"echarts_timeseries_bar\", \"matrixify_enable\": false, \"matrixify_mode_columns\": \"disabled\", \"matrixify_dimension_selection_mode_columns\": \"members\", \"matrixify_dimension_columns\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_columns\": 10, \"matrixify_all_sort_by_columns\": \"a_to_z\", \"matrixify_topn_order_columns\": true, \"matrixify_show_column_headers\": true, \"matrixify_fit_columns_dynamically\": true, \"matrixify_mode_rows\": \"disabled\", \"matrixify_dimension_selection_mode_rows\": \"members\", \"matrixify_dimension_rows\": {\"dimension\": \"\", \"values\": []}, \"matrixify_topn_value_rows\": 10, \"matrixify_all_sort_by_rows\": \"a_to_z\", \"matrixify_topn_order_rows\": true, \"matrixify_show_row_labels\": true, \"matrixify_row_height\": 300, \"matrixify_charts_per_row\": 4, \"matrixify_cell_title_template\": \"\", \"x_axis\": \"ANCHOR_DATE\", \"xAxisForceCategorical\": false, \"x_axis_sort_asc\": true, \"metrics\": [\"ddls_30d\"], \"groupby\": [\"CHANNEL_GROUP\"], \"adhoc_filters\": [{\"clause\": \"WHERE\", \"compar... [TRUNCATED: 2385 bytes total]",
+      "perm": "[Snowflake_TKWW_ODS].[WP_US_user_performance_dash_v1](id:464)",
+      "query_context": null,
+      "schema_perm": null
+    },
+    "entity_id": "2239",
+    "entity_name": "DDLs (30D) by Channel over Time",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:27.894000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dataset:create",
+    "details": {
+      "cache_timeout": null,
+      "columns": [],
+      "database_id": 10,
+      "description": "One row per anchor_date x country_code x user_type x Main CMP x channel_group x category x venue_flag. Count columns are summable across any dimension; rates must be computed from sums. Dates are US Eastern.",
+      "external_url": null,
+      "extra": null,
+      "fetch_values_predicate": null,
+      "filter_select_enabled": true,
+      "is_sqllab_view": false,
+      "main_dttm_col": "ANCHOR_DATE",
+      "metrics": [],
+      "offset": 0,
+      "owners": [],
+      "schema": null,
+      "table_name": "WP_US_user_performance_dash_v1",
+      "template_params": null
+    },
+    "entity_id": "464",
+    "entity_name": "WP_US_user_performance_dash_v1",
+    "entity_type": "urn:preset:ws:dataset",
+    "source": null,
+    "timestamp": "2026-11-05T05:13:25.144000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:update",
+    "details": {
+      "dashboard_title": "[ untitled dashboard ]",
+      "json_metadata": "{\"color_scheme_domain\": [], \"shared_label_colors\": [], \"map_label_colors\": {}, \"label_colors\": {}}"
+    },
+    "entity_id": "120",
+    "entity_name": "[ untitled dashboard ]",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T05:05:17.148000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "120",
+    "entity_name": "[ untitled dashboard ]",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T05:04:54.697000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:create",
+    "details": {
+      "certification_details": null,
+      "certified_by": null,
+      "css": null,
+      "dashboard_title": "[ untitled dashboard ]",
+      "embedded": [],
+      "json_metadata": null,
+      "owners": [
+        {
+          "email": "jorhernandez@theknotww.com",
+          "first_name": "Jorge",
+          "last_name": "Hernandez"
+        }
+      ],
+      "position_json": null,
+      "published": false
+    },
+    "entity_id": "120",
+    "entity_name": "[ untitled dashboard ]",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T05:04:52.273000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "114",
+    "entity_name": "US WW Wedding Passport",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T04:36:30.791000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "114",
+    "entity_name": "US WW Wedding Passport",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T03:51:30.745000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "2186",
+    "entity_name": "US WP Entrants",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T03:51:27.279000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:update",
+    "details": {
+      "dashboard_title": "Get Aisle Ready Dashboard",
+      "json_metadata": "{\"chart_configuration\": {\"1963\": {\"id\": 1963, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1964\": {\"id\": 1964, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1965\": {\"id\": 1965, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1966\": {\"id\": 1966, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1967\": {\"id\": 1967, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1968\": {\"id\": 1968, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1975\": {\"id\": 1975, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1976\": {\"id\": 1976, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1984\": {\"id\": 1984, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1985\": {\"id\": 1985, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1987\": {\"id\": 1987, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1988\": {\"id\": 1988, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1989\": {\"id\": 1989, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1990\": {\"id\": 1990, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1991\": {\"id\": 1991, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1992\": {\"id\": 1992, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1993\": {\"id\": 1993, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"1995\": {\"id\": 1995, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2063\": {\"id\": 2063, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2064\": {\"id\": 2064, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2069\": {\"id\": 2069, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2070\": {\"id\": 2070, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2071\": {\"id\": 2071, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2072\": {\"id\": 2072, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2073\": {\"id\": 2073, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2074\": {\"id\": 2074, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2076\": {\"id\": 2076, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2077, 2078, 2079, 2104, 2105, 2106]}}, \"2078\": {\"id\": 2078, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2079, 2104, 2105, 2106]}}, \"2079\": {\"id\": 2079, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2104, 2105, 2106]}}, \"2104\": {\"id\": 2104, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2105, 2106]}}, \"2105\": {\"id\": 2105, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2106]}}, \"2106\": {\"id\": 2106, \"crossFilters\": {\"scope\": \"global\", \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105]}}}, \"global_chart_configuration\": {\"scope\": {\"rootPath\": [\"ROOT_ID\"], \"excluded\": []}, \"chartsInScope\": [1963, 1964, 1965, 1966, 1967, 1968, 1975, 1976, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2104, 2105, 2106]}, \"native_filter_configuration\": [{\"id\": \"NATIVE_FILTER-rLO8bagzQAENAgpu_BKvi\", \"type\": \"NATIVE_FILTER\", \"name\": \"Time Range\", \"filterType\": \"filter_time\", \"description\": \"\", \"targets\": [{}], \"scope\": {\"rootPath\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-6X8fd3bQMQ1U-QW0z7okQ\", \"TAB-QzCtjimDdq5ludKkyU1O5\"], \"excluded\": [1984, 1985, 1989, 1992]}, \"controlValues\": {\"timeShift\": true, \"enableEmptyFilter\": false}, \"defaultDataMask\": {\"extraFormData\": {\"time_range\": \" : today\"}, \"filterState\": {\"value\": \" : today\"}}, \"cascadeParentIds\": [], \"chartsInScope\": [1987, 1993, 2063, 2064, 2065, 2071, 2074, 2077, 2104, 1975, 1988, 2066, 2072, 2075, 2078, 2105, 1967, 1976, 1995, 2067, 2073, 2076, 2079, 2106, 1968, 1990, 2068, 1991, 2069, 2070], \"tabsInScope\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-6X8fd3bQMQ1U-QW0z7okQ\", \"TAB-QzCtjimDdq5ludKkyU1O5\"]}, {\"id\": \"NATIVE_FILTER-vh5ncD3R0rmoVxDzn1IQQ\", \"type\": \"NATIVE_FILTER\", \"name\": \"Time Grain\", \"filterType\": \"filter_timegrain\", \"description\": \"\", \"targets\": [{\"datasetId\": 407}], \"scope\": {\"rootPath\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-6X8fd3bQMQ1U-QW0z7okQ\", \"TAB-QzCtjimDdq5ludKkyU1O5\"], \"excluded\": [1984, 1985, 1989, 1992]}, \"controlValues\": {\"enableEmptyFilter\": false}, \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"cascadeParentIds\": [], \"time_grains\": [\"P1D\", \"P1W\", \"P1M\"], \"chartsInScope\": [1987, 1993, 2063, 2064, 2065, 2071, 2074, 2077, 2104, 1975, 1988, 2066, 2072, 2075, 2078, 2105, 1967, 1976, 1995, 2067, 2073, 2076, 2079, 2106, 1968, 1990, 2068, 1991, 2069, 2070], \"tabsInScope\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-6X8fd3bQMQ1U-QW0z7okQ\", \"TAB-QzCtjimDdq5ludKkyU1O5\"]}, {\"id\": \"NATIVE_FILTER-V98hzukH6YQabqlaQ0EJp\", \"type\": \"NATIVE_FILTER\", \"name\": \"Channel Group\", \"filterType\": \"filter_select\", \"description\": \"\", \"targets\": [{\"datasetId\": 406, \"column\": {\"name\": \"CHANNEL_GROUP\"}}], \"scope\": {\"rootPath\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-QzCtjimDdq5ludKkyU1O5\"], \"excluded\": []}, \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"creatable\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": true}, \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"cascadeParentIds\": [\"NATIVE_FILTER-rLO8bagzQAENAgpu_BKvi\"], \"granularity_sqla\": null, \"chartsInScope\": [1987, 1993, 2065, 2074, 2077, 2104, 1975, 1984, 1988, 2066, 2075, 2078, 2105, 1967, 1976, 1985, 1989, 1995, 2067, 2073, 2076, 2079, 2106, 1968, 1990, 2068, 1991, 1992], \"tabsInScope\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-QzCtjimDdq5ludKkyU1O5\"]}, {\"id\": \"NATIVE_FILTER-wwRuOgS6sGQR0VswCwZMW\", \"type\": \"NATIVE_FILTER\", \"name\": \"UTM Source\", \"filterType\": \"filter_select\", \"description\": \"\", \"targets\": [{\"datasetId\": 407, \"column\": {\"name\": \"SOURCE\"}}], \"scope\": {\"rootPath\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-QzCtjimDdq5ludKkyU1O5\"], \"excluded\": []}, \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"creatable\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": true}, \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"cascadeParentIds\": [\"NATIVE_FILTER-rLO8bagzQAENAgpu_BKvi\", \"NATIVE_FILTER-V98hzukH6YQabqlaQ0EJp\"], \"granularity_sqla\": null, \"chartsInScope\": [1987, 1993, 2065, 2074, 2077, 2104, 1975, 1984, 1988, 2066, 2075, 2078, 2105, 1967, 1976, 1985, 1989, 1995, 2067, 2073, 2076, 2079, 2106, 1968, 1990, 2068, 1991, 1992], \"tabsInScope\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-QzCtjimDdq5ludKkyU1O5\"]}, {\"id\": \"NATIVE_FILTER-97JYqf27IcXmyeSoIF1-W\", \"type\": \"NATIVE_FILTER\", \"name\": \"UTM Medium\", \"filterType\": \"filter_select\", \"description\": \"\", \"targets\": [{\"datasetId\": 407, \"column\": {\"name\": \"MEDIUM\"}}], \"scope\": {\"rootPath\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-QzCtjimDdq5ludKkyU1O5\"], \"excluded\": []}, \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"creatable\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": true}, \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"cascadeParentIds\": [\"NATIVE_FILTER-rLO8bagzQAENAgpu_BKvi\", \"NATIVE_FILTER-V98hzukH6YQabqlaQ0EJp\"], \"granularity_sqla\": null, \"chartsInScope\": [1987, 1993, 2065, 2074, 2077, 2104, 1975, 1984, 1988, 2066, 2075, 2078, 2105, 1967, 1976, 1985, 1989, 1995, 2067, 2073, 2076, 2079, 2106, 1968, 1990, 2068, 1991, 1992], \"tabsInScope\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-QzCtjimDdq5ludKkyU1O5\"]}, {\"id\": \"NATIVE_FILTER-rKakOXteATSobQprUQ-Sy\", \"type\": \"NATIVE_FILTER\", \"name\": \"UTM Content\", \"filterType\": \"filter_select\", \"description\": \"\", \"targets\": [{\"datasetId\": 407, \"column\": {\"name\": \"CAMPAIGN_CONTENT\"}}], \"scope\": {\"rootPath\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-QzCtjimDdq5ludKkyU1O5\"], \"excluded\": []}, \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"creatable\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": true}, \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"cascadeParentIds\": [\"NATIVE_FILTER-rLO8bagzQAENAgpu_BKvi\", \"NATIVE_FILTER-V98hzukH6YQabqlaQ0EJp\"], \"granularity_sqla\": null, \"chartsInScope\": [1987, 1993, 2065, 2074, 2077, 2104, 1975, 1984, 1988, 2066, 2075, 2078, 2105, 1967, 1976, 1985, 1989, 1995, 2067, 2073, 2076, 2079, 2106, 1968, 1990, 2068, 1991, 1992], \"tabsInScope\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-QzCtjimDdq5ludKkyU1O5\"]}, {\"id\": \"NATIVE_FILTER-xGHwvjJQlwne40uTkJlpq\", \"type\": \"NATIVE_FILTER\", \"name\": \"Lead Categories\", \"filterType\": \"filter_select\", \"description\": \"\", \"targets\": [{\"datasetId\": 411, \"column\": {\"name\": \"CATEGORY_NAME\"}}], \"scope\": {\"rootPath\": [\"TAB-nSZBV9t3Y-LeXzChr6VZ-\", \"TAB-6X8fd3bQMQ1U-QW0z7okQ\"], \"excluded\": [2071, 2072]}, \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"creatable\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": true}, \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"cascadeParentIds\": [\"NATIVE_FILTER-rLO8bagzQAENAgpu_BKvi\", \"NATIVE_FILTER-V98hzukH6YQabqlaQ0EJp\"], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"DATE\", \"operator\": \"TEMPORAL_RANGE\", \"operatorId\": \"TEMPORAL_RANGE\", \"comparator\": \" : today\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"isExtra\": false, \"isNew\": false, \"datasourceWarning\": false, \"filterOptionName\": \"filter_d35849o0sq7_f31nlyncj6a\"}], \"time_range\": \"No filter\", \"granularity_sqla\": null}, {\"id\": \"NATIVE_FILTER-91bHaf2QWcbN_PE6BnV-X\", \"type\": \"NATIVE_FILTER\", \"name\": \"Entry Type\", \"filterType\": \"filter_select\", \"description\": \"\", \"targets\": [{\"datasetId\": 407, \"column\": {\"name\": \"ENTRY_TYPE\"}}], \"scope\": {\"rootPath\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\"], \"excluded\": [1984, 1985, 1989, 1992, 2065, 2066, 1967, 1968, 1975, 1976]}, \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"creatable\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": false}, \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"cascadeParentIds\": []}, {\"id\": \"NATIVE_FILTER-d4NE44dWmH2qFSkvbYSGX\", \"type\": \"NATIVE_FILTER\", \"name\": \"Paid Social LOB\", \"filterType\": \"filter_select\", \"description\": \"\", \"targets\": [{\"datasetId\": 407, \"column\": {\"name\": \"PAID_SOCIAL_LOB\"}}], \"scope\": {\"rootPath\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\"], \"excluded\": [1984, 1985, 1989, 1992, 2065, 2066, 1967, 1968, 1975, 1976]}, \"controlValues\": {\"enableEmptyFilter\": false, \"defaultToFirstItem\": false, \"creatable\": false, \"multiSelect\": true, \"searchAllOptions\": false, \"inverseSelection\": true}, \"defaultDataMask\": {\"extraFormData\": {}, \"filterState\": {}, \"ownState\": {}}, \"cascadeParentIds\": [], \"chartsInScope\": [1987, 1993, 2104, 1988, 2105, 1995, 2067, 2073, 2106, 1990, 2068, 1991], \"tabsInScope\": [\"TAB-RV50hImczPvTgtTS7H0pQ\", \"TAB-nSZBV9t3Y-LeXzChr6VZ-\"]}], \"chart_customization_config\": [], \"map_label_colors\": {\"CRM\": \"#454E7C\", \"Paid Social\": \"#1FA8C9\", \"Direct\": \"#A868B7\", \"Paid Search\": \"#E04355\", \"Organic Social\": \"#5AC189\", \"Organic Search\": \"#3CCCCB\", \"Referral\": \"#FCC700\", \"Paid Other\": \"#FF7F44\", \"Other\": \"#666666\", \"Affiliates\": \"#A38F79\", \"Paid Display\": \"#8FD3E4\", \"SUM(CUM_SESSIONS)\": \"#1FA8C9\", \"SUM(CUM_SIGNUPS)\": \"#1FA8C9\", \"SUM(CUM_TOTAL_UBOS)\": \"#1FA8C9\", \"Campaign Eligible UBOs\": \"#1FA8C9\", \"Prize Eligible UBOs\": \"#454E7C\", \"Entry Submitted\": \"#1FA8C9\", \"New Registration\": \"#454E7C\", \"Reception Venues\": \"#1FA8C9\", \"Beauty\": \"#454E7C\", \"Wedding Photographers\": \"#5AC189\", \"Florists\": \"#FF7F44\", \"DJs\": \"#E04355\", \"Caterers\": \"#666666\", \"Bridal Salons\": \"#FCC700\", \"Videographers\": \"#A868B7\", \"Wedding Planners\": \"#3CCCCB\", \"Wedding Cakes\": \"#A38F79\", \"Jewelers\": \"#8FD3E4\", \"Bar Services & Beverages\": \"#A1A6BD\", \"Officiants & Premarital Counseling\": \"#FEC0A1\", \"Transportation\": \"#ACE1C4\", \"Ensembles & Soloists\": \"#FDE380\", \"Rentals\": \"#B2B2B2\", \"Photo Booths\": \"#EFA1AA\", \"Wedding Bands\": \"#9EE5E5\", \"Decor\": \"#D3B3DA\", \"Dance Lessons\": \"#D1C6BC\", \"Rehearsal Dinners, Bridal Showers & Parties\": \"#454E7C\", \"Favors & Gifts\": \"#5AC189\", \"Invitations & Paper Goods\": \"#FF7F44\", \"Travel Specialists\": \"#666666\", \"Not Paid Social\": \"#1FA8C9\", \"Membership\": \"#454E7C\", \"Marketplace\": \"#5AC189\", \"Brand\": \"#FF7F44\", \"Registry\": \"#E04355\", \"Campaign Eligible DDLs\": \"#1FA8C9\", \"Prize Eligible DDLs\": \"#454E7C\", \"SUM(CUM_TOTAL_DDLS)\": \"#1FA8C9\"}, \"color_scheme\": \"\", \"refresh_frequency\": 0, \"color_scheme_domain\": [], \"expanded_slices\": {}, \"label_colors\": {}, \"shared_label_colors\": [\"Affiliates\", \"BAU\", \"CRM\", \"Direct\", \"GAR Campaign\", \"Organic Search\", \"Organic Social\", \"Other\", \"Paid Display\", \"Paid Other\", \"Paid Search\", \"Paid Social\", \"Referral\"], \"timed_refresh_immune_slices\": [], \"cross_filters_enabled\": true, \"default_filters\": \"{}\"}"
+    },
+    "entity_id": "111",
+    "entity_name": "Get Aisle Ready Dashboard",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T03:48:54.386000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "111",
+    "entity_name": "Get Aisle Ready Dashboard",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T03:47:52.783000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "114",
+    "entity_name": "US WW Wedding Passport",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T03:29:52.200000",
+    "user": "jorhernandez@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1782864000000,1785542400000,1788220800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-07-01, 2026-08-01, 2026-09-01\",\"validateMessage\":false,\"value\":[1782864000000,1785542400000,1788220800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{\"filters\":[{\"col\":\"INTEGRATED_MARKETING_CAMPAIGN\",\"op\":\"IN\",\"val\":[\"2026 Paid Media Category Pages\",\"2024 Paid Media Category Pages\",\"2025 Paid Media Category Pages\"]}]},\"filterState\":{\"label\":\"2026 Paid Media Category Pages, 2024 Paid Media Category Pages, 2025 Paid Media Category Pages\",\"value\":[\"2026 Paid Media Category Pages\",\"2024 Paid Media Category Pages\",\"2025 Paid Media Category Pages\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T02:04:24.865000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1788220800000,1785542400000,1782864000000,1780272000000,1777593600000,1775001600000,1772323200000,1769904000000,1767225600000,1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-09-01, 2026-08-01, 2026-07-01, 2026-06-01, 2026-05-01, 2026-04-01, 2026-03-01, 2026-02-01, 2026-01-01, 2026-10-01\",\"validateMessage\":false,\"value\":[1788220800000,1785542400000,1782864000000,1780272000000,1777593600000,1775001600000,1772323200000,1769904000000,1767225600000,1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{\"filters\":[{\"col\":\"INTEGRATED_MARKETING_CAMPAIGN\",\"op\":\"IN\",\"val\":[\"2026 Paid Media Category Pages\",\"2024 Paid Media Category Pages\",\"2025 Paid Media Category Pages\"]}]},\"filterState\":{\"label\":\"2026 Paid Media Category Pages, 2024 Paid Media Category Pages, 2025 Paid Media Category Pages\",\"value\":[\"2026 Paid Media Category Pages\",\"2024 Paid Media Category Pages\",\"2025 Paid Media Category Pages\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T02:04:18.964000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T02:03:54.123000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:update",
+    "details": {
+      "chart_name": "Detail Table",
+      "params": "{\"datasource\":\"74__table\",\"viz_type\":\"table\",\"slice_id\":258,\"matrixify_enable\":false,\"matrixify_mode_columns\":\"metrics\",\"matrixify_dimension_selection_mode_columns\":\"members\",\"matrixify_dimension_columns\":{\"dimension\":\"\",\"values\":[]},\"matrixify_topn_value_columns\":10,\"matrixify_all_sort_by_columns\":\"a_to_z\",\"matrixify_topn_order_columns\":\"desc\",\"matrixify_show_column_headers\":true,\"matrixify_fit_columns_dynamically\":true,\"matrixify_mode_rows\":\"dimensions\",\"matrixify_dimension_selection_mode_rows\":\"members\",\"matrixify_dimension_rows\":{\"dimension\":\"\",\"values\":[]},\"matrixify_topn_value_rows\":10,\"matrixify_all_sort_by_rows\":\"a_to_z\",\"matrixify_topn_order_rows\":\"desc\",\"matrixify_show_row_labels\":true,\"matrixify_row_height\":300,\"matrixify_charts_per_row\":3,\"matrixify_cell_title_template\":\"\",\"query_mode\":\"aggregate\",\"groupby\":[{\"datasourceWarning\":false,\"expressionType\":\"SQL\",\"label\":\"Month\",\"sqlExpression\":\"DATE_TRUNC('month', mqa_month_date)\"},{\"datasourceWarning\":false,\"expressionType\":\"SQL\",\"label\":\"Category\",\"s... [TRUNCATED: 6785 bytes total]",
+      "query_context": "{\"datasource\":{\"id\":74,\"type\":\"table\"},\"force\":false,\"queries\":[{\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1M\",\"having\":\"\",\"where\":\"(MQA_MONTH_DATE>='2024-10-01')\"},\"applied_time_extras\":{},\"columns\":[{\"datasourceWarning\":false,\"expressionType\":\"SQL\",\"label\":\"Month\",\"sqlExpression\":\"DATE_TRUNC('month', mqa_month_date)\"},{\"datasourceWarning\":false,\"expressionType\":\"SQL\",\"label\":\"Category\",\"sqlExpression\":\"COALESCE(category_bucket, 'Non-Venue')\"},\"Channel\",{\"datasourceWarning\":false,\"expressionType\":\"SQL\",\"label\":\"Channel Tactic\",\"sqlExpression\":\"CAMPAIGN_SUBTYPE\"},{\"datasourceWarning\":false,\"expressionType\":\"SQL\",\"label\":\"Campaign\",\"sqlExpression\":\"COALESCE(MQA_CAMPAIGN_NAME, 'Unspecified')\"}],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"advanced_data_type\":null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"TOTAL_MQAS\",\"description\":null,\"expression\":\"\",\"filterable\":true,\"groupby\":true,\"id\":2495,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DECIMAL(18, 0)\",\"type_... [TRUNCATED: 12387 bytes total]"
+    },
+    "entity_id": "258",
+    "entity_name": "Detail Table",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T02:03:53.169000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "258",
+    "entity_name": "Detail Table",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T02:00:41.754000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T02:00:36.309000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "258",
+    "entity_name": "Detail Table",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T02:00:08.421000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1785542400000,1782864000000,1788220800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-08-01, 2026-07-01, 2026-09-01\",\"validateMessage\":false,\"value\":[1785542400000,1782864000000,1788220800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{\"filters\":[{\"col\":\"INTEGRATED_MARKETING_CAMPAIGN\",\"op\":\"IN\",\"val\":[\"2024 Paid Media Category Pages\",\"2026 Paid Media Category Pages\",\"2025 Paid Media Category Pages\"]}]},\"filterState\":{\"label\":\"2024 Paid Media Category Pages, 2026 Paid Media Category Pages, 2025 Paid Media Category Pages\",\"value\":[\"2024 Paid Media Category Pages\",\"2026 Paid Media Category Pages\",\"2025 Paid Media Category Pages\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T01:56:23.821000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1788220800000,1785542400000,1782864000000,1780272000000,1777593600000,1775001600000,1772323200000,1769904000000,1767225600000,1790812800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-09-01, 2026-08-01, 2026-07-01, 2026-06-01, 2026-05-01, 2026-04-01, 2026-03-01, 2026-02-01, 2026-01-01, 2026-10-01\",\"validateMessage\":false,\"value\":[1788220800000,1785542400000,1782864000000,1780272000000,1777593600000,1775001600000,1772323200000,1769904000000,1767225600000,1790812800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{\"filters\":[{\"col\":\"INTEGRATED_MARKETING_CAMPAIGN\",\"op\":\"IN\",\"val\":[\"2024 Paid Media Category Pages\",\"2026 Paid Media Category Pages\",\"2025 Paid Media Category Pages\"]}]},\"filterState\":{\"label\":\"2024 Paid Media Category Pages, 2026 Paid Media Category Pages, 2025 Paid Media Category Pages\",\"value\":[\"2024 Paid Media Category Pages\",\"2026 Paid Media Category Pages\",\"2025 Paid Media Category Pages\"],\"excludeFilterValues\":true},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T01:56:13.630000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T01:53:57.291000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "chart:view",
+    "details": null,
+    "entity_id": "608",
+    "entity_name": "Top 5 Performing Campaigns",
+    "entity_type": "urn:preset:ws:chart",
+    "source": null,
+    "timestamp": "2026-11-05T01:49:31.408000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1782864000000,1785542400000,1788220800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-07-01, 2026-08-01, 2026-09-01\",\"validateMessage\":false,\"value\":[1782864000000,1785542400000,1788220800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T01:48:50.674000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T01:48:38.453000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "30",
+    "entity_name": "TKWW611 | Registry Dashboard",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T01:03:53.837000",
+    "user": "jjames@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "13",
+    "entity_name": "PECOMP002 - Paper TOF, MOF, BOF Key Metrics Dashboard",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T01:03:50.758000",
+    "user": "jjames@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "20",
+    "entity_name": "EXEC - Actuals and MTD Pacing to Budget / Forecast",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-05T01:03:44.575000",
+    "user": "jjames@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "user:login",
+    "details": null,
+    "entity_id": null,
+    "entity_name": null,
+    "entity_type": null,
+    "source": null,
+    "timestamp": "2026-11-05T01:03:37.335000",
+    "user": "jjames@theknotww.com",
+    "workspace_name": null,
+    "workspace_title": null,
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
     "action": "chart:view",
     "details": null,
     "entity_id": "2178",
