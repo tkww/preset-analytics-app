@@ -4447,7 +4447,7 @@
       "first_name": "Karon",
       "id": 1137639,
       "last_name": "Cannon",
-      "onboarded": false,
+      "onboarded": true,
       "username": "samlp|theknotww|kcannon@theknotww.com"
     },
     "user_type": "CREATOR",
