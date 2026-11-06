@@ -1,5 +1,50 @@
 [
   {
+    "action": "dashboard:filter",
+    "details": {
+      "dashboard_title": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+      "filter": "{\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\":{\"id\":\"NATIVE_FILTER-K4Z2mZjGogAorh5_ubuyV\",\"extraFormData\":{\"filters\":[{\"col\":\"MQA_MONTH_DATE\",\"op\":\"IN\",\"val\":[1785542400000,1782864000000,1788220800000]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2026-08-01, 2026-07-01, 2026-09-01\",\"validateMessage\":false,\"value\":[1785542400000,1782864000000,1788220800000]},\"ownState\":{}},\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\":{\"id\":\"NATIVE_FILTER-K6ceyCLZfmPK32i2GiJXJ\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\":{\"id\":\"NATIVE_FILTER-h2UUl0XlwvZPKvLvGNi1O\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\":{\"id\":\"NATIVE_FILTER-59vJe3i_rUKwrFfS4m0Sg\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\":{\"id\":\"NATIVE_FILTER-5d7sUREWcTQ4t_sBUVEW1\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\":{\"id\":\"NATIVE_FILTER--TVyyO78laUhWR7Eo9OEB\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\":{\"id\":\"NATIVE_FILTER-MLHcxlQmBWxTKMYFX3ITG\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\":{\"id\":\"NATIVE_FILTER-yoKvrJqs4Qa666qbMkod3\",\"extraFormData\":{},\"filterState\":{},\"ownState\":{}},\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\":{\"id\":\"NATIVE_FILTER-BrwzJO4VGX8E9iUSygFJb\",\"extraFormData\":{\"filters\":[{\"col\":\"MONTH\",\"op\":\"IN\",\"val\":[\"2025-01\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"2025-01\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"2025-01\"]},\"ownState\":{}},\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\":{\"id\":\"NATIVE_FILTER-MQzpRazWLM7u6gANSStHJ\",\"extraFormData\":{\"filters\":[{\"col\":\"CONVERSION_TYPE\",\"op\":\"IN\",\"val\":[\"MQA\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"MQA\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"MQA\"]},\"ownState\":{}},\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\":{\"id\":\"NATIVE_FILTER-kXbckyfb_p6F4TZ3l-of5\",\"extraFormData\":{\"filters\":[{\"col\":\"VENDOR_SEGMENT\",\"op\":\"IN\",\"val\":[\"all\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"all\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"all\"]},\"ownState\":{}},\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\":{\"id\":\"NATIVE_FILTER-YOiVv-N9Vp_I21mtgb0eZ\",\"extraFormData\":{\"filters\":[{\"col\":\"vendor_segment_touchpoints\",\"op\":\"IN\",\"val\":[\"non_venue\",\"venue\"]}]},\"filterState\":{\"excludeFilterValues\":true,\"label\":\"non_venue, venue\",\"validateMessage\":false,\"validateStatus\":false,\"value\":[\"non_venue\",\"venue\"]},\"ownState\":{}}}"
+    },
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-06T03:48:22.173000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "29",
+    "entity_name": "US Vendor Marketing Attribution Dashboard (MQA & MTA)",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-06T03:48:08.789000",
+    "user": "clisboa@theknotww.com",
+    "workspace_name": "1f951550",
+    "workspace_title": "Sandbox",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
+    "action": "dashboard:view",
+    "details": null,
+    "entity_id": "67",
+    "entity_name": "YARM Test",
+    "entity_type": "urn:preset:ws:dashboard",
+    "source": null,
+    "timestamp": "2026-11-06T00:27:51.784000",
+    "user": "pliser@theknotww.com",
+    "workspace_name": "113a0018",
+    "workspace_title": "Pre-Production",
+    "_team_id": 287514,
+    "_team_identifier_used": "37ebf0b7"
+  },
+  {
     "action": "chart:view",
     "details": null,
     "entity_id": "1904",
